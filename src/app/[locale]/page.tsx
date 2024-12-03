@@ -1,3 +1,4 @@
+import Introduction from "@/components/introduction";
 import { useTranslations } from "next-intl";
 
 export default function HomePage() {
@@ -6,6 +7,7 @@ export default function HomePage() {
     <>
       <h1>{t("introduction.title")}</h1>
       <p>{t("introduction.description")}</p>
+      <Introduction/>
     </>
   );
 }

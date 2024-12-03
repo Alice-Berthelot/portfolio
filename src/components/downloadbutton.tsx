@@ -1,10 +1,15 @@
-import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
-export default function ResumeButton() {
-  const t = useTranslations("HomePage");
+type DownloadButtonProp = {
+  source: string,
+  title: string
+}
+
+export default function DownloadButton({title, source}: DownloadButtonProp) {
+  const locale = useLocale();
   return (
     <>
-    <button></button>
+   <button><a href={source} target='_blank'>{title}</a></button>
     </>
   );
 }
