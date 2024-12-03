@@ -1,0 +1,42 @@
+{
+  "NavBar": {
+    "about": "Mon profil",
+    "projects": "Mes projets",
+    "background": "Mon parcours",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "introduction": {
+      "title": "Bienvenue !",
+      "description": "Je m'appelle Alice, je suis une développeuse web passionnée, originaire de France.",
+      "cv-fr": "CV français",
+      "cv-fr-detailed": "CV français détaillé",
+      "cv-eng": "CV anglais"
+    },
+    "profile": {
+      "hardskills-title": "Compétences techniques",
+      "hardskills-content": "",
+      "softskills-title": "Compétences personnelles",
+      "softskills-content": "",
+      "hobbies": {
+        "title": "Centres d'intérêt",
+        "travels-title": "Voyages",
+        "travels-content": "...",
+        "foodandtea-title": "Gastronomie et dégustation de thé",
+        "foodandtea-content": "...",
+        "sports-title": "Sports",
+        "sports-content": "..."
+      }
+    },
+    "lastprojects": {}
+  },
+  "ProjectPage": {
+    "title": "Mes projets"
+  },
+  "BackgroundPage": {
+    "title": "Mon parcours"
+  },
+  "ContactPage": {
+    "title": "Contact"
+  }
+}

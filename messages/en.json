@@ -1,0 +1,42 @@
+{
+  "NavBar": {
+    "about": "Profile",
+    "projects": "Projects",
+    "background": "Background",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "introduction": {
+      "title": "Hi there!",
+      "description": "I'm Alice, a passionate web developer from France.",
+      "cv-fr": "French Resume",
+      "cv-fr-detailed": "French Resume (detailed)",
+      "cv-eng": "English Resume"
+    },
+    "profile": {
+      "hardskills-title": "Hard skills",
+      "hardskills-content": "",
+      "softskills-title": "Soft skills",
+      "softskills-content": "",
+      "hobbies": {
+        "title": "Hobbies",
+        "travels-title": "Travels",
+        "travels-content": "...",
+        "foodandtea-title": "Food and Tea tasting",
+        "foodandtea-content": "...",
+        "sports-title": "Sports",
+        "sports-content": "..."
+      }
+    },
+    "lastprojects": {}
+  },
+  "ProjectPage": {
+    "title": "This is my project page"
+  },
+  "BackgroundPage": {
+    "title": "This is my backgound page"
+  },
+  "ContactPage": {
+    "title": "This is my contact page"
+  }
+}
