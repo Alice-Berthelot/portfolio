@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        title: ['var(--font-title)'],
+        content: ['var(--font-content)'] 
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

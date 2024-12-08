@@ -1,14 +1,24 @@
 {
+  "TemporaryBanner": {
+    "content": "Mon portfolio est en cours de construction. Merci pour votre patience !"
+  },
   "NavBar": {
-    "about": "Mon profil",
-    "projects": "Mes projets",
-    "background": "Mon parcours",
+    "about": "Mon Profil",
+    "projects": "Mes Projets",
+    "background": "Mon Parcours",
     "contact": "Contact"
   },
   "HomePage": {
     "introduction": {
-      "title": "Bienvenue !",
+      "title": "Bienvenue",
       "description": "Je m'appelle Alice, je suis une développeuse web passionnée, originaire de France.",
+      "job-research": {
+        "main-sentence": "Je suis à l'écoute d'opportunités en développement d'applications full-stack, avec une apétence particulière pour le back-end :",
+        "internship": "stage de 1 à 6 mois en France, en Europe ou au Canada à compter de janvier 2025",
+        "employment-contract": "CDI ou CDD en France, contrat permanent ou temporaire en Europe ou au Canada",
+        "work-study": "Alternance Concepteur Développeur d'Applications (Niveau bac +3) : date de commencement, durée et rythme flexibles (admise dans plusieurs centres de formation"
+      },
+      "work-conditions": "Mobile sur les zones France, Europe et Canada - Ouverte au présentiel, hybride ou télétravail",
       "cv-fr": "CV français",
       "cv-fr-detailed": "CV français (détaillé)",
       "cv-eng": "CV anglais"
@@ -25,18 +35,26 @@
         "foodandtea-title": "Gastronomie et dégustation de thé",
         "foodandtea-content": "...",
         "sports-title": "Sports",
-        "sports-content": "..."
+        "sports-content": "...",
+        "link-to-background": "Plus de détails sur mon parcours (expérience professionnelle et formation)"
       }
     },
     "lastprojects": {}
   },
   "ProjectPage": {
-    "title": "Mes projets"
+    "title": "Mes Projets"
   },
   "BackgroundPage": {
-    "title": "Mon parcours"
+    "title": "Mon Parcours"
   },
   "ContactPage": {
-    "title": "Contact"
+    "title": "Contact",
+    "description": "N'hésitez pas à me contacter pour toute question. Si vous préférez me contacter par téléphone, vous trouvere mon numéro directement sur mon CV.",
+    "form": {
+      "name": "Nom",
+      "email": "Adresse e-mail",
+      "subject": "Objet",
+      "message": "Entrez votre message"
+    }
   }
 }

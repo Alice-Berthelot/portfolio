@@ -10,7 +10,10 @@ export default function NavBar() {
   const locale = useLocale();
   return (
     <nav>
-      <ul>
+      <ul className="flex items-center">
+      <li>
+          {t("about")}
+        </li>
         <li>
           <Link href={`/${locale}/projects`}>{t("projects")}</Link>
         </li>
@@ -19,26 +22,6 @@ export default function NavBar() {
         </li>
         <li>
           <Link href={`/${locale}/contact`}>{t("contact")}</Link>
-        </li>
-        <li>
-          <Link href="https://www.linkedin.com/in/alice-berthelot/">
-            <Image
-              src={logoLinkedin}
-              width={50}
-              height={50}
-              alt="LinkedIn logo"
-            />
-          </Link>
-        </li>
-        <li>
-          <Link href="https://github.com/Alice-Berthelot">
-            <Image
-              src={logoGitHub}
-              width={50}
-              height={50}
-              alt="GitHub logo"
-            />
-          </Link>
         </li>
       </ul>
     </nav>

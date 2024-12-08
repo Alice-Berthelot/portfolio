@@ -1,4 +1,7 @@
 {
+  "TemporaryBanner": {
+    "content": "Mon portfolio is a work in progress. Thank you for your patience!"
+  },
   "NavBar": {
     "about": "Profile",
     "projects": "Projects",
@@ -9,6 +12,13 @@
     "introduction": {
       "title": "Hi there!",
       "description": "I'm Alice, a passionate web developer from France.",
+      "job-research": {
+        "main-sentence": "I am seeking opportunities in full-stack development, with a preference for backend:",
+        "internship": "1 to 6-month internship in France, Europe or Canada, starting from January 2025",
+        "employment-contract": "CDI or CDD in France, permanent or temporary contract in Europe or Canada",
+        "work-study": "French Diploma for Work and Study Programme (alternance) Application Developer and Conceptor (Bachelor Degree): flexible starting date, duration and frequency (already admitted to several programmes)"
+      },
+      "work-conditions": "Full mobility in France, Europe and Canada - Open to onsite, hybrid or remote work",
       "cv-fr": "French Resume",
       "cv-fr-detailed": "French Resume (detailed)",
       "cv-eng": "English Resume"
@@ -25,7 +35,8 @@
         "foodandtea-title": "Food and Tea tasting",
         "foodandtea-content": "...",
         "sports-title": "Sports",
-        "sports-content": "..."
+        "sports-content": "...",
+        "link-to-background": "More details about my background (work experience and education)"
       }
     },
     "lastprojects": {}
@@ -37,6 +48,13 @@
     "title": "This is my backgound page"
   },
   "ContactPage": {
-    "title": "This is my contact page"
+    "title": "This is my contact page",
+    "description": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
+    "form": {
+      "name": "Nom",
+      "email": "Adresse e-mail",
+      "subject": "Objet",
+      "message": "Entrez votre message"
+    }
   }
 }
