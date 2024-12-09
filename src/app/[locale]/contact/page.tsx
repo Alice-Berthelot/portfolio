@@ -1,10 +1,13 @@
-import {useTranslations} from 'next-intl';
- 
+import TemporaryPage from "@/components/temporarypage";
+import Title from "@/components/title";
+import { useTranslations } from "next-intl";
+
 export default function ContactPage() {
-  const t = useTranslations('ContactPage');
+  const t = useTranslations("ContactPage");
   return (
-    <>
-      <h1 className={`font-title`}>{t("title")}</h1>
-    </>
+    <section className="px-16">
+      <Title title={t("title")} margin={"mt-16"} />
+      <TemporaryPage />
+    </section>
   );
 }

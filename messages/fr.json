@@ -1,6 +1,7 @@
 {
-  "TemporaryBanner": {
-    "content": "Mon portfolio est en cours de construction. Merci pour votre patience !"
+  "Temporary": {
+    "banner-content": "Mon portfolio est en cours de construction. Merci pour votre patience !",
+    "page-content": "Cette page est en cours de développement. Merci pour votre patience !"
   },
   "NavBar": {
     "about": "Mon Profil",
@@ -24,22 +25,23 @@
       "cv-eng": "CV anglais"
     },
     "profile": {
-      "hardskills-title": "Compétences techniques",
+      "title": "Mon Profil",
+      "hardskills-title": "Hard skills",
       "hardskills-content": "",
-      "softskills-title": "Compétences personnelles",
+      "softskills-title": "Soft skills",
       "softskills-content": "",
       "hobbies": {
-        "title": "Centres d'intérêt",
+        "title": "Centres d'interet",
         "travels-title": "Voyages",
         "travels-content": "...",
         "foodandtea-title": "Gastronomie et dégustation de thé",
         "foodandtea-content": "...",
         "sports-title": "Sports",
-        "sports-content": "...",
-        "link-to-background": "Plus de détails sur mon parcours (expérience professionnelle et formation)"
-      }
+        "sports-content": "..."
+      },
+      "link-to-background": "Voir plus de détails sur mon parcours (expérience professionnelle et formation)"
     },
-    "lastprojects": {}
+    "lastprojects": { "title": "Derniers projets" }
   },
   "ProjectPage": {
     "title": "Mes Projets"

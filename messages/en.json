@@ -1,9 +1,10 @@
 {
-  "TemporaryBanner": {
-    "content": "Mon portfolio is a work in progress. Thank you for your patience!"
+  "Temporary": {
+    "banner-content": "My portfolio is a work in progress. Thank you for your patience!",
+    "page-content": "This page is under development. Thank you for your patience!"
   },
   "NavBar": {
-    "about": "Profile",
+    "about": "About me",
     "projects": "Projects",
     "background": "Background",
     "contact": "Contact"
@@ -24,6 +25,7 @@
       "cv-eng": "English Resume"
     },
     "profile": {
+      "title": "About me",
       "hardskills-title": "Hard skills",
       "hardskills-content": "",
       "softskills-title": "Soft skills",
@@ -35,20 +37,20 @@
         "foodandtea-title": "Food and Tea tasting",
         "foodandtea-content": "...",
         "sports-title": "Sports",
-        "sports-content": "...",
-        "link-to-background": "More details about my background (work experience and education)"
-      }
+        "sports-content": "..."
+      },
+      "link-to-background": "More details about my background (work experience and education)"
     },
-    "lastprojects": {}
+    "lastprojects": { "title": "Last projects" }
   },
   "ProjectPage": {
-    "title": "This is my project page"
+    "title": "Projects"
   },
   "BackgroundPage": {
-    "title": "This is my backgound page"
+    "title": "Background"
   },
   "ContactPage": {
-    "title": "This is my contact page",
+    "title": "Contact",
     "description": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
     "form": {
       "name": "Nom",

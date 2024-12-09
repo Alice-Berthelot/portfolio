@@ -10,9 +10,9 @@ export default function NavBar() {
   const locale = useLocale();
   return (
     <nav>
-      <ul className="flex items-center">
+      <ul className="flex items-center gap-4 font-semibold tracking-wide	">
       <li>
-          {t("about")}
+      <Link href={`/${locale}/#about`}>{t("about")}</Link>
         </li>
         <li>
           <Link href={`/${locale}/projects`}>{t("projects")}</Link>

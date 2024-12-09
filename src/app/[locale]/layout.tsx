@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import TemporaryBanner from "@/components/temporarybanner";
 import { Nunito_Sans } from "next/font/google";
 import localFont from "next/font/local";
+import Footer from "@/components/footer";
 
 const nunito = Nunito_Sans({
   subsets: ["latin"],
@@ -46,14 +47,13 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${megatrans.variable} ${nunito.variable}`}>
-      <body className="font-content">
-        <main>
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            <TemporaryBanner />
-            <Header />
-            {children}
-          </NextIntlClientProvider>
-        </main>
+      <body className="font-content bg-charcoal text-ghost-white">
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <TemporaryBanner />
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

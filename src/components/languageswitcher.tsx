@@ -23,7 +23,8 @@ export default function LanguageSwitcher() {
         <button
             onClick={() => handleLanguageChange(otherLocale)}
             disabled={isPending}
-        >{otherLocale === 'en' ? 'English' : 'Français'}
+            className='w-16 bg-ghost-white hover:bg-transparent text-charcoal hover:text-ghost-white border-solid border-1 border-transparent hover:border-ghost-white font-bold rounded-xl'
+        >{otherLocale === 'en' ? 'EN' : 'FR'}
         </button>
     );
 };

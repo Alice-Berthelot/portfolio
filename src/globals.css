@@ -2,23 +2,19 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* @font-face {
-  font-family: "Megatrans";
-  src: url("/fonts/megatrans/Megatrans-Regular-BF64e042c317003.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+/* body {
+  background-color: #1a2d35;
+   background-color: #fafafa; 
+   background-image: url("/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fafafa;
+  font-family: "Megatrans"; 
 } */
 
-body {
-  background-color: #1a2d35;
-  /* background-color: #fafafa; */
-  /* background-image: url("/background.png");
-  background-size: cover;
-  background-repeat: no-repeat; */
-  color: #fafafa;
-  /* font-family: "Megatrans"; */
-}
+/* h2 {
+    text-3xl font-bold text-charcoal mb-4;
+  } */
 
 /*
 main {

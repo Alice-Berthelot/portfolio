@@ -7,14 +7,18 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    borderWidth: {
+      "1": "1px",
+    },
     extend: {
       fontFamily: {
-        title: ['var(--font-title)'],
-        content: ['var(--font-content)'] 
+        title: ["var(--font-title)"],
+        content: ["var(--font-content)"],
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        charcoal: "#1a2d35",
+        "dark-charcoal": "#0b1316",
+        "ghost-white": "#fafafa",
       },
     },
   },
