@@ -11,10 +11,15 @@ export default function About() {
   return (
     <section id="about" className="p-16">
       <Title title={t("profile.title")} margin={"mt-0"} />
-      <HardSkills />
-      <SoftSkills />
+      <div className="flex gap-4 justify-center">
+        <HardSkills />
+        <SoftSkills />
+      </div>
       <Hobbies />
-      <Link href={`/${locale}/background`}>
+      <Link
+        href={`/${locale}/background`}
+        className="underline underline-offset-2"
+      >
         {t("profile.link-to-background")}
       </Link>
     </section>

@@ -2,11 +2,11 @@
 
 import { usePathname } from "next/navigation";
 import Links from "./links";
-
-// import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { useLocale } from "next-intl";
 
 export default function Footer() {
-  //   const t = useTranslations("HomePage");
+  const locale = useLocale();
   const pathname = usePathname();
   const fixedPages = ["/projects", "/background", "/contact"];
 
@@ -15,10 +15,11 @@ export default function Footer() {
 
   return (
     <footer
-      className={`w-full flex justify-between bg-dark-charcoal ${
+      className={`w-full flex justify-end gap-6 items-center bg-dark-charcoal ${
         isFixedFooter ? "fixed bottom-0 left-0" : ""
       }`}
     >
+      <Link href={`/${locale}/contact`} className="underline underline-offset-2">Contact</Link>
       <Links />
     </footer>
   );

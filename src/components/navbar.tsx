@@ -12,7 +12,7 @@ export default function NavBar() {
     <nav>
       <ul className="flex items-center gap-4 font-semibold tracking-wide	">
       <li>
-      <Link href={`/${locale}/#about`}>{t("about")}</Link>
+      <Link href={`/${locale}/#about`} className="test">{t("about")}</Link>
         </li>
         <li>
           <Link href={`/${locale}/projects`}>{t("projects")}</Link>

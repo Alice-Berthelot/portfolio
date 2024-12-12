@@ -1,29 +1,22 @@
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
-import Image from "next/image";
 import Link from "next/link";
-import logoLinkedin from "../../public/logos/linkedin.png";
-import logoGitHub from "../../public/logos/github.png";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 export default function Links() {
   const t = useTranslations("NavBar");
   const locale = useLocale();
   return (
     <nav>
-      <ul className="flex">
+      <ul className="flex gap-1">
         <li>
-          <Link href="https://www.linkedin.com/in/alice-berthelot/">
-            <Image
-              src={logoLinkedin}
-              width={50}
-              height={50}
-              alt="LinkedIn logo"
-            />
+          <Link href="https://www.linkedin.com/in/alice-berthelot/" target="_blank">
+          <IoLogoLinkedin className="text-ghost-white hover:text-charcoal w-8 h-8" />
           </Link>
         </li>
         <li>
-          <Link href="https://github.com/Alice-Berthelot">
-            <Image src={logoGitHub} width={50} height={50} alt="GitHub logo" />
+          <Link href="https://github.com/Alice-Berthelot" target="_blank">
+          <IoLogoGithub className="text-ghost-white hover:text-charcoal w-8 h-8 " />
           </Link>
         </li>
       </ul>

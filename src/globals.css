@@ -2,16 +2,50 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* body {
-  background-color: #1a2d35;
-   background-color: #fafafa; 
-   background-image: url("/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fafafa;
-  font-family: "Megatrans"; 
-} */
+body {
+  /* background-image: linear-gradient(
+    to right bottom,
+    #15242a,
+    #1b2f37,
+    #213a45,
+    #274653,
+    #2d5261,
+    #2e5463,
+    #2e5566,
+    #2f5768,
+    #2b4f5e,
+    #274755,
+    #23404c,
+    #1f3843
+  ); */
 
+  background: linear-gradient(
+    to right bottom,
+    #15242a,
+    #1b2f37,
+    #213a45,
+    #274653,
+    #2d5261,
+    #2e5463,
+    #2e5566,
+    #2f5768,
+    #2b4f5e,
+    #274755,
+    #23404c,
+    #1f3843
+  );
+}
+
+.test::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  transition: width 0.3s ease;
+  background-color: var(--navbar-h2-border-color);
+}
 /* h2 {
     text-3xl font-bold text-charcoal mb-4;
   } */

@@ -24,9 +24,9 @@ export default function HardSkills() {
   return (
     <section>
 {/* STOCKER EN BDD ET FAIRE UN MAP */}
-      <Subtitle title={t("profile.hardskills-title")} />
-      <section className="bg-dark-charcoal w-3/4 mx-auto mt-6 flex flex-col gap-4 p-10">
-        <div className="flex gap-4 justify-center">
+      <section className="bg-dark-charcoal flex flex-col gap-4 p-10 rounded-xl">
+      <Subtitle title={t("profile.hardskills-title")}/>
+        <div className="flex gap-4">
           <Image src={js} width="48" alt="JavaScript" title="JavaScript" unoptimized />
           <Image src={typescript} width="48" alt="TypeScript" title="TypeScript" unoptimized />
           <Image src={react} width="48" alt="ReactJS" title="ReactJS" unoptimized />
@@ -35,17 +35,17 @@ export default function HardSkills() {
           <Image src={css} width="48" alt="CSS" title="CSS" unoptimized />
           <Image src={tailwind} width="48" alt="Tailwind" title="Tailwind" unoptimized />
         </div>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4">
           <Image src={python} width="48" alt="Python" title="Python" unoptimized />
           <Image src={nodejs} width="48" alt="Node.js" title="Node.js" unoptimized />
           <Image src={express} width="48" alt="Express" title="Express" unoptimized />
           <Image src={aws} width="48" alt="Amazon Web Services" title="AWS" unoptimized />
           <Image src={dynamodb} width="48" alt="DynamoDB" title="DynamoDB" unoptimized />
           </div>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4">
           <Image src={jest} width="48" alt="Jest" title="Jest" unoptimized />
           </div>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4">
           <Image src={git} width="48" alt="Git" title="Git" unoptimized />
           <Image src={github} width="48" alt="GitHub" title="GitHub" unoptimized />
           <Image src={figma} width="48" alt="Figma" title="Figma" unoptimized />

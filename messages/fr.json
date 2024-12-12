@@ -29,15 +29,24 @@
       "hardskills-title": "Hard skills",
       "hardskills-content": "",
       "softskills-title": "Soft skills",
-      "softskills-content": "",
+      "softskills-content": {
+        "analysis": "Capacité d'analyse",
+        "perseverance": "Persévérance",
+        "adaptability": "Adaptabilité",
+        "team-spirit": "Esprit d'équipe",
+        "clients": "Sens du service clients"
+      },
       "hobbies": {
         "title": "Centres d'interet",
         "travels-title": "Voyages",
-        "travels-content": "...",
+        "travels-content": {
+          "skills": "J'aime notamment partir seule, ce qui me permet de développer mes compétences de communication, d'organisation, d'adaptation culturelle et d'autonomie",
+          "solo": "Principaux voyages en solo : Taïwan (4 mois en 2020), tour Amérique latine/Océanie/Asie (10 mois entre 2022 et 2023), Tanzanie (1 mois en 2024)"
+        },
         "foodandtea-title": "Gastronomie et dégustation de thé",
-        "foodandtea-content": "...",
+        "foodandtea-content": "Découvrir de nouvelles saveurs issues de cuisines du Monde et participer à des ateliers de dégustation de thé",
         "sports-title": "Sports",
-        "sports-content": "..."
+        "sports-content": "Adepte de natation, course, randonnée et vélo (fréquence occasionelle)"
       },
       "link-to-background": "Voir plus de détails sur mon parcours (expérience professionnelle et formation)"
     },
@@ -56,7 +65,7 @@
       "name": "Nom",
       "email": "Adresse e-mail",
       "subject": "Objet",
-      "message": "Entrez votre message"
+      "message": "Message..."
     }
   }
 }
