@@ -3,6 +3,9 @@
 @import "tailwindcss/utilities";
 
 body {
+  background-color: #0d0e12;
+}
+/* body {
   /* background-image: linear-gradient(
     to right bottom,
     #15242a,
@@ -19,7 +22,7 @@ body {
     #1f3843
   ); */
 
-  background: linear-gradient(
+/* background: linear-gradient(
     to right bottom,
     #15242a,
     #1b2f37,
@@ -45,7 +48,7 @@ body {
   height: 2px;
   transition: width 0.3s ease;
   background-color: var(--navbar-h2-border-color);
-}
+} */
 /* h2 {
     text-3xl font-bold text-charcoal mb-4;
   } */

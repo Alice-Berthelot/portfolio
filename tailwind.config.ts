@@ -16,10 +16,13 @@ export default {
         content: ["var(--font-content)"],
       },
       colors: {
-        charcoal: "#1a2d35",
+        charcoal: "#0F111C",
         "dark-charcoal": "#0b1316",
-        "ghost-white": "#fafafa",
+        "ghost-white": "#EBEDFF",
       },
+      boxShadow: {
+        'header': '0 0 10px 0 rgba(0, 0, 0, 0.4)',
+      }
     },
   },
   plugins: [],
