@@ -1,8 +1,7 @@
 type TitleProps = {
   title: string;
-  margin: string;
 };
 
-export default function Title({ title, margin }: TitleProps) {
-  return <h2 className={`font-title text-4xl tracking-wide ${margin} mb-6`}>{title.toUpperCase()}</h2>;
+export default function Title({ title }: TitleProps) {
+  return <h2 className={`font-title text-4xl tracking-wide pt-16 mb-6`}>{title.toUpperCase()}</h2>;
 }
