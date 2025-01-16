@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Resumes from "./resumes";
 import Image from "next/image";
 import profilePic from "../../public/pictures/profile-pic.png";
+import Title from "./title";
 
 export default function Introduction() {
   const t = useTranslations("HomePage");

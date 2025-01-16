@@ -2,7 +2,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "@/globals.css";
 import Header from "@/components/header";
-import TemporaryBanner from "@/components/temporarybanner";
 import { Nunito_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import Footer from "@/components/footer";
@@ -49,7 +48,6 @@ export default async function RootLayout({
     <html lang={locale} className={`${megatrans.variable} ${nunito.variable}`}>
       <body className="font-content text-ghost-white">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <TemporaryBanner />
           <Header />
           <main className="transition-opacity duration-500 ease-out">{children}</main>
           <Footer />
