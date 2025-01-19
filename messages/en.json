@@ -67,11 +67,6 @@
         "internship": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
         "internship-details": "",
         "studies": "Obtention du Titre RNCP \"Développeur web et web mobile\" (bac +2) - Formation intensive de 5 mois, Développement web full-stack, à la Wild Code School de Bordeaux",
-        "studies-details": {
-          "projects": "Réalisation de 6 applications web (4 front-end et 2 full-stack) - plus de détails dans la rubrique \"Mes projets\"",
-          "technologies": "Principales technologies utilisées : HTML/CSS, JavaScript, ReactJS, Node.js, Express, Git/GitHub, Jest/Supertest, Docker, Figma, Trello",
-          "organization": "Application de la méthode agile Scrum (travail en équipe, entraînement aux roles de Scrum Master et Product Owner, daily, organisation en sprints avec présentations orales, etc.)"
-        },
         "self-training": "Autoformation : ",
         "travel": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024 - départ et organisation seule, rencontre de nombreuses personnes sur place (tanzaniens, kenyans et voyageurs)"
       },
@@ -109,7 +104,7 @@
         "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)"
       },
       "2014": {
-        "erasmus": "Année ERASMUS à la Faculté de Droit de l'Université de Sheffield (Royaume-Uni)"
+        "erasmus": "ERASMUS year"
       },
       "2013": {
         "studies": "Trying the ENGLISH version"

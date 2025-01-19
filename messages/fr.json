@@ -12,7 +12,7 @@
   "HomePage": {
     "introduction": {
       "title": "Bienvenue",
-      "description": "Je m'appelle Alice, je suis une développeuse web passionnée, originaire de France.",
+      "description": "Je m'appelle Alice Berthelot, je suis une développeuse passionnée, originaire de France. Anciennement juriste, [...] Vous trouverez, ci-dessous et en vous baladant à travers les liens dans l'entête, toutes les informations sur mon profil. Vous pouvez télécharger directement mon CV en cliquant sur le bouton de votre choix ci-dessous. N'hésitez pas à vous rendre sur la page Contact pour m'écrire !  ",
       "job-research": {
         "main-sentence": "Je suis à l'écoute d'opportunités en développement d'applications full-stack, avec une apétence particulière pour le back-end :",
         "internship": "stage de 1 à 6 mois en France, en Europe ou au Canada à compter de janvier 2025",
@@ -57,7 +57,7 @@
   },
   "BackgroundPage": {
     "title": "Mon Parcours",
-    "story": "Juriste --> Découverte du Développement web --> Transition (tour du monde + reconversion) --> Développeuse web",
+    "story": "Juriste --> Découverte du Développement web --> Transition (tour du monde + préparation de la reconversion) --> Développeuse web",
     "background": {
       "2025": {
         "self-training": "Autoformation : ",
@@ -67,11 +67,6 @@
         "internship": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
         "internship-details": "",
         "studies": "Obtention du Titre RNCP \"Développeur web et web mobile\" (bac +2) - Formation intensive de 5 mois, Développement web full-stack, à la Wild Code School de Bordeaux",
-        "studies-details": {
-          "projects": "Réalisation de 6 applications web (4 front-end et 2 full-stack) - plus de détails dans la rubrique \"Mes projets\"",
-          "technologies": "Principales technologies utilisées : HTML/CSS, JavaScript, ReactJS, Node.js, Express, Git/GitHub, Jest/Supertest, Docker, Figma, Trello",
-          "organization": "Application de la méthode agile Scrum (travail en équipe, entraînement aux roles de Scrum Master et Product Owner, daily, organisation en sprints avec présentations orales, etc.)"
-        },
         "self-training": "Autoformation : ",
         "travel": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024 - départ et organisation seule, rencontre de nombreuses personnes sur place (tanzaniens, kenyans et voyageurs)"
       },
