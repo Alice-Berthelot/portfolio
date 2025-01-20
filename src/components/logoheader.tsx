@@ -1,10 +1,9 @@
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import logo from "./../../public/logos/logo-navbar.png";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function LogoHeader() {
-  const t = useTranslations("HomePage");
   const locale = useLocale();
   return (
     <>

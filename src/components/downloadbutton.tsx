@@ -1,4 +1,3 @@
-import { useLocale } from "next-intl";
 import { IoOpenOutline } from "react-icons/io5";
 
 type DownloadButtonProp = {

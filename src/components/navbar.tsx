@@ -1,9 +1,6 @@
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
-import Image from "next/image";
 import Link from "next/link";
-import logoLinkedin from "../../public/logos/linkedin.png";
-import logoGitHub from "../../public/logos/github.png";
 
 export default function NavBar() {
   const t = useTranslations("NavBar");

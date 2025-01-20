@@ -1,11 +1,7 @@
-import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
 import Link from "next/link";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 export default function Links() {
-  const t = useTranslations("NavBar");
-  const locale = useLocale();
   return (
     <nav>
       <ul className="flex gap-1">

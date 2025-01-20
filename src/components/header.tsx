@@ -1,4 +1,3 @@
-import { useTranslations } from "next-intl";
 import NavBar from "./navbar";
 import LanguageSwitcher from "./languageswitcher";
 import LogoHeader from "./logoheader";
