@@ -11,14 +11,15 @@ export default function BackgroundPage() {
   const t = useTranslations("BackgroundPage");
 
   // when the appearance the story is changed, this two lines of code below shall be removed
+  // need to change the disability of any types
   const initialStory = t("story");
   const storyParts = initialStory.split("-->");
 
-  const compareYears = (a, b) => {
+  const compareYears = (a: any, b: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
     const yearA = a.year;
     const yearB = b.year;
     // Fonction pour convertir les années ou intervalles en une valeur numérique comparable
-    const convertYear = (year) => {
+    const convertYear = (year: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
       if (year.includes("-")) {
         const [start, end] = year.split("-").map(Number);
         return start + end / 10000; // Créer une valeur unique pour les intervalles

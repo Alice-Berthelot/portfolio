@@ -10,7 +10,7 @@ export default function About() {
   const t = useTranslations("HomePage");
   return (
     <section id="about" className="p-16">
-      <Title title={t("profile.title")} margin={"mt-0"} />
+      <Title title={t("profile.title")} />
       <div className="flex gap-4 justify-center">
         <HardSkills />
         <SoftSkills />

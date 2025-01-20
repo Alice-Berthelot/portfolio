@@ -6,7 +6,7 @@ export default function ProjectPage() {
   const t = useTranslations("ProjectPage");
   return (
     <section className="px-16">
-      <Title title={t("title")} margin={"mt-16"} />
+      <Title title={t("title")} />
       <TemporaryPage />
     </section>
   );

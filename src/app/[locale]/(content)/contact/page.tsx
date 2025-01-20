@@ -6,7 +6,7 @@ export default function ContactPage() {
   const t = useTranslations("ContactPage");
   return (
     <section className="px-16">
-      <Title title={t("title")} margin={"mt-16"} />
+      <Title title={t("title")} />
       <TemporaryPage />
     </section>
   );
