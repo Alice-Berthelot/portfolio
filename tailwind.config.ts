@@ -17,7 +17,7 @@ export default {
       },
       colors: {
         charcoal: "#0F111C",
-        "dark-charcoal": "#0b1316",
+        "dark-charcoal": "#0d0e12",
         "ghost-white": "#EBEDFF",
       },
       boxShadow: {

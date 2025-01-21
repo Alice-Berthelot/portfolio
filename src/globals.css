@@ -2,79 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-  background-color: #0d0e12;
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-/* body {
-  /* background-image: linear-gradient(
-    to right bottom,
-    #15242a,
-    #1b2f37,
-    #213a45,
-    #274653,
-    #2d5261,
-    #2e5463,
-    #2e5566,
-    #2f5768,
-    #2b4f5e,
-    #274755,
-    #23404c,
-    #1f3843
-  ); */
-
-/* background: linear-gradient(
-    to right bottom,
-    #15242a,
-    #1b2f37,
-    #213a45,
-    #274653,
-    #2d5261,
-    #2e5463,
-    #2e5566,
-    #2f5768,
-    #2b4f5e,
-    #274755,
-    #23404c,
-    #1f3843
-  );
-}
-
-.test::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 0;
-  height: 2px;
-  transition: width 0.3s ease;
-  background-color: var(--navbar-h2-border-color);
-} */
-/* h2 {
-    text-3xl font-bold text-charcoal mb-4;
-  } */
-
-/*
-main {
-  background: radial-gradient(
-      91.96% 141.6% at -22.42% 69.4%,
-      rgba(127, 0, 255, 0.46) 0,
-      transparent 100%
-    ),
-    radial-gradient(
-      84.26% 129.74% at 50% 125.36%,
-      rgba(255, 0, 230, 0.46) 0,
-      transparent 100%
-    ),
-    radial-gradient(
-      58.7% 90.38% at 113.99% 96.18%,
-      rgba(255, 0, 107, 0.43) 0,
-      transparent 100%
-    ),
-    radial-gradient(
-      56.68% 87.27% at 27.94% 112.07%,
-      rgba(0, 255, 224, 0.43) 0,
-      transparent 100%
-    );
-  height: 100vh;
-} */

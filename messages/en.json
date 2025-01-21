@@ -60,8 +60,7 @@
     "story": "Lawyer --> Discovery of web development --> Transition (travel around the world + career change) --> Web Developer",
     "background": {
       "2025": {
-        "self-training": "Autoformation : ",
-        "mentorship": "Accompagnement mentorat : je suis accompagnée par une développeuse web expérimentée pour progresser en développement Python/Django et en DevOps"
+        "self-training": "Self-training: Next.js and TailwindCSS (front end), Python and Django (back end), deployment tools"
       },
       "2024": {
         "internship": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",

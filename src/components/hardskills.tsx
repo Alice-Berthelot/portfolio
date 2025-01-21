@@ -24,7 +24,7 @@ export default function HardSkills() {
   return (
     <section>
 {/* STOCKER EN BDD ET FAIRE UN MAP */}
-      <section className="bg-dark-charcoal flex flex-col gap-4 p-10 rounded-xl">
+      <section className="bg-dark-charcoal flex flex-col gap-4 p-10 rounded-xl border border-solid border-ghost-white">
       <Subtitle title={t("profile.hardskills-title")}/>
         <div className="flex gap-4">
           <Image src={js} width="48" alt="JavaScript" title="JavaScript" unoptimized />

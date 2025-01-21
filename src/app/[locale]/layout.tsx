@@ -46,7 +46,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${megatrans.variable} ${nunito.variable}`}>
-      <body className="font-content text-ghost-white">
+      <body className="font-content text-ghost-white bg-dark-charcoal w-full">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <main className="transition-opacity duration-500 ease-out">{children}</main>
