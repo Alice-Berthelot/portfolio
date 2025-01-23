@@ -62,7 +62,7 @@ export default function BackgroundPage() {
 
 
   return (
-    <section className="px-16">
+    <section className="px-16 pt-6">
       <Title title={t("title")} />
       <TemporaryPage />
       <BackgroundRecap storyParts={storyParts} />

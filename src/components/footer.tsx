@@ -15,7 +15,7 @@ export default function Footer() {
 
   return (
     <footer
-      className={`w-11/12 py-2 flex justify-end gap-6 items-center border-solid border-t-1 border-ghost-white ${
+      className={`w-11/12 py-2 flex justify-end gap-6 items-center border-solid border-t border-ghost-white ${
         isFixedFooter ? "fixed bottom-0 left-0 left-1/2 transform -translate-x-1/2 bg-dark-charcoal" : "mx-auto"
       }`}
     >

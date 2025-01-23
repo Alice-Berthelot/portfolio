@@ -7,3 +7,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:focus {
+  outline: 2px solid #001eff;
+  outline-offset: 8px;
+}
