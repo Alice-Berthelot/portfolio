@@ -11,7 +11,7 @@ export default function About() {
   return (
     <section id="about" className="p-16">
       <Title title={t("profile.title")} />
-      <div className="flex gap-4 justify-center">
+      <div className="flex gap-12 justify-center">
         <HardSkills />
         <SoftSkills />
       </div>

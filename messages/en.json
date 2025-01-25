@@ -119,5 +119,9 @@
       "subject": "Subject",
       "message": "Message..."
     }
+  },
+  "Footer": {
+    "text": "Any questions?",
+    "link": "Do not hesitate to reach me!"
   }
 }

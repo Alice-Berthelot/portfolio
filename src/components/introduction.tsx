@@ -6,7 +6,7 @@ import profilePic from "../../public/pictures/profile-pic.png";
 export default function Introduction() {
   const t = useTranslations("HomePage");
   return (
-    <section className="flex flex-row items-end px-20 pt-28 w-full">
+    <section className="flex flex-row items-end px-20 pt-44 pb-12 w-full">
       <picture className="pl-16">
         {/* prévoir un alt fr/eng */}
         <Image src={profilePic} alt="profile picture" width="500" />

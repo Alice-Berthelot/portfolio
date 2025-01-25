@@ -12,7 +12,7 @@ export default function LogoHeader() {
         <Image
           alt="Logo du portfolio pour retourner vers l'accueil"
           src={logo}
-          width="50"
+          width="35"
         />
       </Link>
     </>

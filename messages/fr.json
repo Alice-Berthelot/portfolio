@@ -119,5 +119,9 @@
       "subject": "Objet",
       "message": "Message..."
     }
+  },
+  "Footer": {
+    "text": "Des questions?",
+    "link": "N'hésitez pas à me conctacter !"
   }
 }

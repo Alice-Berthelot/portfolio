@@ -7,8 +7,25 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* 
 :focus {
   outline: 2px solid #001eff;
   outline-offset: 8px;
+} */
+
+.figcaption-css::before {
+  position: absolute;
+  content: "";
+  height: 0.5rem;
+  width: 0.5rem;
+  background: #ebedff;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 0;
+}
+
+.group .figcaption-css::before {
+  opacity: 1;
 }
