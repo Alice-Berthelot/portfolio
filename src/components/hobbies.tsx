@@ -7,7 +7,7 @@ import { FaSwimmer } from "react-icons/fa";
 export default function Hobbies() {
   const t = useTranslations("HomePage");
   return (
-    <section className="bg-dark-charcoal w-3/4 mx-auto mt-6 p-10 flex flex-col gap-6 rounded-xl text-base">
+    <section className="bg-dark-charcoal w-3/4 mx-auto mt-6 flex flex-col gap-6 rounded-xl text-base px-10 py-8 rounded-md border border-solid border-ghost-white/30">
       <Subtitle title={t("profile.hobbies.title")} />
       <section className="text-center flex flex-col gap-4 justify-center items-center">
         <div>
