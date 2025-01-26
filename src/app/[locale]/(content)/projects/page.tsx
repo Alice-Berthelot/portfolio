@@ -23,7 +23,7 @@ export default function ProjectPage() {
           <a href="https://github.com/Alice-Berthelot/checkpoint4">Girondin Avocats</a>
         </li>
         <li>
-          Inclus'Event
+          Inclus&apos;Event
         </li>
         <li>
           <a href="https://github.com/Alice-Berthelot/preflix">Preflix</a>

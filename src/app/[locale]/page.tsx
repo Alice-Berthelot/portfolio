@@ -10,7 +10,7 @@ export default function HomePage() {
   const t = useTranslations("Temporary")
   useEffect(() => {
     alert(`${t("banner-content")}`);
-  }, []); 
+  }, [t]); 
 
   return (
     <>
