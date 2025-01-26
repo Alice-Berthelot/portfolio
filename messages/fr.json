@@ -51,13 +51,13 @@
         "title": "Centres d'interet",
         "travels-title": "Voyages",
         "travels-content": {
-          "skills": "J'aime notamment partir seule, ce qui me permet de développer mes compétences de communication, d'organisation, d'adaptation culturelle et d'autonomie",
+          "skills": "Adepte de voyages, j'aime particulièrement partir seule pour sortir de ma zone de confort et rencontrer encore davantage de monde (résidents et voyageurs internationaux).",
           "solo": "Principaux voyages en solo : Taïwan (4 mois en 2020), tour Amérique latine/Océanie/Asie (10 mois entre 2022 et 2023), Tanzanie (1 mois en 2024)"
         },
         "foodandtea-title": "Gastronomie et dégustation de thé",
-        "foodandtea-content": "Découvrir de nouvelles saveurs issues de cuisines du Monde et participer à des ateliers de dégustation de thé",
-        "sports-title": "Sports",
-        "sports-content": "Adepte de natation, course, randonnée et vélo (fréquence occasionelle)"
+        "foodandtea-content": "Découvrir de nouvelles saveurs issues de cuisines du monde et participer à des ateliers de dégustation de thé",
+        "sports-title": "Sports d'endurance",
+        "sports-content": "Natation, vélo, randonnée et course"
       },
       "link-to-background": "Voir plus de détails sur mon parcours (expérience professionnelle et formation)"
     },
@@ -123,6 +123,7 @@
   },
   "ContactPage": {
     "title": "Contact",
+    "temporary": "En attendant, vous pouvez me contacter à l'adresse suivante :",
     "description": "N'hésitez pas à me contacter pour toute question. Si vous préférez me contacter par téléphone, vous trouvere mon numéro directement sur mon CV.",
     "form": {
       "name": "Nom",
@@ -133,6 +134,6 @@
   },
   "Footer": {
     "text": "Des questions?",
-    "link": "N'hésitez pas à me contacter !"
+    "link": "Contactez-moi"
   }
 }

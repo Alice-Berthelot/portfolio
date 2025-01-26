@@ -15,10 +15,13 @@ export default function About() {
         <HardSkills />
         <SoftSkills />
       </div>
+      <div className="flex gap-12 justify-center">
+        <div className="w-[45%]"></div>
       <Hobbies />
+      </div>
       <Link
         href={`/${locale}/background`}
-        className="underline underline-offset-4"
+        className="underline underline-offset-4 text-right"
       >
         {t("profile.link-to-background")}
       </Link>

@@ -8,7 +8,7 @@ export default function SoftSkills() {
   return (
       <section className="bg-dark-charcoal w-[45%] mt-56 px-10 py-8 rounded-md border border-solid border-ghost-white/30 self-start" >
       <Subtitle title={t("profile.softskills-title")} />
-      <ul className="pt-10 space-y-10 text-center">
+      <ul className="pt-4 space-y-10 text-center">
         {Object.entries(softSkills).map(([key, value]) => (
           <li key={key} className="text-md">
             {value}

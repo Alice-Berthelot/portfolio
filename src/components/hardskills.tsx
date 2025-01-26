@@ -32,7 +32,6 @@ export default function HardSkills() {
     <section className="bg-dark-charcoal w-[45%] flex flex-col gap-4 px-10 py-8 rounded-md border border-solid border-ghost-white/30">
       <Subtitle title={t("profile.hardskills-title")} />
       <h4>{t("profile.hardskills-content.front")}</h4>
-
       <div className="flex gap-4">
         <figure className="relative group">
           <Image src={js} width="48" alt="JavaScript" unoptimized />
