@@ -4,17 +4,22 @@ import aws from "../../public/logos/aws.svg";
 import js from "../../public/logos/js.svg";
 import css from "../../public/logos/css.svg";
 import dynamodb from "../../public/logos/dynamodb.svg";
+import excel from "../../public/logos/excel.svg";
 import express from "../../public/logos/express.svg";
 import figma from "../../public/logos/figma.svg";
+import gdpr from "../../public/logos/gdpr.svg";
 import git from "../../public/logos/git.svg";
 import github from "../../public/logos/github.svg";
 import html from "../../public/logos/html.svg";
 import jest from "../../public/logos/jest.svg";
+import mysql from "../../public/logos/mysql.svg";
 import nextjs from "../../public/logos/nextjs.svg";
 import nodejs from "../../public/logos/node.svg";
 import react from "../../public/logos/react.svg";
+import pytest from "../../public/logos/pytest.svg";
 import python from "../../public/logos/python.svg";
 import tailwind from "../../public/logos/tailwind.svg";
+import trello from "../../public/logos/trello.svg";
 import typescript from "../../public/logos/typescript.svg";
 import Image from "next/image";
 
@@ -22,7 +27,7 @@ export default function HardSkills() {
   const t = useTranslations("HomePage");
 
   return (
-    <section className="bg-dark-charcoal flex flex-col gap-4 px-10 py-8 rounded-md border border-solid border-ghost-white/30">
+    <section className="bg-dark-charcoal w-[45%] flex flex-col gap-4 px-10 py-8 rounded-md border border-solid border-ghost-white/30">
       <Subtitle title={t("profile.hardskills-title")} />
       <p>Front-end</p>
       <div className="flex gap-4">
@@ -45,7 +50,7 @@ export default function HardSkills() {
           </figcaption>
         </figure>
         <figure className="relative group">
-          <Image src={nextjs} width="48" alt="Next.js" unoptimized />
+          <Image src={nextjs} width="50" alt="Next.js" unoptimized />
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
             Next.js
           </figcaption>
@@ -74,13 +79,19 @@ export default function HardSkills() {
             TailwindCSS
           </figcaption>
         </figure>
+        <figure className="relative group">
+          <Image src={figma} width="48" alt="Figma" title="Figma" unoptimized />
+          <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
+            Figma
+          </figcaption>
+        </figure>
       </div>
-      <p className="mt-6">Back-end / Data</p>
-      <div className="flex gap-4 mb-6">
+      <p className="mt-4">Back-end</p>
+      <div className="flex gap-4 mb-2">
         <figure className="relative group">
           <Image
             src={python}
-            width="48"
+            width="50"
             alt="Python"
             title="Python"
             unoptimized
@@ -93,7 +104,7 @@ export default function HardSkills() {
         <figure className="relative group">
           <Image
             src={nodejs}
-            width="48"
+            width="44"
             alt="Node.js"
             title="Node.js"
             unoptimized
@@ -115,14 +126,24 @@ export default function HardSkills() {
             Express
           </figcaption>
         </figure>
+      </div>
+      <p>Data</p>
+      <div className="flex gap-3 mb-2">
         <figure className="relative group">
           <Image
-            src={aws}
-            width="48"
-            alt="Amazon Web Services"
-            title="AWS"
+            src={mysql}
+            width="80"
+            alt="MySQL"
             unoptimized
+            className="mt-[-8]"
           />
+          <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
+            MySQL
+          </figcaption>
+        </figure>
+
+        <figure className="relative group">
+          <Image src={aws} width="48" alt="Amazon Web Services" unoptimized />
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
             AWS
           </figcaption>
@@ -139,14 +160,33 @@ export default function HardSkills() {
             DynamoDB
           </figcaption>
         </figure>
+        <figure className="relative group">
+          <Image
+            src={gdpr}
+            width="56"
+            alt="GDPR"
+            title="GDPR"
+            unoptimized
+          />
+          <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
+            GDPR
+          </figcaption>
+        </figure>
       </div>
       <p>Tests</p>
-      <div className="flex gap-4 mb-6">
+      <div className="flex gap-4 mb-2">
         <figure className="relative group">
           <Image src={jest} width="48" alt="Jest" title="Jest" unoptimized />
 
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
             Jest
+          </figcaption>
+        </figure>
+        <figure className="relative group">
+          <Image src={pytest} width="54" alt="Pytest" title="Pytest" unoptimized />
+
+          <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
+            Pytest
           </figcaption>
         </figure>
       </div>
@@ -171,12 +211,28 @@ export default function HardSkills() {
           </figcaption>
         </figure>
         <figure className="relative group">
-          <Image src={figma} width="48" alt="Figma" title="Figma" unoptimized />
+          <Image
+            src={trello}
+            width="46"
+            alt="Trello"
+            title="Trello"
+            unoptimized
+          />
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
-            Figma
+            Trello
+          </figcaption>
+        </figure>
+        <figure className="relative group">
+          <Image src={excel} width="48" alt="Excel" title="Excel" unoptimized />
+          <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
+            Excel
           </figcaption>
         </figure>
       </div>
+  
+      <p className="mt-10 mb-4">Autres : Notions de CI/CD, Cybersécurité, IA générative, grand intérêt pour l'accessibilité numérique</p>
+      <p>Langues : Français natif, Anglais courant, notions d'espagnol et de japonais</p>
+
     </section>
   );
 }
