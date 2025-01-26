@@ -19,7 +19,7 @@ const megatrans = localFont({
 
 export const metadata = {
   title: "Alice Berthelot | Portfolio",
-  description: "Alice Berthelot porfolio",
+  description: "Alice Berthelot portfolio",
 };
 
 export const viewport = {

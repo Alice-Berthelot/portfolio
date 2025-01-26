@@ -122,6 +122,64 @@
       }
     }
   },
+  "BackgroundPageBis": {
+    "title": "Mon Parcours",
+    "story": "Juriste --> Découverte du Développement web --> Transition (tour du monde + préparation de la reconversion) --> Développeuse web",
+    "background": {
+      "2025": {
+        "self-training": "Autoformation : Next.js et TailwindCSS (front-end), Python et Django (back-end), outils de déploiement"
+      },
+      "2024": {
+        "internship": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
+        "internship-details": "",
+        "studies": "Obtention du Titre RNCP \"Développeur web et web mobile\" (bac +2) - Formation intensive de 5 mois, Développement web full-stack, à la Wild Code School de Bordeaux",
+        "self-training": "Autoformation : ",
+        "travel": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024 - départ et organisation seule, rencontre de nombreuses personnes sur place (tanzaniens, kenyans et voyageurs)"
+      },
+      "2022-2023": {
+        "travel": "Tour du monde en solo : partie seule et rencontre de nombreuses personnes sur place (Uruguay, Argentine, Nouvelle-Zélande, Thaïlande, Vietnam, Cambodge, Singapour, Japon, Taïwan, Mongolie"
+      },
+      "2021-2022": {
+        "discovery": "Découverte du développement web : une révélation ! Alors que je me renseignais sur une potentielle évolution professionnelle, j'ai découvert le métier de développeur web. Je me suis entraînée à HTML, CSS et JavaScript et j'ai rencontré de nombreux développeurs pour savoir en quoi consister leur métier, ce qui m'a donné énormément envie.",
+        "ccdb": {
+          "title": "Juriste Droit social, Responsable du Pôle social - Cabinet d'expertise comptable CC-DB - Bordeaux (France)",
+          "details": "essai ici !!!"
+        }
+      },
+      "2021": {
+        "provalliance": "Chargée de Ressources humaines - Groupe Provalliance (Leader mondial de la coiffure) - Paris (France)"
+      },
+      "2020": {
+        "messardiere": "Chargée de Ressources humaines - Château de la Messardière ***** Palace, Groupe Les Airelles (hôtellerie de luxe) - Saint-Tropez (France)",
+        "travel": "Séjour de 4 mois à Taïwan : j'étais partie pour un tour du monde et le Covid a entraîné la fermeture de toutes les frontières, je suis donc restée dans ma première destination (Taïwan) que j'ai pu explorer - de nombreuses rencontres très fortes même sans parler la langue locale"
+      },
+      "2017-2020": {
+        "pwc": "Juriste Droit social, Bilingue français/anglais - Cabinet de conseil et d'expertise comptable PwC France - Neuilly-sur-Seine (France)"
+      },
+      "2017": {
+        "master2": "Obtention du Master 2 Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
+        "internship": "Stage Droit social - Cabinet d'avocats AFC Ledermann - Bordeaux (France)",
+        "volunteer": "Bénévole Droit du travail à la Clinique du Droit de l'Université de Bordeaux"
+      },
+      "2016": {
+        "master1": "Obtention du Master 1 Droit social - Université de Bordeaux (France) - Mention Assez bien",
+        "internship1": "Stage Droit social - Organisation professionnelle MEDEF Gironde - Bordeaux (France)",
+        "internship2": "Stage Droit social - Cabinet d'expertise comptable ErecaPluriel - Andernos-Les-Bains (France)",
+        "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)",
+        "travel": "Premier voyage en solo : 3 semaines à New-York city chez l'habitant avec cours d'anglais"
+      },
+      "2015": {
+        "bachelor": "Obtention de la licence Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
+        "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)"
+      },
+      "2014": {
+        "erasmus": "Année ERASMUS à la Faculté de Droit de l'Université de Sheffield (Royaume-Uni)"
+      },
+      "2013": {
+        "studies": "Double cursus : Licence de Droit et Science politique de l'Université de Bordeaux et Classe préparatoire à l'Ecole Normale Supérieure de Cachan (Rennes aujourd'hui), parcours D1 : cours renforcés de Droit, Economie, Anglais, Culture générale"
+      }
+    }
+  },
   "ContactPage": {
     "title": "Contact",
     "temporary": "In the meantime, you can contact me at the following email address:",

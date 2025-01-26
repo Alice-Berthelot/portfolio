@@ -1,5 +1,5 @@
 import { useLocale } from "next-intl";
-import logo from "./../../public/logos/logo-navbar.png";
+import logo from "./../../public/logos/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ export default function LogoHeader() {
         <Image
           alt="Logo du portfolio pour retourner vers l'accueil"
           src={logo}
-          width="35"
+          width="40"
         />
       </Link>
     </>
