@@ -12,9 +12,9 @@
   "HomePage": {
     "introduction": {
       "title": "WELCOME",
-      "description-first-p": "I'm <name>Alice Berthelot</name>, a passionate web developer from France.",
-      "description-second-p": "Découvrez mes compétences, mon parcours, mes projets en faisant défiler cette page ou en vous baladant à l'aide des liens dans l'entête.",
-      "description-third-p": "N'hésitez pas à m'écrire en vous rendant sur <contact>la page Contact</contact> !",
+      "description-first-p": "I'm <name>Alice Berthelot</name>, a passionate web developer from France. Former lawyer, I transitioned into a new career after falling in love with coding.",
+      "description-second-p": "Explore my skills, background, and projects by scrolling through this page or navigating using the links in the header.",
+      "description-third-p": "Feel free to reach me on the <contact>Contact page</contact>!",
       "job-research": {
         "main-sentence": "I am seeking opportunities in full-stack development, with a preference for backend:",
         "internship": "1 to 6-month internship in France, Europe or Canada, starting from January 2025",
