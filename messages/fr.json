@@ -26,9 +26,18 @@
     },
     "profile": {
       "title": "Mon Profil",
-      "hardskills-title": "Hard skills",
-      "hardskills-content": "",
-      "softskills-title": "Soft skills",
+      "hardskills-title": "Competences techniques",
+      "hardskills-content": {
+        "front": "Front-end",
+        "back": "Back-end",
+        "project-management": "Gestion de projet",
+        "other": "Notions de CI/CD, Cybersécurité, grand intérêt pour l'IA générative et l'accessibilité numérique",
+        "languages": "Langues",
+        "languages-fr": "Français natif",
+        "languages-en": "Anglais courant",
+        "languages-es-jp": "Notions d'espagnol et de japonais"
+      },
+      "softskills-title": "Competences personnelles",
       "softskills-content": {
         "analysis": "Capacité d'analyse",
         "perseverance": "Persévérance",

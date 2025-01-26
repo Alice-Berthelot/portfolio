@@ -27,7 +27,16 @@
     "profile": {
       "title": "About me",
       "hardskills-title": "Hard skills",
-      "hardskills-content": "",
+      "hardskills-content": {
+        "front": "Front end",
+        "back": "Back end",
+        "project-management": "Project management",
+        "other": "Notions of CI/CD, Cybersecurity, strong interest in generative AI and web accessibility",
+        "languages": "Languages",
+        "languages-fr": "French (native)",
+        "languages-en": "English (full professional proficiency",
+        "languages-es-jp": "Spanish and Japanese (beginner)"
+      },
       "softskills-title": "Soft skills",
       "softskills-content": {
         "analysis": "Analytical skills",

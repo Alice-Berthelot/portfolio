@@ -25,11 +25,14 @@ import Image from "next/image";
 
 export default function HardSkills() {
   const t = useTranslations("HomePage");
+  // const messages = useMessages();
+  // const hardskills = Object.keys(messages.HomePage);
 
   return (
     <section className="bg-dark-charcoal w-[45%] flex flex-col gap-4 px-10 py-8 rounded-md border border-solid border-ghost-white/30">
       <Subtitle title={t("profile.hardskills-title")} />
-      <p>Front-end</p>
+      <h4>{t("profile.hardskills-content.front")}</h4>
+
       <div className="flex gap-4">
         <figure className="relative group">
           <Image src={js} width="48" alt="JavaScript" unoptimized />
@@ -86,7 +89,7 @@ export default function HardSkills() {
           </figcaption>
         </figure>
       </div>
-      <p className="mt-4">Back-end</p>
+      <h4 className="mt-4">{t("profile.hardskills-content.back")}</h4>
       <div className="flex gap-4 mb-2">
         <figure className="relative group">
           <Image
@@ -127,7 +130,7 @@ export default function HardSkills() {
           </figcaption>
         </figure>
       </div>
-      <p>Data</p>
+      <h4>Data</h4>
       <div className="flex gap-3 mb-2">
         <figure className="relative group">
           <Image
@@ -167,7 +170,7 @@ export default function HardSkills() {
           </figcaption>
         </figure>
       </div>
-      <p>Tests</p>
+      <h4>Tests</h4>
       <div className="flex gap-4 mb-2">
         <figure className="relative group">
           <Image src={jest} width="48" alt="Jest" title="Jest" unoptimized />
@@ -190,7 +193,7 @@ export default function HardSkills() {
           </figcaption>
         </figure>
       </div>
-      <p>Gestion de projet</p>
+      <h4>{t("profile.hardskills-content.project-management")}</h4>
       <div className="flex gap-4">
         <figure className="relative group">
           <Image src={git} width="48" alt="Git" title="Git" unoptimized />
@@ -223,21 +226,20 @@ export default function HardSkills() {
           </figcaption>
         </figure>
         <figure className="relative group">
-          <Image src={excel} width="48" alt="Excel" title="Excel" unoptimized />
+          <Image src={excel} width="56" alt="Excel" title="Excel" unoptimized />
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
             Excel
           </figcaption>
         </figure>
       </div>
+      <p className="mt-10 mb-4">{t("profile.hardskills-content.other")}</p>
+      <h4>{t("profile.hardskills-content.languages")}</h4>
 
-      <p className="mt-10 mb-4">
-        Autres : Notions de CI/CD, Cybersécurité, IA générative, grand intérêt
-        pour l&apos;accessibilité numérique
-      </p>
-      <p>
-        Langues : Français natif, Anglais courant, notions d&apos;espagnol et de
-        japonais
-      </p>
+      <ul>
+        <li>- {t("profile.hardskills-content.languages-fr")}</li>
+        <li>- {t("profile.hardskills-content.languages-en")}</li>
+        <li>- {t("profile.hardskills-content.languages-es-jp")}</li>
+      </ul>
     </section>
   );
 }
