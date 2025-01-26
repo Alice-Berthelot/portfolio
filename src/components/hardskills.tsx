@@ -161,13 +161,7 @@ export default function HardSkills() {
           </figcaption>
         </figure>
         <figure className="relative group">
-          <Image
-            src={gdpr}
-            width="56"
-            alt="GDPR"
-            title="GDPR"
-            unoptimized
-          />
+          <Image src={gdpr} width="56" alt="GDPR" title="GDPR" unoptimized />
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
             GDPR
           </figcaption>
@@ -183,7 +177,13 @@ export default function HardSkills() {
           </figcaption>
         </figure>
         <figure className="relative group">
-          <Image src={pytest} width="54" alt="Pytest" title="Pytest" unoptimized />
+          <Image
+            src={pytest}
+            width="54"
+            alt="Pytest"
+            title="Pytest"
+            unoptimized
+          />
 
           <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
             Pytest
@@ -229,10 +229,15 @@ export default function HardSkills() {
           </figcaption>
         </figure>
       </div>
-  
-      <p className="mt-10 mb-4">Autres : Notions de CI/CD, Cybersécurité, IA générative, grand intérêt pour l'accessibilité numérique</p>
-      <p>Langues : Français natif, Anglais courant, notions d'espagnol et de japonais</p>
 
+      <p className="mt-10 mb-4">
+        Autres : Notions de CI/CD, Cybersécurité, IA générative, grand intérêt
+        pour l&apos;accessibilité numérique
+      </p>
+      <p>
+        Langues : Français natif, Anglais courant, notions d&apos;espagnol et de
+        japonais
+      </p>
     </section>
   );
 }
