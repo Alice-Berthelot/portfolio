@@ -22,7 +22,7 @@ export default function Footer() {
     >
       <section className="flex flex-col justify-center items-left gap-1">
       <p className="text-lg">{t("text")}</p>
-      <Link href={`/${locale}/contact`} className="underline underline-offset-2">{t("link")}</Link>
+      <Link href={`/${locale}/contact`} className="underline underline-offset-4">{t("link")}</Link>
       </section>
       <Links />
     </footer>

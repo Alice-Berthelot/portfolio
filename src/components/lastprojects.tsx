@@ -8,7 +8,7 @@ export default function LastProjects() {
   return (
     <section className="p-16">
       <Title title={t("lastprojects.title")} />
-      <Link href={`/${locale}/projects`} className="underline underline-offset-2">Voir tous mes projets</Link>
+      <Link href={`/${locale}/projects`} className="underline underline-offset-4">Voir tous mes projets</Link>
     </section>
   );
 }

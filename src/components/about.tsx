@@ -9,7 +9,7 @@ export default function About() {
   const locale = useLocale();
   const t = useTranslations("HomePage");
   return (
-    <section id="about" className="p-16">
+    <section id="about" className="px-16 py-14">
       <Title title={t("profile.title")} />
       <div className="flex gap-12 justify-center">
         <HardSkills />
@@ -18,7 +18,7 @@ export default function About() {
       <Hobbies />
       <Link
         href={`/${locale}/background`}
-        className="underline underline-offset-2"
+        className="underline underline-offset-4"
       >
         {t("profile.link-to-background")}
       </Link>
