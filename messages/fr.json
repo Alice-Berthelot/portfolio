@@ -64,7 +64,8 @@
     "lastprojects": { "title": "Derniers projets" }
   },
   "ProjectPage": {
-    "title": "Mes Projets"
+    "title": "Mes Projets",
+    "temporary": "En attendant, vous pouvez retrouver les différents projets que j'ai réalisés sur GitHub :"
   },
   "BackgroundPage": {
     "title": "Mon Parcours",

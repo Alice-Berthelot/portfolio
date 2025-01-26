@@ -1,7 +1,7 @@
 {
   "Temporary": {
     "banner-content": "Hi there! Welcome to my portfolio. Its development is in progress, thank you for your patience!",
-    "page-content": "This page is under development. Thank you for your patience!"
+    "page-content": "The development of this page is in progress. Thank you for your patience!"
   },
   "NavBar": {
     "about": "About me",
@@ -64,7 +64,8 @@
     "lastprojects": { "title": "Last projects" }
   },
   "ProjectPage": {
-    "title": "Projects"
+    "title": "Projects",
+    "temporary": "In the meantine, you can find my projects on GitHub:"
   },
   "BackgroundPage": {
     "title": "Background",

@@ -234,10 +234,10 @@ export default function HardSkills() {
       <p className="mt-10 mb-4">{t("profile.hardskills-content.other")}</p>
       <h4>{t("profile.hardskills-content.languages")}</h4>
 
-      <ul>
-        <li>- {t("profile.hardskills-content.languages-fr")} 🇫🇷 </li>
-        <li>- {t("profile.hardskills-content.languages-en")} 🇬🇧 🇺🇸</li>
-        <li>- {t("profile.hardskills-content.languages-es-jp")} 🇪🇸 🇯🇵</li>
+      <ul className="list-disc pl-4">
+        <li>{t("profile.hardskills-content.languages-fr")} 🇫🇷 </li>
+        <li>{t("profile.hardskills-content.languages-en")} 🇬🇧 🇺🇸</li>
+        <li>{t("profile.hardskills-content.languages-es-jp")} 🇪🇸 🇯🇵</li>
       </ul>
     </section>
   );

@@ -9,7 +9,7 @@ export default function About() {
   const locale = useLocale();
   const t = useTranslations("HomePage");
   return (
-    <section id="about" className="px-16 py-14">
+    <section id="about" className="px-16 pt-14">
       <Title title={t("profile.title")} />
       <div className="flex gap-12 justify-center">
         <HardSkills />
