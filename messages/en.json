@@ -36,14 +36,14 @@
         "other": "Notions of CI/CD, Cybersecurity, strong interest in generative AI and web accessibility",
         "languages": "Languages",
         "languages-fr": "French (native)",
-        "languages-en": "English (full professional proficiency",
+        "languages-en": "English (full professional proficiency)",
         "languages-es-jp": "Spanish and Japanese (beginner)"
       },
       "softskills-title": "Soft skills",
       "softskills-content": {
         "analysis": "Analytical skills",
-        "perseverance": "Perseverance",
         "adaptability": "Adaptability",
+        "perseverance": "Perseverance",
         "team-spirit": "Team spirit",
         "clients": "Client needs understanding"
       },

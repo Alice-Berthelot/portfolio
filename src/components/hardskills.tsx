@@ -236,9 +236,9 @@ export default function HardSkills() {
       <h4>{t("profile.hardskills-content.languages")}</h4>
 
       <ul>
-        <li>- {t("profile.hardskills-content.languages-fr")}</li>
-        <li>- {t("profile.hardskills-content.languages-en")}</li>
-        <li>- {t("profile.hardskills-content.languages-es-jp")}</li>
+        <li>- {t("profile.hardskills-content.languages-fr")} 🇫🇷 </li>
+        <li>- {t("profile.hardskills-content.languages-en")} 🇬🇧 🇺🇸</li>
+        <li>- {t("profile.hardskills-content.languages-es-jp")} 🇪🇸 🇯🇵</li>
       </ul>
     </section>
   );
