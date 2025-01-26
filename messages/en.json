@@ -1,0 +1,198 @@
+{
+  "Temporary": {
+    "banner-content": "Hi there! Welcome to my portfolio. Its development is in progress, thank you for your patience!",
+    "page-content": "The development of this page is in progress. Thank you for your patience!"
+  },
+  "NavBar": {
+    "about": "About me",
+    "projects": "Projects",
+    "background": "Background",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "introduction": {
+      "title": "WELCOME",
+      "description-first-p": "I'm <name>Alice Berthelot</name>, a passionate web developer from France. Former lawyer, I transitioned into a new career after falling in love with coding.",
+      "description-second-p": "Explore my skills, background, and projects by scrolling through this page or navigating using the links in the header.",
+      "description-third-p": "Feel free to reach me on the <contact>Contact page</contact>!",
+      "job-research": {
+        "main-sentence": "I am seeking opportunities in full-stack development, with a preference for backend:",
+        "internship": "1 to 6-month internship in France, Europe or Canada, starting from January 2025",
+        "employment-contract": "CDI or CDD in France, permanent or temporary contract in Europe or Canada",
+        "work-study": "French Diploma for Work and Study Programme (alternance) Application Developer and Conceptor (Bachelor Degree): flexible starting date, duration and frequency (already admitted to several programmes)"
+      },
+      "work-conditions": "Full mobility in France, Europe and Canada - Open to onsite, hybrid or remote work",
+      "cv-fr": "French Resume",
+      "cv-fr-detailed": "French Resume (detailed)",
+      "cv-eng": "English Resume"
+    },
+    "profile": {
+      "title": "About me",
+      "hardskills-title": "Hard skills",
+      "hardskills-content": {
+        "front": "Front end",
+        "back": "Back end",
+        "project-management": "Project management",
+        "other": "Notions of CI/CD, Cybersecurity, strong interest in generative AI and web accessibility",
+        "languages": "Languages",
+        "languages-fr": "French (native)",
+        "languages-en": "English (full professional proficiency)",
+        "languages-es-jp": "Spanish and Japanese (beginner)"
+      },
+      "softskills-title": "Soft skills",
+      "softskills-content": {
+        "analysis": "Analytical skills",
+        "adaptability": "Adaptability",
+        "perseverance": "Perseverance",
+        "team-spirit": "Team spirit",
+        "clients": "Client needs understanding"
+      },
+      "hobbies": {
+        "title": "Hobbies",
+        "travels-title": "Travels",
+        "travels-content": {
+          "skills": "I especially enjoy solo traveling, to go beyong my comfort zone and meet with even more people (locals and international travellers)",
+          "solo": "Main solo travels: Taiwan (4 months in 2020), tour over Latin America/Oceania/Asia (10 months between 2022 and 2023), Tanzania (1 month in 2024)"
+        },
+        "foodandtea-title": "Food and Tea tasting",
+        "foodandtea-content": "Discovering new flavors from all over the world and attending tea tasting events",
+        "sports-title": "Endurance sports",
+        "sports-content": "Swimming, cycling, hiking, and running (occasionally)"
+      },
+      "link-to-background": "More details about my background (work experience and education)"
+    },
+    "lastprojects": { "title": "Last projects" }
+  },
+  "ProjectPage": {
+    "title": "Projects",
+    "temporary": "In the meantine, you can find my projects on GitHub:"
+  },
+  "BackgroundPage": {
+    "title": "Background",
+    "story": "Lawyer --> Discovery of web development --> Transition (travel around the world + career change) --> Web Developer",
+    "background": {
+      "2025": {
+        "self-training": "Self-training: Next.js and TailwindCSS (front end), Python and Django (back end), deployment tools"
+      },
+      "2024": {
+        "internship": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
+        "internship-details": "",
+        "studies": "Obtention du Titre RNCP \"Développeur web et web mobile\" (bac +2) - Formation intensive de 5 mois, Développement web full-stack, à la Wild Code School de Bordeaux",
+        "self-training": "Autoformation : ",
+        "travel": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024 - départ et organisation seule, rencontre de nombreuses personnes sur place (tanzaniens, kenyans et voyageurs)"
+      },
+      "2022-2023": {
+        "travel": "Tour du monde en solo : partie seule et rencontre de nombreuses personnes sur place (Uruguay, Argentine, Nouvelle-Zélande, Thaïlande, Vietnam, Cambodge, Singapour, Japon, Taïwan, Mongolie"
+      },
+      "2021-2022": {
+        "discovery": "Découverte du développement web : une révélation ! Alors que je me renseignais sur une potentielle évolution professionnelle, j'ai découvert le métier de développeur web. Je me suis entraînée à HTML, CSS et JavaScript et j'ai rencontré de nombreux développeurs pour savoir en quoi consister leur métier, ce qui m'a donné énormément envie.",
+        "ccdb": "Juriste Droit social, Responsable du Pôle social - Cabinet d'expertise comptable CC-DB - Bordeaux (France)"
+      },
+      "2021": {
+        "provalliance": "Chargée de Ressources humaines - Groupe Provalliance (Leader mondial de la coiffure) - Paris (France)"
+      },
+      "2020": {
+        "messardiere": "Chargée de Ressources humaines - Château de la Messardière ***** Palace, Groupe Les Airelles (hôtellerie de luxe) - Saint-Tropez (France)",
+        "travel": "Séjour de 4 mois à Taïwan : j'étais partie pour un tour du monde et le Covid a entraîné la fermeture de toutes les frontières, je suis donc restée dans ma première destination (Taïwan) que j'ai pu explorer - de nombreuses rencontres très fortes même sans parler la langue locale"
+      },
+      "2017-2020": {
+        "pwc": "Juriste Droit social, Bilingue français/anglais - Cabinet de conseil et d'expertise comptable PwC France - Neuilly-sur-Seine (France)"
+      },
+      "2017": {
+        "master2": "Obtention du Master 2 Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
+        "internship": "Stage Droit social - Cabinet d'avocats AFC Ledermann - Bordeaux (France)",
+        "volunteer": "Bénévole Droit du travail à la Clinique du Droit de l'Université de Bordeaux"
+      },
+      "2016": {
+        "master1": "Obtention du Master 1 Droit social - Université de Bordeaux (France) - Mention Assez bien",
+        "internship1": "Stage Droit social - Organisation professionnelle MEDEF Gironde - Bordeaux (France)",
+        "internship2": "Stage Droit social - Cabinet d'expertise comptable ErecaPluriel - Andernos-Les-Bains (France)",
+        "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)",
+        "travel": "Premier voyage en solo : 3 semaines à New-York city chez l'habitant avec cours d'anglais"
+      },
+      "2015": {
+        "bachelor": "Obtention de la licence Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
+        "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)"
+      },
+      "2014": {
+        "erasmus": "ERASMUS year"
+      },
+      "2013": {
+        "studies": "Trying the ENGLISH version"
+      }
+    }
+  },
+  "BackgroundPageBis": {
+    "title": "Mon Parcours",
+    "story": "Juriste --> Découverte du Développement web --> Transition (tour du monde + préparation de la reconversion) --> Développeuse web",
+    "background": {
+      "2025": {
+        "self-training": "Autoformation : Next.js et TailwindCSS (front-end), Python et Django (back-end), outils de déploiement"
+      },
+      "2024": {
+        "internship": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
+        "internship-details": "",
+        "studies": "Obtention du Titre RNCP \"Développeur web et web mobile\" (bac +2) - Formation intensive de 5 mois, Développement web full-stack, à la Wild Code School de Bordeaux",
+        "self-training": "Autoformation : ",
+        "travel": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024 - départ et organisation seule, rencontre de nombreuses personnes sur place (tanzaniens, kenyans et voyageurs)"
+      },
+      "2022-2023": {
+        "travel": "Tour du monde en solo : partie seule et rencontre de nombreuses personnes sur place (Uruguay, Argentine, Nouvelle-Zélande, Thaïlande, Vietnam, Cambodge, Singapour, Japon, Taïwan, Mongolie"
+      },
+      "2021-2022": {
+        "discovery": "Découverte du développement web : une révélation ! Alors que je me renseignais sur une potentielle évolution professionnelle, j'ai découvert le métier de développeur web. Je me suis entraînée à HTML, CSS et JavaScript et j'ai rencontré de nombreux développeurs pour savoir en quoi consister leur métier, ce qui m'a donné énormément envie.",
+        "ccdb": {
+          "title": "Juriste Droit social, Responsable du Pôle social - Cabinet d'expertise comptable CC-DB - Bordeaux (France)",
+          "details": "essai ici !!!"
+        }
+      },
+      "2021": {
+        "provalliance": "Chargée de Ressources humaines - Groupe Provalliance (Leader mondial de la coiffure) - Paris (France)"
+      },
+      "2020": {
+        "messardiere": "Chargée de Ressources humaines - Château de la Messardière ***** Palace, Groupe Les Airelles (hôtellerie de luxe) - Saint-Tropez (France)",
+        "travel": "Séjour de 4 mois à Taïwan : j'étais partie pour un tour du monde et le Covid a entraîné la fermeture de toutes les frontières, je suis donc restée dans ma première destination (Taïwan) que j'ai pu explorer - de nombreuses rencontres très fortes même sans parler la langue locale"
+      },
+      "2017-2020": {
+        "pwc": "Juriste Droit social, Bilingue français/anglais - Cabinet de conseil et d'expertise comptable PwC France - Neuilly-sur-Seine (France)"
+      },
+      "2017": {
+        "master2": "Obtention du Master 2 Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
+        "internship": "Stage Droit social - Cabinet d'avocats AFC Ledermann - Bordeaux (France)",
+        "volunteer": "Bénévole Droit du travail à la Clinique du Droit de l'Université de Bordeaux"
+      },
+      "2016": {
+        "master1": "Obtention du Master 1 Droit social - Université de Bordeaux (France) - Mention Assez bien",
+        "internship1": "Stage Droit social - Organisation professionnelle MEDEF Gironde - Bordeaux (France)",
+        "internship2": "Stage Droit social - Cabinet d'expertise comptable ErecaPluriel - Andernos-Les-Bains (France)",
+        "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)",
+        "travel": "Premier voyage en solo : 3 semaines à New-York city chez l'habitant avec cours d'anglais"
+      },
+      "2015": {
+        "bachelor": "Obtention de la licence Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
+        "summer-job": "Service en restauration - Restaurant L'Airial - Andernos-Les-Bains (France)"
+      },
+      "2014": {
+        "erasmus": "Année ERASMUS à la Faculté de Droit de l'Université de Sheffield (Royaume-Uni)"
+      },
+      "2013": {
+        "studies": "Double cursus : Licence de Droit et Science politique de l'Université de Bordeaux et Classe préparatoire à l'Ecole Normale Supérieure de Cachan (Rennes aujourd'hui), parcours D1 : cours renforcés de Droit, Economie, Anglais, Culture générale"
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "temporary": "In the meantime, you can contact me at the following email address:",
+    "description": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message..."
+    }
+  },
+  "Footer": {
+    "text": "Any questions?",
+    "link": "Contact me"
+  }
+}
