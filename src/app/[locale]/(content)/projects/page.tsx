@@ -1,26 +1,27 @@
 import TemporaryPage from "@/components/temporarypage";
 import Title from "@/components/title";
-import { getLocalizedProjectSummary } from "../../../../../actions/server-actions";
-import { LocaleValue } from "../../../../../models/models";
+import { getLocalizedProjectSummary } from "@/../actions/server-actions";
+import { LocaleValue } from "@/../models/models";
 import { getTranslations } from "next-intl/server";
+import Subtitle from "@/components/subtitle";
+import Image from "next/image";
 
 type ProjectPageProps = {
   params: Promise<{ locale: string }>;
-}
+};
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
-  // Aucun besoin d'attendre `params.locale` car il est déjà synchronisé
   const { locale } = await params;
-  console.log("locale 2.0", locale);
   const t = await getTranslations("ProjectPage");
   const projects = await getLocalizedProjectSummary(locale as LocaleValue);
-  console.log(projects);
+
+  const url = "/pictures/projects/";
   return (
     <section className="px-16 pt-6">
       <Title title={t("title")} />
       <TemporaryPage />
       <p className="mt-8 mb-2">{t("temporary")}</p>
-      <ul className="underline underline-offset-4 space-y-2 list-disc pl-8">
+      <ul className="underline underline-offset-4 space-y-2 list-disc pl-8 mb-14">
         <li>
           <a href="https://github.com/Alice-Berthelot/portfolio">Portfolio</a>
         </li>
@@ -48,9 +49,27 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <a href="https://github.com/Alice-Berthelot/wildcards">WildCards</a>
         </li>
       </ul>
-      {projects.map((project) => (
-        <p key={project.key}>{project.title}</p>
-      ))}
+      {/* prévoir des captures de bouts de code */}
+      <section className="flex gap-24 justify-center mb-5 w-full flex-wrap">
+        {projects.map((project, index) => (
+          <article
+            key={project.key}
+            className={`w-[40%] rounded-md border border-solid border-ghost-white/30 ${
+              index % 2 !== 0 ? "mt-60 " : ""
+            }`}
+          >
+            <img
+              alt=""
+              src={`${url}${project.images[1]}.png`}
+              className="w-full h-80 object-cover object-top rounded-tl-md rounded-tr-md"
+            />
+            <article className=" px-10 py-8">
+              <Subtitle title={project.title} />
+              <p>{project.description}</p>
+            </article>
+          </article>
+        ))}
+      </section>
     </section>
   );
 }

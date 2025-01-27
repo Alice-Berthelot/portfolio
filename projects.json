@@ -72,10 +72,16 @@
         },
         {
           "language": "fr",
-          "value": "English"
+          "value": "Français"
         }
       ],
-      "images": ["", ""],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
       "url": "https://github.com/Alice-Berthelot/street-art-hunter"
     },
     {
@@ -150,11 +156,95 @@
         },
         {
           "language": "fr",
-          "value": "English"
+          "value": "Français"
         }
       ],
       "images": ["", ""],
-      "url": "https://github.com/Alice-Berthelot/street-art-hunter"
+      "url": "https://github.com/Alice-Berthelot/portfolio"
+    },
+    {
+      "key": "girondin",
+      "start": "2024-07-17 00:00:00.000",
+      "end": "2024-07-18 00:00:00.000",
+      "title": "Girondin Avocats",
+      "description": [
+        {
+          "language": "en",
+          "value": "Showcase website for a fictitious law firm, also allowing to visitors to request appointments, and paralegals to deal with them."
+        },
+        {
+          "language": "fr",
+          "value": "Site vitrine d'un cabinet d'avocats fictif, permettant également aux potentiels visiteurs de faire des demandes de consultations, et aux assistants juridiques de les gérer."
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Developed at Wild Code School"
+        },
+        {
+          "language": "fr",
+          "value": "Réalisé à la Wild Code School"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": "https://github.com/Alice-Berthelot/checkpoint4"
     }
   ]
 }

@@ -10,6 +10,7 @@ export async function getLocalizedProjectSummary(localeId?: LocaleValue): Promis
     key: project.key,
     title: project.title,
     description: project.description.find((d) => d.language === localeDefault)?.value || "",
+    images: project.images,
   }));
 }
 

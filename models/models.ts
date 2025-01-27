@@ -9,4 +9,5 @@ export interface ProjectSummary {
   key: string;
   title: string;
   description: string;
+  images: string[];
 }
