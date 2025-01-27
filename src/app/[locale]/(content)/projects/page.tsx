@@ -4,7 +4,6 @@ import { getLocalizedProjectSummary } from "@/../actions/server-actions";
 import { LocaleValue } from "@/../models/models";
 import { getTranslations } from "next-intl/server";
 import Subtitle from "@/components/subtitle";
-import Image from "next/image";
 
 type ProjectPageProps = {
   params: Promise<{ locale: string }>;
