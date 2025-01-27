@@ -8,7 +8,6 @@ type HistoryProps = {
 };
 
 export default function BackgroundHistory({ background }: HistoryProps) {
-  const t = useTranslations("BackgroundPageBis")
   return (
     <section>
       {background.map((backgroundDetail, index) => (
