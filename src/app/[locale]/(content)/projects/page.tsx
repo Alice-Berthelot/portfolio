@@ -4,14 +4,16 @@ import { getLocalizedProjectSummary } from "../../../../../actions/server-action
 import { LocaleValue } from "../../../../../models/models";
 import { getTranslations } from "next-intl/server";
 
-export default async function ProjectPage({
-  params,
-}: {
-  params: { locale: string };
-}) {
+type ProjectPageProps = {
+  params: Promise<{ locale: string }>;
+}
+
+export default async function ProjectPage({ params }: ProjectPageProps) {
+  // Aucun besoin d'attendre `params.locale` car il est déjà synchronisé
+  const { locale } = await params;
+  console.log("locale 2.0", locale);
   const t = await getTranslations("ProjectPage");
-  const locale = params.locale as LocaleValue;
-  const projects = await getLocalizedProjectSummary(locale);
+  const projects = await getLocalizedProjectSummary(locale as LocaleValue);
   console.log(projects);
   return (
     <section className="px-16 pt-6">
