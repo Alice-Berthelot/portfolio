@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 export default function ContactPage() {
   const t = useTranslations("ContactPage");
   return (
-    <section className="px-16">
+    <section className="px-16 pt-6">
       <Title title={t("title")} />
       <TemporaryPage />
       <p className="mt-8 mb-2">{t("temporary")}</p>

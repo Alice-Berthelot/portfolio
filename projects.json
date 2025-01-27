@@ -1,0 +1,160 @@
+{
+  "projects": [
+    {
+      "key": "streetarthunter",
+      "start": "2024-05-28 00:00:00.000",
+      "end": "2024-09-06 00:00:00.000",
+      "title": "Street Art Hunter",
+      "description": [
+        {
+          "language": "en",
+          "value": "Discovery of street art through an interactive map, with the option to directly add artworks, creating a point-based game. Three types of profiles: visitor, logged-in user, and administrator."
+        },
+        {
+          "language": "fr",
+          "value": "Découverte d'oeuvres de street art à travers une carte interactive, avec possibilité d'ajouter directement des oeuvres donnant lieu à un jeu par points. 3 types de profil : visiteur, utilisateur connecté et administrateur."
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Developed at Wild Code School"
+        },
+        {
+          "language": "fr",
+          "value": "Réalisé à la Wild Code School"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "English"
+        }
+      ],
+      "images": ["", ""],
+      "url": "https://github.com/Alice-Berthelot/street-art-hunter"
+    },
+    {
+      "key": "portfolio",
+      "start": "2024-12-28 00:00:00.000",
+      "end": "2025-02-15 00:00:00.000",
+      "title": "Portfolio",
+      "description": [
+        {
+          "language": "en",
+          "value": "This is my portfolio."
+        },
+        {
+          "language": "fr",
+          "value": "C'est mon portfolio"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Developed at Wild Code School"
+        },
+        {
+          "language": "fr",
+          "value": "Réalisé à la Wild Code School"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "English"
+        }
+      ],
+      "images": ["", ""],
+      "url": "https://github.com/Alice-Berthelot/street-art-hunter"
+    }
+  ]
+}
