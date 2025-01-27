@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+
 type HistoryProps = {
   background: {
     year: string;
