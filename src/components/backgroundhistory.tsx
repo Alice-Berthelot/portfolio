@@ -9,8 +9,6 @@ type HistoryProps = {
 
 export default function BackgroundHistory({ background }: HistoryProps) {
   const t = useTranslations("BackgroundPageBis")
-  const bgBis = t.raw("background")
-  console.log(bgBis);
   return (
     <section>
       {background.map((backgroundDetail, index) => (
@@ -27,46 +25,6 @@ export default function BackgroundHistory({ background }: HistoryProps) {
           </ul>
         </section>
       ))}
-
-      {/* <ul className="pt-4 space-y-10 text-center">
-{Object.entries(bgBis.map(([key, value]) => (
-    <li key={key} className="text-md">
-      {value}
-    </li>
-  ))}
-  </ul> */}
-
-<div>
-      {Object.keys(bgBis).map(year => {
-        const yearData = bgBis[year];
-
-        return (
-          <div key={year}>
-            <h4>{year}</h4>
-            <ul>
-              {Object.keys(yearData).map(subProperty => {
-                const value = yearData[subProperty];
-
-                // Si la valeur est un objet avec une clé 'title'
-                if (typeof value === 'object' && value.title) {
-                  return (
-                    <section key={subProperty}>
-                      <li>{value.title}</li>
-                      {/* Si l'objet contient aussi 'details', l'afficher dans un autre <li> */}
-                      {value.details && <li>{value.details}</li>}
-                    </section>
-                  );
-                }
-
-                // Sinon, afficher simplement la valeur de la sous-propriété
-                return <li key={subProperty}>{value}</li>;
-              })}
-            </ul>
-          </div>
-        );
-      })}
-    </div>
-
     </section>
   );
 }
