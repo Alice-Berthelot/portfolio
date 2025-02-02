@@ -1,19 +1,45 @@
 "use server";
 
 import data from "@/../projects.json";
-import { LocalizedContent, LocaleValue, ProjectSummary } from "../models/models";
+import {
+  LocalizedContent,
+  LocaleValue,
+  ProjectSummary,
+} from "../models/models";
 
-export async function getLocalizedProjectSummary(localeId?: LocaleValue): Promise<ProjectSummary[]> {
+export async function getLocalizedProjectHome(
+  localeId?: LocaleValue
+): Promise<ProjectSummary[]> {
+  const localeDefault = localeId ?? "en";
+  const projectsFiltered = data.projects
+    .filter((project) => project.end)
+    .sort((a, b) => new Date(b.end).getTime() - new Date(a.end).getTime())
+    .slice(0, 3);
+
+  return projectsFiltered.map((project) => ({
+    key: project.key,
+    title: project.title,
+    description:
+      project.homeDescription?.find((item) => item.language === localeDefault)
+        ?.value || "",
+    images: project.images,
+  }));
+}
+
+export async function getLocalizedProjectSummary(
+  localeId?: LocaleValue
+): Promise<ProjectSummary[]> {
   const localeDefault = localeId ?? "en";
 
   return data.projects.map((project) => ({
     key: project.key,
     title: project.title,
-    description: project.description.find((d) => d.language === localeDefault)?.value || "",
+    description:
+      project.description.find((item) => item.language === localeDefault)
+        ?.value || "",
     images: project.images,
   }));
 }
-
 
 // export async function getLocalizedProject(projectKey: string, localeId: LocaleValue ='en'): Promise<ProjectLocalized | undefined> {
 //     // get the ProjectFull from file based on projectKey
@@ -65,7 +91,6 @@ export async function getLocalizedProjectSummary(localeId?: LocaleValue): Promis
 //     } as Quote;
 // }
 
-
 // export function getLocalizedStrings(localizedContent: LocalizedContent[], locale: LocaleValue): string[] {
 //   return localizedContent.filter(content => content.language === locale).map(content => content.value);
 // }
@@ -73,4 +98,3 @@ export async function getLocalizedProjectSummary(localeId?: LocaleValue): Promis
 // export function getLocalizedString(localizedContent: LocalizedContent[], locale: LocaleValue): string {
 //   return localizedContent.find(content => content.language === locale)?.value || "";
 // }
-

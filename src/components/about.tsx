@@ -3,7 +3,7 @@ import Title from "./title";
 import HardSkills from "./hardskills";
 import SoftSkills from "./softskills";
 import Hobbies from "./hobbies";
-import Link from "next/link";
+import AnimatedLink from "./animatedlink";
 
 export default function About() {
   const locale = useLocale();
@@ -15,16 +15,16 @@ export default function About() {
         <HardSkills />
         <SoftSkills />
       </div>
-      <div className="flex gap-12 justify-center">
+      <div className="flex gap-12 justify-center mb-8">
         <div className="w-[45%]"></div>
-      <Hobbies />
+        <Hobbies />
       </div>
-      <Link
-        href={`/${locale}/background`}
-        className="underline underline-offset-4 text-right"
-      >
-        {t("profile.link-to-background")}
-      </Link>
+      <div className="relative flex justify-end pr-16">
+        <AnimatedLink
+          text={t("profile.link-to-background")}
+          link={`/${locale}/background`}
+        />
+      </div>
     </section>
   );
 }

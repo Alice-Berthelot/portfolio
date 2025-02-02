@@ -2,10 +2,10 @@
 
 import { usePathname } from "next/navigation";
 import Links from "./links";
-import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import logo from "./../../public/logos/logo.png";
 import Image from "next/image";
+import AnimatedLink from "./animatedlink";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -24,19 +24,18 @@ export default function Footer() {
           : "mx-auto"
       }`}
     >
-      <Image
-        alt="Logo du portfolio pour retourner vers l'accueil"
-        src={logo}
-        width="50"
-      />
-      <div className="flex flex-col justify-center items-left gap-1">
-        <p className="text-lg">{t("text")}</p>
-        <Link
-          href={`/${locale}/contact`}
-          className="underline underline-offset-4"
-        >
-          {t("link")}
-        </Link>
+      <div className="flex flex-col gap-2">
+        <Image
+          alt="Logo du portfolio pour retourner vers l'accueil"
+          src={logo}
+          width="50"
+          className="ml-2"
+        />
+        <p className="text-xs text-ghost-white/80">© 2025 Alice Berthelot</p>
+      </div>
+      <div className="flex flex-col justify-center items-left gap-4">
+        <p className="text-xl">{t("text")}</p>
+        <AnimatedLink text={t("link")} link={`/${locale}/contact`} />
       </div>
       <Links />
     </footer>

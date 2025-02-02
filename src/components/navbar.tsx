@@ -5,19 +5,23 @@ import Link from "next/link";
 export default function NavBar() {
   const t = useTranslations("NavBar");
   const locale = useLocale();
+
+  const classLi =
+    "relative transform transition-all ease-in-out duration-300 hover:rotate-[-10deg] ";
+
   return (
     <nav>
-      <ul className="flex items-center gap-4 font-semibold tracking-wide	">
-      <li>
-      <Link href={`/${locale}/#about`} className="test">{t("about")}</Link>
+      <ul className="flex items-center gap-4 font-semibold tracking-wide">
+        <li className={classLi}>
+          <Link href={`/${locale}/#about`}>{t("about")}</Link>
         </li>
-        <li>
+        <li className={classLi}>
           <Link href={`/${locale}/projects`}>{t("projects")}</Link>
         </li>
-        <li>
+        <li className={classLi}>
           <Link href={`/${locale}/background`}>{t("background")}</Link>
         </li>
-        <li>
+        <li className={classLi}>
           <Link href={`/${locale}/contact`}>{t("contact")}</Link>
         </li>
       </ul>
