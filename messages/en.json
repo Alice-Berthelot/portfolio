@@ -59,13 +59,17 @@
         "sports-title": "Endurance sports",
         "sports-content": "Swimming, cycling, hiking, and running (occasionally)"
       },
-      "link-to-background": "More details about my background (work experience and education)"
+      "link-to-background": "My background"
     },
-    "lastprojects": { "title": "Last projects" }
+    "lastprojects": { "title": "Last projects", "link": "All my projects" }
   },
   "ProjectPage": {
     "title": "Projects",
-    "temporary": "In the meantine, you can find my projects on GitHub:"
+    "temporary": "In the meantine, you can find my projects on GitHub:",
+    "description": "Below are the projects I have contributed to. Feel free to click the \"See more\" button to find the details of each project.",
+    "upcoming": "Upcoming projects: I have many ideas, and the stacks will most likely include ReactJS, Django, and PostgreSQL",
+    "more-details": "See more",
+    "alt": "animated screenshops of the app"
   },
   "BackgroundPage": {
     "title": "Background",

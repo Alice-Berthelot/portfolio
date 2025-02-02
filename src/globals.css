@@ -29,3 +29,7 @@
 .group .figcaption-css::before {
   opacity: 1;
 }
+
+.max-w-calc {
+  max-width: calc(37% - 14px);
+}

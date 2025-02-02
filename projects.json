@@ -1,0 +1,704 @@
+{
+  "projects": [
+    {
+      "key": "portfolio",
+      "start": "2024-12-28 00:00:00.000",
+      "end": "2025-02-15 00:00:00.000",
+      "title": "Portfolio",
+      "homeDescription": [
+        {
+          "language": "en",
+          "value": "Next.js, TailwindCSS, and Next-intl web app"
+        },
+        {
+          "language": "fr",
+          "value": "Application web Next.js, TailwindCSS, Next-intl"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "value": "My bilingual portfolio - in English and French - displaying my projects, skills, and experiences"
+        },
+        {
+          "language": "fr",
+          "value": "Portfolio bilingue - en français et en anglais - décrivant mes réalisations, mes compétences et mes expériences"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Personal project introducing my profile and my work, and using new technologies (Next.js and TailwindCSS)"
+        },
+        {
+          "language": "fr",
+          "value": "Projet personnel présentant mon profil et mon travail, et me permettant d'utiliser de nouvelles technologies (Next.js et TailwindCSS)"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": ["", ""],
+      "url": "https://github.com/Alice-Berthelot/portfolio"
+    },
+    {
+      "key": "matchngo",
+      "start": "2024-11-01 00:00:00.000",
+      "end": "2024-12-03 00:00:00.000",
+      "title": "MatchnGo",
+      "homeDescription": [
+        {
+          "language": "en",
+          "value": "Back end of a web app using Python, AWS, DynamoDB, and Pytest"
+        },
+        {
+          "language": "fr",
+          "value": "Back-end d'une application web, avec Python, AWS, DynamoDB et Pytest"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "value": "Business trip booking and sharing platform "
+        },
+        {
+          "language": "fr",
+          "value": "Plateforme de réservation et de mutualisation des voyages d'affaire"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Project developed by the web agency Meito Tech, where I did an internship. It was the opportunity for me to work on an already existing project, using new technologies (Python, AWS, NoSql, Pytest). Team of 4 developers."
+        },
+        {
+          "language": "fr",
+          "value": "Projet développé par l'agence web Meito Tech, où j'ai fait un stage. J'ai ainsi eu l'opportunité de prendre en main un projet existant et de pratiquer avec de nouvelles technologies (Python, AWS, NoSql, Pytest). Equipe de 4 développeurs."
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "Français"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": ["matchngo/matchngo-1", "matchngo/matchngo-2"],
+      "url": "https://app.dev.matchn-go.com/"
+    },
+    {
+      "key": "streetarthunter",
+      "start": "2024-05-28 00:00:00.000",
+      "end": "2024-09-06 00:00:00.000",
+      "title": "Street Art Hunter",
+      "homeDescription": [
+        {
+          "language": "en",
+          "value": "Full stack web app using ReactJS, Node.js/Express, MySQL, CSS, and Jest/Supertest"
+        },
+        {
+          "language": "fr",
+          "value": "Application web full stack ReactJS, Node.js/Express, MySQL, CSS et Jest/Supertest"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "value": "Discovery of street art through an interactive map, with the option to directly add artworks, creating a point-based game. Three types of profiles: visitor, logged-in user, and administrator."
+        },
+        {
+          "language": "fr",
+          "value": "Découverte d'oeuvres de street art à travers une carte interactive, avec possibilité d'ajouter directement des oeuvres donnant lieu à un jeu par points. 3 types de profil : visiteur, utilisateur connecté et administrateur."
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Final group project with Wild Code School, that I have deeply modified for my professional certification exam. Team of 4 developers, organized following the Scrum agile method. We had to develop a full-stack app using ReactJS, Node.js/Express, CSS, and MySQL, with 3 types of user: visitor, logged-in user, and admin."
+        },
+        {
+          "language": "fr",
+          "value": "Projet de groupe final réalisé à la Wild Code School, que j'ai refait quasi-intégalement pour le présenter lors de mon évaluation pour le titre professionnel de Développeur web et web mobile. Equipe de 4 développeurs, organisés selon la méthode agile Scrum. Nous avions pour consigne de développer une application full-stack avec ReactJS, Node.js/Express, CSS et MySQL, avec mise en place de trois profils d'utilisateurs différents : visiteur, utilisateur connecté et administrateur."
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": "https://github.com/Alice-Berthelot/street-art-hunter"
+    },
+    {
+      "key": "girondin",
+      "start": "2024-07-17 00:00:00.000",
+      "end": "2024-07-18 00:00:00.000",
+      "title": "Girondin Avocats",
+      "homeDescription": [
+        {
+          "language": "en",
+          "value": "48-hour Full stack web app using ReactJS, Node.js/Express, MySQL, and CSS"
+        },
+        {
+          "language": "fr",
+          "value": "Application web full stack ReactJS, Node.js/Express, MySQL et CSS, réalisée en 48h"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "value": "Showcase website for a fictitious law firm, also allowing to visitors to request appointments, and paralegals to deal with them."
+        },
+        {
+          "language": "fr",
+          "value": "Site vitrine d'un cabinet d'avocats fictif, permettant également aux potentiels visiteurs de faire des demandes de consultations, et aux assistants juridiques de les gérer."
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "48-hour individual project with Wild Code School. The requuirements were designing (mockups, user stories, and data modeling) and developing a full stack app using ReactJS and Node.js/Express within 2 days. In addition I created a test dataset and implemented the whole design."
+        },
+        {
+          "language": "fr",
+          "value": "Projet réalisé seule en 48h durant ma formation à la Wild Code School. J'avais pour consigne de concevoir (maquettes, user stories et modélisation des données) et créer une application full-stack ReactJS / Node.js en 2 jours. J'ai pris en plus le temps de créer un jeu de données de test et de perfectionner le design."
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": "https://github.com/Alice-Berthelot/checkpoint4"
+    },
+    {
+      "key": "hackathon",
+      "start": "2024-07-03 00:00:00.000",
+      "end": "2024-07-04 00:00:00.000",
+      "title": "Inclus'Event",
+      "description": [
+        {
+          "language": "en",
+          "value": "Corporate events booking platform with a focus on inclusivity"
+        },
+        {
+          "language": "fr",
+          "value": "Plateforme de réservation d'événements pour entreprises, portant sur le thème l'inclusivité"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "48-hour hackathon within Wild Code School on the theme of \"inclusivity in companies\". Team of 2 developers, 2 data analysts, and 2 web designers. Result: finalists. "
+        },
+        {
+          "language": "fr",
+          "value": "Hackathon de 48h réalisé dans le cadre de la Wild Code School, sur le thème de l'\"inclusivité en entreprise\". Equipe de 2 développeurs, 2 data analysts, et 2 web designers. Résultat : finalistes"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": ""
+    },
+    {
+      "key": "preflix",
+      "start": "2024-04-01 00:00:00.000",
+      "end": "2024-04-30 00:00:00.000",
+      "title": "Preflix",
+      "description": [
+        {
+          "language": "en",
+          "value": "Movie and TV series directory based on the TMDB public API"
+        },
+        {
+          "language": "fr",
+          "value": "Répertoire de films et de séries, basé sur l’API publique TMDB"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "Second group project with Wild Code School. Team of 4 developers, organized with Scrum agile method. Requirement: developing a front end app using ReactJS and fetching a public API"
+        },
+        {
+          "language": "fr",
+          "value": "Deuxième projet de formation à la Wild Code School. Equipe de 4 développeurs, organisés en méthode agile Scrum. Consigne : développer une application front-end avec ReactJS et fetcher une API publique"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": "https://preflix.vercel.app/"
+    },
+    {
+      "key": "groweasy",
+      "start": "2024-05-16 00:00:00.000",
+      "end": "2024-05-17 00:00:00.000",
+      "title": "Grow Easy",
+      "description": [
+        {
+          "language": "en",
+          "value": "Movie and TV series directory based on the TMDB public API"
+        },
+        {
+          "language": "fr",
+          "value": "Répertoire de films et de séries, basé sur l’API publique TMDB"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "48-hour group project with Wild Code School. Team of 2 developers and 3 data analysts. Requirement: build a front end app fetching an API created by the data analysts. Theme: \"encouraging people to spend more time outdoors\". Result: most refined design award"
+        },
+        {
+          "language": "fr",
+          "value": "Projet de groupe réalisé en 48h à la Wild Code School. Equipe de 2 développeurs et 3 data analystes. Consigne : créer une application front-end app à partir de l'API créé par les data analystes. Thème : \"inciter les gens à passer plus de temps dehors\". Résultat : prix du design le plus soigné"
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": "https://github.com/Alice-Berthelot/grow-easy"
+    },
+    {
+      "key": "wildcards",
+      "start": "2024-03-01 00:00:00.000",
+      "end": "2024-03-31 00:00:00.000",
+      "title": "WildCardS",
+      "description": [
+        {
+          "language": "en",
+          "value": "Fun school photo directory displayed as collection cards "
+        },
+        {
+          "language": "fr",
+          "value": "Trombinoscope de l'école original, sous forme de cartes à collectionner"
+        }
+      ],
+      "skills": [
+        {
+          "icon": "/icons/icon_app.png",
+          "description": "app"
+        },
+        {
+          "icon": "/icons/icon_consulting.png",
+          "description": "consulting"
+        },
+        {
+          "icon": "/icons/icon_dev.png",
+          "description": "dev"
+        },
+        {
+          "icon": "/icons/icon_cloud.png",
+          "description": "cloud"
+        }
+      ],
+      "achievements": [
+        [
+          {
+            "language": "en",
+            "value": "Implementing front end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le front-end"
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Implementing back end"
+          },
+          {
+            "language": "fr",
+            "value": "Réaliser le back-end"
+          }
+        ]
+      ],
+      "context": [
+        {
+          "language": "en",
+          "value": "First group project with Wild Code School, using only HTML and CSS. Team of 4 developers. "
+        },
+        {
+          "language": "fr",
+          "value": "Premier projet de groupe réalisé à la Wild Code School, en utilisant uniquement HTML et CSS. Equipe de 4 développeurs."
+        }
+      ],
+      "languages": [
+        {
+          "language": "en",
+          "value": "French"
+        },
+        {
+          "language": "fr",
+          "value": "Français"
+        }
+      ],
+      "images": [
+        "streetarthunter/streetarthunter-1",
+        "streetarthunter/streetarthunter-2",
+        "streetarthunter/streetarthunter-3",
+        "streetarthunter/streetarthunter-4",
+        "streetarthunter/streetarthunter-5"
+      ],
+      "url": "https://alice-berthelot.github.io/wildcards/"
+    }
+  ]
+}

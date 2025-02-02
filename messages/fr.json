@@ -59,13 +59,17 @@
         "sports-title": "Sports d'endurance",
         "sports-content": "Natation, vélo, randonnée et course"
       },
-      "link-to-background": "Voir plus de détails sur mon parcours (expérience professionnelle et formation)"
+      "link-to-background": "Mon parcours"
     },
-    "lastprojects": { "title": "Derniers projets" }
+    "lastprojects": { "title": "Derniers projets", "link": "Tous mes projets" }
   },
   "ProjectPage": {
     "title": "Mes Projets",
-    "temporary": "En attendant, vous pouvez retrouver les différents projets que j'ai réalisés sur GitHub :"
+    "temporary": "En attendant, vous pouvez retrouver les différents projets que j'ai réalisés sur GitHub :",
+    "description": "Vous trouverez ci-dessous les différents projets auxquels j'ai contribués. Cliquez sur \"En savoir plus\" pour retrouver les détails de chaque projet.",
+    "upcoming": "Projets à venir : de nombreuses idées, les stacks seront probablement ReactJS, Django et PostgreSQL",
+    "more-details": "En savoir plus",
+    "alt": "captures d'écran animées de l'application"
   },
   "BackgroundPage": {
     "title": "Mon Parcours",

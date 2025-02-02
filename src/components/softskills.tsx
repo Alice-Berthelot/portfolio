@@ -9,7 +9,7 @@ export default function SoftSkills() {
       <Subtitle title={t("profile.softskills-title")} />
       <ul className="pt-4 space-y-10 text-center">
         {Object.entries(softSkills).map(([key, value]) => (
-          <li key={key} className="text-md">
+          <li key={key} className="text-lg">
             {value}
           </li>
         ))}
