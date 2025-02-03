@@ -34,7 +34,7 @@ export default function Footer() {
         <p className="text-xs text-ghost-white/80">© 2025 Alice Berthelot</p>
       </div>
       <div className="flex flex-col justify-center items-left gap-4">
-        <p className="text-xl">{t("text")}</p>
+        <p className="text-lg">{t("text")}</p>
         <AnimatedLink text={t("link")} link={`/${locale}/contact`} />
       </div>
       <Links />

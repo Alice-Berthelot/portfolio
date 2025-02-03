@@ -5,6 +5,7 @@ import { getTranslations } from "next-intl/server";
 import Subtitle from "@/components/subtitle";
 import ChangingImage from "@/components/changingimg";
 import AnimatedLink from "@/components/animatedlink";
+import TemporaryPage from "@/components/temporarypage";
 
 type ProjectPageProps = {
   params: Promise<{ locale: string }>;
@@ -20,7 +21,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   return (
     <section className="px-16 pt-6">
       <Title title={t("title")} />
-      <p className="text-xl">{t("description")} </p>
+
+      <TemporaryPage />
+
+      <p className="text-xl pt-8">{t("description")} </p>
       <p className="text-lg italic pt-4">{t("upcoming")} </p>
 
       {/* prévoir des captures de bouts de code */}
