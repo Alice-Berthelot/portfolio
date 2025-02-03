@@ -11,7 +11,7 @@ export default function Footer() {
   const t = useTranslations("Footer");
   const locale = useLocale();
   const pathname = usePathname();
-  const fixedPages = ["/contact"];
+  const fixedPages = ["/background", "/contact"];
 
   // Check if the current page is in the list
   const isFixedFooter = fixedPages.some((page) => pathname?.includes(page));
