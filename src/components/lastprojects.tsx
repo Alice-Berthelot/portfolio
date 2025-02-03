@@ -16,9 +16,9 @@ export default function LastProjects({ projects }: LastProjectsProps) {
   const url = "/pictures/projects/";
 
   return (
-    <section className="px-16 pb-16 pt-4">
+    <section className="px-16 pb-20 pt-4">
       <Title title={t("lastprojects.title")} />
-      <section className="flex justify-center flex-wrap gap-6 mb-8">
+      <section className="flex justify-center flex-wrap gap-6 mb-12">
         {projects.map((project) => (
           <article
             key={project.key}

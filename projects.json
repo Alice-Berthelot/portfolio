@@ -85,7 +85,7 @@
           "value": "Français"
         }
       ],
-      "images": ["", ""],
+      "images": ["temporary/temporary_picture"],
       "url": "https://github.com/Alice-Berthelot/portfolio"
     },
     {
@@ -355,13 +355,7 @@
           "value": "Français"
         }
       ],
-      "images": [
-        "streetarthunter/streetarthunter-1",
-        "streetarthunter/streetarthunter-2",
-        "streetarthunter/streetarthunter-3",
-        "streetarthunter/streetarthunter-4",
-        "streetarthunter/streetarthunter-5"
-      ],
+      "images": ["temporary/temporary_picture"],
       "url": "https://github.com/Alice-Berthelot/checkpoint4"
     },
     {
@@ -439,13 +433,7 @@
           "value": "Français"
         }
       ],
-      "images": [
-        "streetarthunter/streetarthunter-1",
-        "streetarthunter/streetarthunter-2",
-        "streetarthunter/streetarthunter-3",
-        "streetarthunter/streetarthunter-4",
-        "streetarthunter/streetarthunter-5"
-      ],
+      "images": ["temporary/temporary_picture"],
       "url": ""
     },
     {
@@ -523,13 +511,7 @@
           "value": "Français"
         }
       ],
-      "images": [
-        "streetarthunter/streetarthunter-1",
-        "streetarthunter/streetarthunter-2",
-        "streetarthunter/streetarthunter-3",
-        "streetarthunter/streetarthunter-4",
-        "streetarthunter/streetarthunter-5"
-      ],
+      "images": ["temporary/temporary_picture"],
       "url": "https://preflix.vercel.app/"
     },
     {
@@ -540,11 +522,11 @@
       "description": [
         {
           "language": "en",
-          "value": "Movie and TV series directory based on the TMDB public API"
+          "value": "Tips for building your own vegetable garden, in collaboration with Data analysts"
         },
         {
           "language": "fr",
-          "value": "Répertoire de films et de séries, basé sur l’API publique TMDB"
+          "value": "Astuces pour construire son propre potager, en collaboration avec des data analysts"
         }
       ],
       "skills": [
@@ -607,13 +589,7 @@
           "value": "Français"
         }
       ],
-      "images": [
-        "streetarthunter/streetarthunter-1",
-        "streetarthunter/streetarthunter-2",
-        "streetarthunter/streetarthunter-3",
-        "streetarthunter/streetarthunter-4",
-        "streetarthunter/streetarthunter-5"
-      ],
+      "images": ["temporary/temporary_picture"],
       "url": "https://github.com/Alice-Berthelot/grow-easy"
     },
     {
@@ -691,13 +667,7 @@
           "value": "Français"
         }
       ],
-      "images": [
-        "streetarthunter/streetarthunter-1",
-        "streetarthunter/streetarthunter-2",
-        "streetarthunter/streetarthunter-3",
-        "streetarthunter/streetarthunter-4",
-        "streetarthunter/streetarthunter-5"
-      ],
+      "images": ["temporary/temporary_picture"],
       "url": "https://alice-berthelot.github.io/wildcards/"
     }
   ]

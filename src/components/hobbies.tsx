@@ -18,7 +18,7 @@ export default function Hobbies() {
             <IoEarthSharp className="size-8 m-auto my-2" />
           
           <p>{t("profile.hobbies.travels-content.skills")}</p>
-          <p className="italic mt-2">{t("profile.hobbies.travels-content.solo")}</p>
+          <p className="italic text-sm mt-2">{t("profile.hobbies.travels-content.solo")}</p>
         </div>
 
         <div className="flex gap-4 items-center">
