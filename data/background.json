@@ -1,0 +1,66 @@
+{
+  "background": [
+    {
+      "year": "2025",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Self-training and personal projects: Next.js and TailwindCSS (front-end), Python and Django (back-end), deployment tools",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Autoformation et projets personnel : Next.js et TailwindCSS (front-end), Python et Django (back-end), outils de déploiement",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2024",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Intern Application Developer - Meito Tech Web Agency - Bordeaux, France",
+            "details": [
+              "Implement CRUD operations",
+              "Refactor and type the code (OOP and clean code)",
+              "Create and execute unit tests"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
+            "details": [
+              "Mettre en place des opérations CRUD",
+              "Refactoriser et typer le code (POO et clean code)",
+              "Créer et exécuter des tests unitaires"
+            ]
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "French Professionnal Certification RNCP \"Web and web mobile developer\" (equivalent to a 2-year higher education diploma) - obtained following an ntensive 5-month full-stack web development training – Wild Code School, Bordeaux, France",
+            "details": [
+              "Implement CRUD operations",
+              "Refactor and type the code (OOP and clean code)",
+              "Create and execute unit tests"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Titre RNCP \"Développeur web et web mobile\" (bac +2) - Obtention après une formation intensive de 5 mois, Développement web full-stack - Wild Code School, Bordeaux (France)",
+            "details": [
+              "Mettre en place des opérations CRUD",
+              "Refactoriser et typer le code (POO et clean code)",
+              "Créer et exécuter des tests unitaires"
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

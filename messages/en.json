@@ -74,6 +74,8 @@
   "BackgroundPage": {
     "title": "Background",
     "story": "Lawyer --> Discovery of web development --> Transition (travel around the world + career change) --> Web Developer",
+    "see-more": "See more",
+    "see-less": "See less",
     "background": {
       "2025": {
         "self-training": "Self-training: Next.js and TailwindCSS (front end), Python and Django (back end), deployment tools"
@@ -196,7 +198,7 @@
     }
   },
   "Footer": {
-    "text": "Have a project in mind? An opportunity? Any questions?",
+    "text": "Have a project in mind? An opportunity to share? Any questions?",
     "link": "Contact me"
   }
 }

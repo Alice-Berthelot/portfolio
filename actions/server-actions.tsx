@@ -1,17 +1,23 @@
 "use server";
 
-import data from "@/../projects.json";
+import projectData from "@/../data/projects.json";
+import backgroundData from "@/../data/background.json";
 import {
   LocalizedContent,
   LocaleValue,
   ProjectSummary,
+  Background,
+  Description
 } from "../models/models";
+
+
+// PROJECTS
 
 export async function getLocalizedProjectHome(
   localeId?: LocaleValue
 ): Promise<ProjectSummary[]> {
   const localeDefault = localeId ?? "en";
-  const projectsFiltered = data.projects
+  const projectsFiltered = projectData.projects
     .filter((project) => project.end)
     .sort((a, b) => new Date(b.end).getTime() - new Date(a.end).getTime())
     .slice(0, 3);
@@ -31,7 +37,7 @@ export async function getLocalizedProjectSummary(
 ): Promise<ProjectSummary[]> {
   const localeDefault = localeId ?? "en";
 
-  return data.projects.map((project) => ({
+  return projectData.projects.map((project) => ({
     key: project.key,
     title: project.title,
     description:
@@ -98,3 +104,24 @@ export async function getLocalizedProjectSummary(
 // export function getLocalizedString(localizedContent: LocalizedContent[], locale: LocaleValue): string {
 //   return localizedContent.find(content => content.language === locale)?.value || "";
 // }
+
+
+
+// BACKGROUND
+export async function getLocalizedBackground(
+  localeId?: LocaleValue
+): Promise<Background[]> {
+  const localeDefault = localeId ?? "en";
+
+  return backgroundData.background.map((year) => ({
+    key: year.year,
+    year: year.year,
+    descriptions: year.descriptions.map((description) => {
+      const localizedDesc = description.find((item) => item.language === localeDefault);
+      return {
+        value: localizedDesc?.value || "",  
+        details: localizedDesc?.details || []  // for now, could not find another method to take into account that some desc may not have details
+      };
+    }),
+  }));
+}
