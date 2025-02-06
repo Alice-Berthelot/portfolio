@@ -11,3 +11,14 @@ export interface ProjectSummary {
   description: string;
   images: string[];
 }
+
+export interface Description {
+  value: string;
+  details?: string[];
+}
+
+export interface Background {
+  key: string;
+  year: string;
+  descriptions: Description[];
+}

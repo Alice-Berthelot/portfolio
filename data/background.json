@@ -1,0 +1,422 @@
+{
+  "background": [
+    {
+      "year": "2025",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Self-training and personal projects: Next.js and TailwindCSS (front-end), Python and Django (back-end), deployment tools",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Autoformation et projets personnel : Next.js et TailwindCSS (front-end), Python et Django (back-end), outils de déploiement",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2024",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Intern Application Developer - Meito Tech Web Agency - Bordeaux, France",
+            "details": [
+              "Technologies: Python, AWS (DynamoDB - NoSQL), Pytest, GitHub, Next.js, TailwindCSS",
+              "Participation in the back-end development of the MatchNgo web application (see Projects page for more details) and exploration of Meito Tech's website"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Développeuse d'applications stagiaire - Agence web Meito Tech - Bordeaux (France)",
+            "details": [
+              "Technologies : Python, AWS (DynamoDB - NoSQL), Pytest, GitHub, Next.js, TailwindCSS",
+              "Participation au développement du back-end de l'application web MatchNgo (voir page Projets pour plus de détails) et découverte du site web de Meito Tech"
+            ]
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "French Professionnal Certification RNCP \"Web and web mobile developer\" (equivalent to a 2-year higher education diploma) - obtained following an ntensive 5-month full-stack web development training – Wild Code School, Bordeaux, France",
+            "details": [
+              "Congratulations from the jury for my certification",
+              "Professional raining structured around group projects, following the Agile Scrum methode with weekly sprints leading to oral presentations in front of fictional clients"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Titre RNCP \"Développeur web et web mobile\" (bac +2) - Obtention après une formation intensive de 5 mois, Développement web full-stack - Wild Code School, Bordeaux (France)",
+            "details": [
+              "Félicitations du jury pour mon titre professionnel",
+              "Formation professionnalisante organisée sous forme de projets de groupe, selon la méthode agile Scrum avec des sprints hebdomadaires donnant lieu à des présentations orales face à des clients fictifs"
+            ]
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "First solo trip to Africa: Tanzania and Kenya in January-February 2024",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2022-2023",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Solo trip around the world: traveled alone and met many people (Uruguay, Argentina, New Zealand, Thailand, Vietnam, Cambodia, Singapore, Japan, Taiwan, Mongolia)",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Tour du monde en solo : partie seule et rencontre de nombreuses personnes sur place (Uruguay, Argentine, Nouvelle-Zélande, Thaïlande, Vietnam, Cambodge, Singapour, Japon, Taïwan, Mongolie)",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2021-2022",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Discovery of web development: a revelation! Training in HTML, CSS, and JavaScript, with discussions and exchanges with many developers",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Découverte du développement web : une révélation ! Entraînement à HTML, CSS et JavaScript, échanges avec de nombreux développeurs",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Employment Lawyer, Head of the HR Department - CC-DB Accounting Firm - Bordeaux, France",
+            "details": [
+              "Supervised two experienced payroll managers",
+              "Answered legal inquiries from clients o various industries",
+              "Conducted research and analyzed legal documentation",
+              "Implemented and monitored contract termination procedures",
+              "Managed payroll: self-trained on payroll software, handled a portfolio of 300 payslips",
+              "Drafted employment contracts and managed hiring formalities",
+              "Organized professional elections",
+              "Oversaw Urssaf audits"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Juriste Droit social, Responsable du Pôle social - Cabinet d'expertise comptable CC-DB - Bordeaux (France)",
+            "details": [
+              "Encadrement de 2 gestionnaires de paie confirmées",
+              "Réponse aux questions juridiques des clients issus de divers secteurs d'activité",
+              "Recherches et analyse de documentation",
+              "Mise en place et suivi des procédures de fin de contrat",
+              "Gestion de la paie : autoformation au logiciel de paie, portefeuille de 300 bulletins de paie",
+              "Rédaction de contrats de travail et formalités d'embauche",
+              "Organisation d'élections professionnelles",
+              "Supervision des contrôles Urssaf"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2021",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Human Resources Manager – Provalliance Group (world leader in hairdressing) – Paris, France",
+            "details": [
+              "HR representative for 100 entities",
+              "Answered internal labor and employment law inquiries",
+              "Supervised two assistants in HR administration",
+              "Implemented and monitored contract termination procedures",
+              "Managed workplace conflicts",
+              "Supervised schedules and partial activity handling"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Chargée de Ressources humaines - Groupe Provalliance (Leader mondial de la coiffure) - Paris (France)",
+            "details": [
+              "Référente RH pour 100 entités",
+              "Réponse aux questions de Droit social internes",
+              "Supervision de 2 assistantes pour l’administration du personnel",
+              "Mise en place et suivi des procédures de fin de contrat de travail",
+              "Gestion des conflits du travail",
+              "Supervision des plannings et gestion de l'activité partielle"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2020",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Human Resources Officer – Château de la Messardière ***** Palace, Les Airelles Group (Luxury Hospitality) – Saint-Tropez, France",
+            "details": [
+              "Managed time and activity tracking for 180 employees",
+              "Supervised two interns for organizing personnel files",
+              "Led training sessions and provided support for the e2Time software to managers (self-trained on the software)",
+              "Created a custom HR tracking system in Excel",
+              "Monitored the consistency of work schedules",
+              "Provided weekly reporting to the General Management of the Château",
+              "Assisted with general HR tasks (managing employment contracts, transmitting data to payroll, tracking benefits in kind)"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Chargée de Ressources humaines - Château de la Messardière ***** Palace, Groupe Les Airelles (hôtellerie de luxe) - Saint-Tropez (France)",
+            "details": [
+              "Référente Gestion des temps et activités pour 180 pax",
+              "Supervision de 2 stagiaires pour l’organisation des dossiers du personnel",
+              "Animation de formations et support pour le logiciel e2Time à destination des managers (autoformation au logiciel)",
+              "Création à mon initiative d’un système de suivi RH sur Excel",
+              "Contrôle de régularité des plannings",
+              "Reporting hebdomadaire auprès de la Direction générale de l'établissement",
+              "Assistance RH générale (gestion des contrats de travail, transmission de données au service paie, état des lieux des avantages en nature)"
+            ]
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "4-month solo trip to Taiwan"
+          },
+          {
+            "language": "fr",
+            "value": "Voyage en solo à Taïwan pendant 4 mois"
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2017-2020",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Employment Lawyer, Bilingual French/English – PwC France Consulting and Accounting Firm – Neuilly-sur-Seine, France",
+            "details": [
+              "Worked in both French and English",
+              "Team of 5 legal experts",
+              "Managed a portfolio of 250 external clients, both French and international, from various sectors and industries (working with over 60 different collective agreements)",
+              "Collabored with 65 internal employees, mainly payroll managers and accountants",
+              "Answered all inquiries related to labor law, payroll, and international mobility (research, document analysis, and client specificities)",
+              "Drafted legal documents and technical briefs on labor law",
+              "Conducted social audits to assess compliance with regulations",
+              "Led internal training sessions on labor law for employees",
+              "Carried out legal monitoring and wrote information notes on current legal developments",
+              "Handled various HR administrative tasks: supplementary social protection, employee secondment, parafiscal taxes, etc.",
+              "Performed a 5-month HR mission at Intel Corporation: supervised 2 consultants in the reorganization of employee records, managed expense reports and training paths, and followed up on contract terminations"
+            ]
+          },
+          {
+            "language": "fr",
+            "value": "Juriste Droit social, Bilingue français/anglais - Cabinet de conseil et d'expertise comptable PwC France - Neuilly-sur-Seine (France)",
+            "details": [
+              "Travail réalisé à la fois en français et en anglais",
+              "Equipe de 5 juristes",
+              "250 clients externes français et internationaux de structures diverses et multisectoriels (travail avec plus de 60 conventions collectives différentes)",
+              "65 collaborateurs internes, principalement gestionnaires de paie et comptables",
+              "Réponse à toute question en droit social, paie et mobilité internationale (recherche, analyse de documentation et des spécificités sectorielles)",
+              "Rédaction d’actes juridiques et de fiches techniques sur le droit du travail",
+              "Réalisation d'audits sociaux pour vérifier la régularité de la gestion des salariés",
+              "Animation de formations internes en droit social",
+              "Veille juridique et rédaction de notes d'information d'actualité",
+              "Démarches administratives RH diverses : protection sociale complémentaire, détachement de salariés, taxes parafiscales, etc.",
+              "Mission RH de 5 mois au sein d’Intel Corporation, leader technologique international : supervision de 2 consultants pour la réorganisation des dossiers du personnel, gestion des notes de frais et des parcours de formation, suivi des fins de contrat"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2017",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Master’s Degree in Law (Year 2) – Specializing in Employment, Labour, and Social Security Law - University of Bordeaux, France – With Honours ",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Master 2 Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Internship in Employment Law – AFC Ledermann Law Firm – Bordeaux, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Stage Droit social - Cabinet d'avocats AFC Ledermann - Bordeaux (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Volunteer in Employment Law – Legal Clinic, University of Bordeaux",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Bénévole Droit du travail à la Clinique du Droit de l'Université de Bordeaux",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2016",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Master’s Degree in Law (Year 1) - Specializing in Employment, Labour, and Social Security Law – University of Bordeaux, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Master 1 Droit social - Université de Bordeaux (France) - Mention Assez bien",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Internship in Employment Law – ErecaPluriel Accounting Firm – Andernos-les-Bains, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Stage Droit social - Cabinet d'expertise comptable ErecaPluriel - Andernos-Les-Bains (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Internship in Employment Law – MEDEF Gironde Employers'Organization – Bordeaux, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Stage Droit social - Organisation professionnelle MEDEF Gironde - Bordeaux (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Waitress (as a summer job) – Restaurant L'Airial – Andernos-les-Bains, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Service en restauration (job d'été) - Restaurant L'Airial - Andernos-Les-Bains (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "First Solo Trip: 3 weeks in New York City, staying with a host gamily and taking English courses",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Premier voyage en solo : 3 semaines à New-York city chez l'habitant avec cours d'anglais",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2015",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Bachelor's Degree in Law and Political Science – University of Bordeaux, France ",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Licence Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Waitress (as a summer job) – Restaurant L'Airial – Andernos-les-Bains, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Service en restauration (job d'été) - Restaurant L'Airial - Andernos-Les-Bains (France)",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2014",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Erasmus Year at the School of Law, University of Sheffield (United Kingdom)",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Année ERASMUS à la Faculté de Droit de l'Université de Sheffield (Royaume-Uni)",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2011-2013",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Combined program: Bachelor’s Degree in Law and Political Science – University of Bordeaux & Preparatory Class for the École Normale Supérieure de Cachan (now in Rennes), D1 Degree – Intensive Courses in Law, Economics, English, and General Culture",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Double cursus : Licence de Droit et Science politique de l'Université de Bordeaux et Classe préparatoire à l'Ecole Normale Supérieure de Cachan (Rennes aujourd'hui), parcours D1 : cours renforcés de Droit, Economie, Anglais, Culture générale",
+            "details": []
+          }
+        ]
+      ]
+    }
+  ]
+}
