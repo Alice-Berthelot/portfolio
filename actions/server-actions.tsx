@@ -3,7 +3,6 @@
 import projectData from "@/../data/projects.json";
 import backgroundData from "@/../data/background.json";
 import {
-  LocalizedContent,
   LocaleValue,
   ProjectSummary,
   Background,
@@ -117,7 +116,7 @@ export async function getLocalizedBackground(
     key: year.year,
     year: year.year,
     descriptions: year.descriptions.map((description) => {
-      const localizedDesc = description.find((item) => item.language === localeDefault);
+      const localizedDesc: Description | undefined = description.find((item) => item.language === localeDefault);
       return {
         value: localizedDesc?.value || "",  
         details: localizedDesc?.details || []  // for now, could not find another method to take into account that some desc may not have details

@@ -248,6 +248,175 @@
           }
         ]
       ]
+    },
+    {
+      "year": "2017",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Master’s Degree in Law (Year 2) – Specializing in Employment, Labour, and Social Security Law - University of Bordeaux, France – With Honours ",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Master 2 Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Internship in Employment Law – AFC Ledermann Law Firm – Bordeaux, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Stage Droit social - Cabinet d'avocats AFC Ledermann - Bordeaux (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Volunteer in Employment Law – Legal Clinic, University of Bordeaux",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Bénévole Droit du travail à la Clinique du Droit de l'Université de Bordeaux",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2016",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Master’s Degree in Law (Year 1) - Specializing in Employment, Labour, and Social Security Law – University of Bordeaux, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Master 1 Droit social - Université de Bordeaux (France) - Mention Assez bien",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Internship in Employment Law – ErecaPluriel Accounting Firm – Andernos-les-Bains, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Stage Droit social - Cabinet d'expertise comptable ErecaPluriel - Andernos-Les-Bains (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Internship in Employment Law – MEDEF Gironde Employers'Organization – Bordeaux, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Stage Droit social - Organisation professionnelle MEDEF Gironde - Bordeaux (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Waitress (as a summer job) – Restaurant L'Airial – Andernos-les-Bains, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Service en restauration (job d'été) - Restaurant L'Airial - Andernos-Les-Bains (France)",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "First Solo Trip: 3 weeks in New York City, staying with a host gamily and taking English courses",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Premier voyage en solo : 3 semaines à New-York city chez l'habitant avec cours d'anglais",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2015",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Bachelor's Degree in Law and Political Science – University of Bordeaux, France ",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Licence Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
+            "details": []
+          }
+        ],
+        [
+          {
+            "language": "en",
+            "value": "Waitress (as a summer job) – Restaurant L'Airial – Andernos-les-Bains, France",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Service en restauration (job d'été) - Restaurant L'Airial - Andernos-Les-Bains (France)",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2014",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Erasmus Year at the School of Law, University of Sheffield (United Kingdom)",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Année ERASMUS à la Faculté de Droit de l'Université de Sheffield (Royaume-Uni)",
+            "details": []
+          }
+        ]
+      ]
+    },
+    {
+      "year": "2011-2013",
+      "descriptions": [
+        [
+          {
+            "language": "en",
+            "value": "Combined program: Bachelor’s Degree in Law and Political Science – University of Bordeaux & Preparatory Class for the École Normale Supérieure de Cachan (now in Rennes), D1 Degree – Intensive Courses in Law, Economics, English, and General Culture",
+            "details": []
+          },
+          {
+            "language": "fr",
+            "value": "Double cursus : Licence de Droit et Science politique de l'Université de Bordeaux et Classe préparatoire à l'Ecole Normale Supérieure de Cachan (Rennes aujourd'hui), parcours D1 : cours renforcés de Droit, Economie, Anglais, Culture générale",
+            "details": []
+          }
+        ]
+      ]
     }
   ]
 }
