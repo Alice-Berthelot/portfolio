@@ -13,7 +13,7 @@ export default function SoftSkills() {
           <li key={key} className="text-lg">
             {value}
           </li>
-          {index < array.length - 1 && <li> ~ </li>}
+          {index < array.length - 1 && <li key={`${key} - separator`}> ~ </li>}
           </>
         ))}
       </ul>

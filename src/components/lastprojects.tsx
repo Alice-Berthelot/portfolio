@@ -11,8 +11,6 @@ export default function LastProjects({ projects }: LastProjectsProps) {
   const t = useTranslations("HomePage");
   const text = t("lastprojects.link");
 
-  console.log(projects);
-
   const url = "/pictures/projects/";
 
   return (
