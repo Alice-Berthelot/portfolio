@@ -1,4 +1,4 @@
-## MY PORTFOLIO
+## MY BILINGUAL (EN/FR) PORTFOLIO
 
 **/!\ Project in progress**
 
