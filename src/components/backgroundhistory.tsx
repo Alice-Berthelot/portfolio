@@ -34,7 +34,7 @@ export default function BackgroundHistory({
   };
 
   return (
-    <section className="pt-4 pb-16 flex flex-col gap-10">
+    <section className="pt-4 pb-20 flex flex-col gap-10">
       {backgroundData.map((background) => (
         <ScrollDownAnimation key={background.key}>
           <article>
@@ -43,7 +43,7 @@ export default function BackgroundHistory({
             </h4>
             <ul className="px-20 flex flex-col gap-2 text-lg pt-2">
               {background.descriptions.map((description, index) => (
-                <li key={index} className="list-disc">
+                <li key={index} className="list-disc ">
                   {description.value}
                   {Array.isArray(description.details) &&
                     description.details.length > 0 &&
