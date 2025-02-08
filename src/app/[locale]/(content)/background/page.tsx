@@ -18,6 +18,7 @@ export default async function BackgroundPage({ params }: BackgroundPageProps) {
   const backgroundData = await getLocalizedBackground(locale as LocaleValue);
 
   return (
+
     <section className="px-16 pt-6">
       <Title title={t("title")} />
       <BackgroundRecap locale={locale}/>

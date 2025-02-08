@@ -12,9 +12,10 @@
   "HomePage": {
     "introduction": {
       "title": "Bienvenue",
+      "subtitle": "sur mon portfolio",
       "description-first-p": "Je m'appelle <name>Alice Berthelot</name>, je suis une développeuse web passionnée, originaire de France. Ancienne juriste, je me suis reconvertie après avoir eu un coup de coeur pour le code.",
       "description-second-p": "Découvrez mes compétences, mon parcours, mes projets en faisant défiler cette page ou en vous baladant à l'aide des liens dans l'entête.",
-      "description-third-p": "N'hésitez pas à m'écrire en vous rendant sur <contact>la page Contact</contact> !",
+      "description-third-p": "N'hésitez pas à m'écrire en vous rendant sur la <contact>page Contact</contact> !",
       "job-research": {
         "main-sentence": "Je suis à l'écoute d'opportunités en développement d'applications full-stack, avec une apétence particulière pour le back-end :",
         "internship": "stage de 1 à 6 mois en France, en Europe ou au Canada à compter de janvier 2025",

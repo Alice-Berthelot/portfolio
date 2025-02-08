@@ -4,13 +4,16 @@ import HardSkills from "./hardskills";
 import SoftSkills from "./softskills";
 import Hobbies from "./hobbies";
 import AnimatedLink from "./animatedlink";
+import { ScrollDownAnimation } from "./scrolldownanimation";
 
 export default function About() {
   const locale = useLocale();
   const t = useTranslations("HomePage");
   return (
     <section id="about" className="px-16 pt-6">
-      <Title title={t("profile.title")} />
+      <ScrollDownAnimation>
+        <Title title={t("profile.title")} />
+      </ScrollDownAnimation>
       <div className="flex gap-12 justify-center">
         <HardSkills />
         <SoftSkills />

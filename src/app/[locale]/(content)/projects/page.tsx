@@ -6,6 +6,7 @@ import Subtitle from "@/components/subtitle";
 import ChangingImage from "@/components/changingimg";
 import AnimatedLink from "@/components/animatedlink";
 import TemporaryPage from "@/components/temporarypage";
+import { ScrollDownAnimation } from "@/components/scrolldownanimation";
 
 type ProjectPageProps = {
   params: Promise<{ locale: string }>;
@@ -20,36 +21,43 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <section className="px-16 pt-6">
-      <Title title={t("title")} />
+      <ScrollDownAnimation>
+        <Title title={t("title")} />
+        <TemporaryPage />
+      </ScrollDownAnimation>
 
-      <TemporaryPage />
+      <ScrollDownAnimation>
+        <p className="text-xl pt-8">{t("description")} </p>
+        <p className="text-lg italic pt-4">{t("upcoming")} </p>
+      </ScrollDownAnimation>
 
-      <p className="text-xl pt-8">{t("description")} </p>
-      <p className="text-lg italic pt-4">{t("upcoming")} </p>
-
-      {/* prévoir des captures de bouts de code */}
+      {/* Section des projets avec animation sur chaque article */}
       <section className="mt-20 mb-16 flex gap-x-28 justify-center w-full flex-wrap">
         {projects.map((project, index) => (
-          <article
-            key={project.key}
-            className={`w-[37%] max-w-calc rounded-md border border-solid border-ghost-white/30 ${
-              index % 2 !== 0 ? "mt-60" : "self-start"
-            }`}
-          >
-            <ChangingImage images={project.images} url={url} alt={alt} />
-            {/* <img
-              alt=""
-              src={`${url}${project.images[1]}.png`}
-              className="w-full h-80 object-cover object-top rounded-tl-md rounded-tr-md"
-            /> */}
-            <article className="px-10 -pt-4 pb-8">
-              <Subtitle title={project.title} />
-              <p className="pb-6">{project.description}</p>
-              <div className="flex justify-end">
-                <AnimatedLink text={t("more-details")} link="" />
-              </div>
-            </article>
-          </article>
+          <div key={project.key} className="w-[37%] max-w-calc">
+            <ScrollDownAnimation>
+              <article
+                className={`rounded-md border border-solid border-ghost-white/30 ${
+                  index % 2 !== 0 ? "mt-60" : "self-start"
+                }`}
+              >
+                <ChangingImage images={project.images} url={url} alt={alt} />
+                <article className="px-10 -pt-4 pb-8">
+                <ScrollDownAnimation>
+                  <Subtitle title={project.title} />
+                  </ScrollDownAnimation>
+                  <ScrollDownAnimation>
+                  <p className="pb-6">{project.description}</p>
+                  </ScrollDownAnimation>
+                  <ScrollDownAnimation>
+                  <div className="flex justify-end">
+                    <AnimatedLink text={t("more-details")} link="" />
+                  </div>
+                  </ScrollDownAnimation>
+                </article>
+              </article>
+            </ScrollDownAnimation>
+          </div>
         ))}
       </section>
     </section>
