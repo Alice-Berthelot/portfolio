@@ -12,6 +12,7 @@
   "HomePage": {
     "introduction": {
       "title": "WELCOME",
+      "subtitle": "to my portfolio",
       "description-first-p": "I'm <name>Alice Berthelot</name>, a passionate web developer from France. Former lawyer, I transitioned into a new career after falling in love with coding.",
       "description-second-p": "Explore my skills, background, and projects by scrolling through this page or navigating using the links in the header.",
       "description-third-p": "Feel free to reach me on the <contact>Contact page</contact>!",

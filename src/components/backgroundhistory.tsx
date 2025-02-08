@@ -1,6 +1,9 @@
 "use client";
 import { useState } from "react";
 import { Background } from "../../models/models";
+import { IoMdArrowDropup } from "react-icons/io";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { ScrollDownAnimation } from "./scrolldownanimation";
 
 type HistoryProps = {
   backgroundData: Background[];
@@ -13,7 +16,9 @@ export default function BackgroundHistory({
   more,
   less,
 }: HistoryProps) {
-  const [detailedItems, setDetailedItems] = useState<{ [key: string]: { [index: number]: boolean } }>({});
+  const [detailedItems, setDetailedItems] = useState<{
+    [key: string]: { [index: number]: boolean };
+  }>({});
 
   const handleToggle = (backgroundKey: string, descriptionIndex: number) => {
     setDetailedItems((prevState) => {
@@ -29,50 +34,61 @@ export default function BackgroundHistory({
   };
 
   return (
-    <section className="pt-16 pb-16 flex flex-col gap-8">
+    <section className="pt-4 pb-20 flex flex-col gap-10">
       {backgroundData.map((background) => (
-        <article key={background.key}>
-          <h4 className="font-title text-2xl tracking-wide mx-10 mb-3">
-            {background.year}
-          </h4>
-          <ul className="px-20 flex flex-col gap-2">
-            {background.descriptions.map((description, index) => (
-              <li key={index} className="list-disc">
-                {description.value}
-                {Array.isArray(description.details) &&
-                  description.details.length > 0 &&
-                  description.details.every((item) => typeof item === "string") && (
-                    <>
-                      {!detailedItems[background.key]?.[index] ? (
-                        <button
-                          className="ml-6 underline underline-offset-2"
-                          onClick={() => handleToggle(background.key, index)} // Sending both background.key and details index to ensure the button corresponds to the right li
-                        >
-                          {more}
-                        </button>
-                      ) : (
-                        <>
-                          <ul className="mt-2">
-                            {description.details.map((detail, i) => (
-                              <li key={i} className="text-sm ml-4 list-disc">
-                                {detail}
-                              </li>
-                            ))}
-                          </ul>
+        <ScrollDownAnimation key={background.key}>
+          <article>
+            <h4 className="font-title text-3xl font-bold tracking-wide mx-10 mb-3 tracking-wider">
+              {background.year}
+            </h4>
+            <ul className="px-20 flex flex-col gap-2 text-lg pt-2">
+              {background.descriptions.map((description, index) => (
+                <li key={index} className="list-disc ">
+                  {description.value}
+                  {Array.isArray(description.details) &&
+                    description.details.length > 0 &&
+                    description.details.every(
+                      (item) => typeof item === "string"
+                    ) && (
+                      <>
+                        {!detailedItems[background.key]?.[index] ? (
                           <button
-                            className="mt-2 underline underline-offset-2"
+                            className="ml-4 flex gap items-center underline underline-offset-2 text-sm text-ghost-white/60"
                             onClick={() => handleToggle(background.key, index)} // Sending both background.key and details index to ensure the button corresponds to the right li
                           >
-                            {less}
+                            <IoMdArrowDropdown className="text-lg" />
+                            {more}
                           </button>
-                        </>
-                      )}
-                    </>
-                  )}
-              </li>
-            ))}
-          </ul>
-        </article>
+                        ) : (
+                          <>
+                            <ul className="mt-2">
+                              {description.details.map((detail, i) => (
+                                <li
+                                  key={i}
+                                  className="text-base ml-4 list-none"
+                                >
+                                  - {detail}
+                                </li>
+                              ))}
+                            </ul>
+                            <button
+                              className="mt-2 flex gap items-center underline underline-offset-2 text-sm text-ghost-white/60"
+                              onClick={() =>
+                                handleToggle(background.key, index)
+                              } // Sending both background.key and details index to ensure the button corresponds to the right li
+                            >
+                              <IoMdArrowDropup className="text-lg" />
+                              {less}
+                            </button>
+                          </>
+                        )}
+                      </>
+                    )}
+                </li>
+              ))}
+            </ul>
+          </article>
+        </ScrollDownAnimation>
       ))}
     </section>
   );

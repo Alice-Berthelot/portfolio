@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "framer-motion": "^12.4.1",
     "next": "^15.1.4",
     "next-intl": "^3.25.3",
     "react": "19.0.0",

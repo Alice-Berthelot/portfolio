@@ -12,9 +12,10 @@
   "HomePage": {
     "introduction": {
       "title": "Bienvenue",
+      "subtitle": "sur mon portfolio",
       "description-first-p": "Je m'appelle <name>Alice Berthelot</name>, je suis une développeuse web passionnée, originaire de France. Ancienne juriste, je me suis reconvertie après avoir eu un coup de coeur pour le code.",
       "description-second-p": "Découvrez mes compétences, mon parcours, mes projets en faisant défiler cette page ou en vous baladant à l'aide des liens dans l'entête.",
-      "description-third-p": "N'hésitez pas à m'écrire en vous rendant sur <contact>la page Contact</contact> !",
+      "description-third-p": "N'hésitez pas à m'écrire en vous rendant sur la <contact>page Contact</contact> !",
       "job-research": {
         "main-sentence": "Je suis à l'écoute d'opportunités en développement d'applications full-stack, avec une apétence particulière pour le back-end :",
         "internship": "stage de 1 à 6 mois en France, en Europe ou au Canada à compter de janvier 2025",
@@ -22,9 +23,9 @@
         "work-study": "Alternance Concepteur Développeur d'Applications (Niveau bac +3) : date de commencement, durée et rythme flexibles (admise dans plusieurs centres de formation"
       },
       "work-conditions": "Mobile sur les zones France, Europe et Canada - Ouverte au présentiel, hybride ou télétravail",
-      "cv-fr": "CV français",
-      "cv-fr-detailed": "CV français (détaillé)",
-      "cv-eng": "CV anglais"
+      "cv-fr": "CV Français",
+      "cv-fr-detailed": "CV Français (détaillé)",
+      "cv-eng": "CV Anglais"
     },
     "profile": {
       "title": "Mon Profil",
