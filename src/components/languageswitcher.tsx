@@ -65,6 +65,7 @@ export default function LanguageSwitcher() {
         }}
       >
         <span
+        className="flex items-center justify-center w-full h-full"
           style={{
             transform: isChecked ? "rotate(90deg)" : "rotate(0deg)",
           }}

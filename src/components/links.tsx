@@ -3,7 +3,7 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 export default function Links() {
   return (
-    <nav>
+    <nav className="order-first md:order-last">
       <ul className="flex gap-2">
         <li>
           <Link href="https://www.linkedin.com/in/alice-berthelot/" target="_blank">

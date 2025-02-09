@@ -8,15 +8,16 @@ export default function Introduction() {
   const t = useTranslations("HomePage");
   const locale = useLocale();
   return (
-    <section className="flex flex-row items-center px-20 pt-40 w-full">
+    <section className="flex flex-col md:flex-row items-center md:px-20 pt-40 w-full">
       <ProfilePicture />
-      <section className="flex flex-col items-end w-full mr-32 gap-20">
+      <section className="flex flex-col items-center md:items-end w-full lg:mr-32 gap-20">
         <IntroText
+          locale={locale}
           title={t("introduction.title")}
           subtitle={t("introduction.subtitle")}
           descriptionFirst={t.rich("introduction.description-first-p", {
             name: (chunks) => (
-              <span className="font-title text-4xl">{chunks}</span>
+              <span className={`font-title ${locale === "en" ? "text-4xl" : "text-3xl"} md:text-3xl`}>{chunks}</span>
             ),
           })}
           descriptionSecond={t("introduction.description-second-p")}
@@ -31,7 +32,7 @@ export default function Introduction() {
             ),
           })}
         />
-        <Resumes />
+        <Resumes locale={locale} />
       </section>
     </section>
   );

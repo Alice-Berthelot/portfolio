@@ -18,23 +18,23 @@ export default function Footer() {
 
   return (
     <footer
-      className={`w-11/12 py-6 flex justify-between gap-6 items-center border-solid border-t border-ghost-white ${
+      className={`w-11/12 py-6 flex flex-col md:flex-row md:justify-between gap-10 md:gap-6 items-center border-solid border-t border-ghost-white ${
         isFixedFooter
           ? "fixed bottom-0 left-0 left-1/2 transform -translate-x-1/2 bg-dark-charcoal"
           : "mx-auto"
       }`}
     >
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 order-last md:order-first items-center md:items-start">
         <Image
           alt="Logo du portfolio pour retourner vers l'accueil"
           src={logo}
           width="50"
-          className="ml-2"
+          className="md:ml-2"
         />
         <p className="text-xs text-ghost-white/80">© 2025 Alice Berthelot</p>
       </div>
-      <div className="flex flex-col justify-center items-left gap-4">
-        <p className="text-lg">{t("text")}</p>
+      <div className="flex flex-col justify-center items-center md:items-start flex-wrap gap-4 px-6 md:px-auto">
+        <p className="text-lg text-center md:text-left">{t("text")}</p>
         <AnimatedLink text={t("link")} link={`/${locale}/contact`} />
       </div>
       <Links />

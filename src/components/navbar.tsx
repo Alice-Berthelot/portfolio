@@ -7,7 +7,7 @@ export default function NavBar() {
   const locale = useLocale();
 
   const classLi =
-    "relative transform transition-all ease-in-out duration-300 hover:rotate-[-10deg] ";
+    "relative transform transition-all ease-in-out duration-300 lg:hover:rotate-[-10deg] ";
 
   return (
     <nav>
