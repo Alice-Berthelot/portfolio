@@ -8,9 +8,9 @@ import { ScrollDownAnimation } from "./scrolldownanimation";
 export default function Hobbies() {
   const t = useTranslations("HomePage");
   return (
-    <div className="w-[45%]">
+    <div className="w-[90%] md-[75%] lg:w-[45%]">
       <ScrollDownAnimation>
-        <section className="bg-dark-charcoal -mt-[16rem] flex flex-col gap-6 rounded-xl text-base px-16 py-8 rounded-md border border-solid border-ghost-white/30">
+        <section className="bg-dark-charcoal lg:-mt-[16rem] flex flex-col gap-6 rounded-xl text-base px-16 py-8 rounded-md border border-solid border-ghost-white/30">
           <Subtitle title={t("profile.hobbies.title")} />
           <section className="text-center flex flex-col gap-12 justify-center items-center">
             <ScrollDownAnimation>

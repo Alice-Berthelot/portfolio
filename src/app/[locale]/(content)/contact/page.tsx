@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 export default function ContactPage() {
   const t = useTranslations("ContactPage");
   return (
-    <section className="px-16 pt-6">
+    <section className="px-6 md:px-12 lg:px-16 pt-6">
       <ScrollDownAnimation>
         <Title title={t("title")} />
         <TemporaryPage />

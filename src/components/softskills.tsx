@@ -9,9 +9,9 @@ export default function SoftSkills() {
     string
   >;
   return (
-    <div className="w-[45%]">
+    <div className="w-[75%] md:w-[60%] lg:w-[45%]">
       <ScrollDownAnimation>
-        <section className="bg-dark-charcoal mt-56 px-10 py-8 rounded-md border border-solid border-ghost-white/30 self-start">
+        <section className="bg-dark-charcoal mt-auto lg:mt-56 px-10 py-8 rounded-md border border-solid border-ghost-white/30 self-start">
           <Subtitle title={t("profile.softskills-title")} />
           <ul className="pt-4 space-y-2 text-center">
             {Object.entries(softSkills).map(([key, value], index, array) => (

@@ -19,7 +19,7 @@ export default async function BackgroundPage({ params }: BackgroundPageProps) {
 
   return (
 
-    <section className="px-16 pt-6">
+    <section className="px-6 md:px-12 lg:px-16 pt-6">
       <Title title={t("title")} />
       <BackgroundRecap locale={locale}/>
       <BackgroundHistory

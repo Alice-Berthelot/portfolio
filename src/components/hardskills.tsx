@@ -26,16 +26,14 @@ import { ScrollDownAnimation } from "./scrolldownanimation";
 
 export default function HardSkills() {
   const t = useTranslations("HomePage");
-  // const messages = useMessages();
-  // const hardskills = Object.keys(messages.HomePage);
 
   return (
-    <div className="w-[45%]">
+    <div className="w-[90%] md-[75%] lg:w-[45%]">
       <ScrollDownAnimation>
-        <section className="bg-dark-charcoal flex flex-col gap-4 px-10 py-8 rounded-md border border-solid border-ghost-white/30">
+        <section className="bg-dark-charcoal flex flex-col gap-4 px-8 md:px-10 py-8 rounded-md border border-solid border-ghost-white/30">
           <Subtitle title={t("profile.hardskills-title")} />
           <h4>{t("profile.hardskills-content.front")}</h4>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4">
             <figure className="relative group">
               <Image src={js} width="48" alt="JavaScript" unoptimized />
               <figcaption className="figcaption-css opacity-0 rounded-md font-bold px-2 py-1.5 mt-2 text-sm transition-all duration-300  ease-[cubic-bezier(0.68,_-0.55,_0.265,_1.55)] text-dark-charcoal bg-ghost-white absolute z-50 left-1/2 top-full transform -translate-x-1/2 translate-y-[-1%] group-hover:opacity-100 group-hover:translate-y-0">
