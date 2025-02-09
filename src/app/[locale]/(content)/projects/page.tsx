@@ -20,7 +20,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   const alt = t("alt");
 
   return (
-    <section className="px-16 pt-6">
+    <section className="px-6 md:px-12 lg:px-16 pt-6">
       <ScrollDownAnimation>
         <Title title={t("title")} />
         <TemporaryPage />
@@ -31,18 +31,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <p className="text-lg italic pt-4">{t("upcoming")} </p>
       </ScrollDownAnimation>
 
-      {/* Section des projets avec animation sur chaque article */}
-      <section className="mt-20 mb-16 flex gap-x-28 justify-center w-full flex-wrap">
+      <section className="mt-20 mb-16 flex flex-col md:flex-row gap-8 md:gap-x-12 lg:gap-x-28 justify-center items-center lg:items-auto w-full flex-wrap">
         {projects.map((project, index) => (
-          <div key={project.key} className="w-[37%] max-w-calc">
+          <div key={project.key} className="w-80 lg:w-[37%]">
             <ScrollDownAnimation>
               <article
                 className={`rounded-md border border-solid border-ghost-white/30 ${
-                  index % 2 !== 0 ? "mt-60" : "self-start"
+                  index % 2 !== 0 ? "md:mt-60" : "md:self-start"
                 }`}
               >
                 <ChangingImage images={project.images} url={url} alt={alt} />
-                <article className="px-10 -pt-4 pb-8">
+                <article className="px-10 pt-8 lg:pt-[-4rem] pb-8">
                 <ScrollDownAnimation>
                   <Subtitle title={project.title} />
                   </ScrollDownAnimation>

@@ -21,7 +21,7 @@ export default function ChangingImage({ images, url, alt }: ChangingImageProps) 
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-80 overflow-hidden rounded-tl-md rounded-tr-md">
+    <div className="relative w-full h-40 lg:h-80 overflow-hidden rounded-tl-md rounded-tr-md">
       <div
         className="flex transition-transform duration-1000 ease-in-out"
         style={{
@@ -40,7 +40,7 @@ export default function ChangingImage({ images, url, alt }: ChangingImageProps) 
           </div>
         ))}
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-[30%] bg-gradient-to-t from-[#0d0e12] via-[#0d0e12] via-[#0d0e12] to-transparent"></div>
+      <div className="absolute bottom-0 left-0 w-full lg:h-[30%] bg-gradient-to-t from-[#0d0e12] via-[#0d0e12] via-[#0d0e12] to-transparent"></div>
     </div>
   );
 }
