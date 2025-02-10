@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/react";
 import "@/globals.css";
 import Header from "@/components/header";
 import { Nunito_Sans } from "next/font/google";
@@ -29,7 +30,7 @@ export const viewport = {
 
 type RootLayoutProps = {
   children: React.ReactNode;
-  params:  Promise<{ locale: string }>;
+  params: Promise<{ locale: string }>;
 };
 
 export default async function RootLayout({
@@ -49,7 +50,10 @@ export default async function RootLayout({
       <body className="font-content text-ghost-white bg-dark-charcoal w-full">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          <main className="transition-opacity duration-500 ease-out">{children}</main>
+          <main className="transition-opacity duration-500 ease-out">
+            {children}
+            <Analytics />
+          </main>
           <Footer />
         </NextIntlClientProvider>
       </body>
