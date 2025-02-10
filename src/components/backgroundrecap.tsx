@@ -1,6 +1,6 @@
 import Image from "next/image";
-import diagramFr from "@/../public/background-diagram-fr.svg"
-import diagramEn from "@/../public/background-diagram-en.svg"
+import diagramFr from "@/../public/diagrams/background-diagram-fr.svg"
+import diagramEn from "@/../public/diagrams/background-diagram-en.svg"
 import { ScrollDownAnimation } from "./scrolldownanimation";
 
 type RecapProps = {

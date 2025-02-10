@@ -43,7 +43,7 @@ export default function LastProjects({ projects }: LastProjectsProps) {
           ))}
         </section>
         <div className="relative flex justify-center md:justify-end md:pr-16">
-          <AnimatedLink text={text} link={`/${locale}/projects`} />
+          <AnimatedLink text={text} link={`/${locale}/projects`} target={""} />
         </div>
       </ScrollDownAnimation>
     </section>

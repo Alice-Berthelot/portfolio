@@ -50,7 +50,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                   </ScrollDownAnimation>
                   <ScrollDownAnimation>
                   <div className="flex justify-end">
-                    <AnimatedLink text={t("more-details")} link={project.url} />
+                    <AnimatedLink text={t("more-details")} link={project.url} target={"_blank"}/>
                   </div>
                   </ScrollDownAnimation>
                 </article>
