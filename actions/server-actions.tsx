@@ -28,6 +28,7 @@ export async function getLocalizedProjectHome(
       project.homeDescription?.find((item) => item.language === localeDefault)
         ?.value || "",
     images: project.images,
+    url: project.url,
   }));
 }
 
@@ -43,6 +44,7 @@ export async function getLocalizedProjectSummary(
       project.description.find((item) => item.language === localeDefault)
         ?.value || "",
     images: project.images,
+    url: project.url,
   }));
 }
 

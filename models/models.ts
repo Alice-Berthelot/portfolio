@@ -10,6 +10,7 @@ export interface ProjectSummary {
   title: string;
   description: string;
   images: string[];
+  url: string;
 }
 
 export interface Description {

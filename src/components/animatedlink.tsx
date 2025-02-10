@@ -68,7 +68,7 @@ export default function AnimatedLink({ text, link }: ChangingImageProps) {
           }}
         />
 
-        <Link href={link} className="text-ghost-white text-xs font-bold flex">
+        <Link href={link} className="text-ghost-white text-xs font-bold flex" target="_blank">
           <text
             x="47.5%"
             y="50%"

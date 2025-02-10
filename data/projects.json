@@ -174,7 +174,7 @@
         }
       ],
       "images": ["matchngo/matchngo-1", "matchngo/matchngo-2"],
-      "url": "https://app.dev.matchn-go.com/"
+      "url": "https://www.meito.io/fr/projects/match-n-go"
     },
     {
       "key": "streetarthunter",
@@ -434,7 +434,7 @@
         }
       ],
       "images": ["temporary/temporary_picture"],
-      "url": ""
+      "url": "https://github.com/Phil-BENISSAN/0224-hackathon-team7/tree/HomePage"
     },
     {
       "key": "preflix",
