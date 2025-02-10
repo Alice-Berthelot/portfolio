@@ -20,7 +20,7 @@ export default function Footer() {
     <footer
       className={`w-11/12 py-6 flex flex-col md:flex-row md:justify-between gap-10 md:gap-6 items-center border-solid border-t border-ghost-white ${
         isFixedFooter
-          ? "fixed bottom-0 left-0 left-1/2 transform -translate-x-1/2 bg-dark-charcoal"
+          ? "mx-auto md:fixed md:bottom-0 md:left-0 md:left-1/2 md:transform md:-translate-x-1/2 md:bg-dark-charcoal"
           : "mx-auto"
       }`}
     >
@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col justify-center items-center md:items-start flex-wrap gap-4 px-6 md:px-auto">
         <p className="text-lg text-center md:text-left">{t("text")}</p>
-        <AnimatedLink text={t("link")} link={`/${locale}/contact`} />
+        <AnimatedLink text={t("link")} link={`/${locale}/contact`} target={""} />
       </div>
       <Links />
     </footer>

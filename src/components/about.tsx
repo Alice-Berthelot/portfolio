@@ -26,6 +26,7 @@ export default function About() {
         <AnimatedLink
           text={t("profile.link-to-background")}
           link={`/${locale}/background`}
+          target={""}
         />
       </div>
     </section>

@@ -6,9 +6,10 @@ import Link from "next/link";
 type ChangingImageProps = {
   text: string;
   link: string;
+  target: string;
 };
 
-export default function AnimatedLink({ text, link }: ChangingImageProps) {
+export default function AnimatedLink({ text, link, target }: ChangingImageProps) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -68,7 +69,7 @@ export default function AnimatedLink({ text, link }: ChangingImageProps) {
           }}
         />
 
-        <Link href={link} className="text-ghost-white text-xs font-bold flex">
+        <Link href={link} className="text-ghost-white text-xs font-bold flex" target={target}>
           <text
             x="47.5%"
             y="50%"
