@@ -1,5 +1,4 @@
 "use client"
-import { useState } from "react";
 import { RiMenu3Line, RiCloseLargeLine } from "react-icons/ri";
 
 type HamburgerMenuProps = {
