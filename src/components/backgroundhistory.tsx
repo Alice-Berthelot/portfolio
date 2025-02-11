@@ -38,10 +38,10 @@ export default function BackgroundHistory({
       {backgroundData.map((background) => (
         <ScrollDownAnimation key={background.key}>
           <article>
-            <h4 className="font-title text-3xl font-bold tracking-wide mx-2 md:mx-10 mb-3 tracking-wider">
+            <h4 className="font-title text-3xl font-bold tracking-wide mx-2 md:mx-4 lg:mx-10 mb-3 tracking-wider">
               {background.year}
             </h4>
-            <ul className="ml-10 md:ml-0 px-4 md:px-20 flex flex-col justify-center md:justify-start gap-2 text-base md:text-lg pt-2">
+            <ul className="ml-6 lg-6 lg:ml-10 md:ml-0 px-4 md:px-20 flex flex-col justify-center md:justify-start gap-2 text-base md:text-lg pt-2">
               {background.descriptions.map((description, index) => (
                 <li key={index} className="list-disc ">
                   {description.value}
