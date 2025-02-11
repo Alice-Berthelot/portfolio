@@ -24,6 +24,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
+    <div className="flex items-center">
     <label className="relative inline-block w-16 h-8 cursor-pointer" aria-label={`${isChecked ? 'Language switcher' : 'Sélecteur de langue'}`}>
       <input
         type="checkbox"
@@ -74,5 +75,6 @@ export default function LanguageSwitcher() {
         </span>
       </span>
     </label>
+    </div>
   );
 }
