@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 
 type IntroTextProps = {
-  locale: string;
   title: string;
   subtitle: string;
   descriptionFirst: React.ReactNode;
@@ -11,7 +10,7 @@ type IntroTextProps = {
   
 };
 
-export default function IntroText({ locale, title, subtitle, descriptionFirst, descriptionSecond, descriptionThird }: IntroTextProps) {
+export default function IntroText({ title, subtitle, descriptionFirst, descriptionSecond, descriptionThird }: IntroTextProps) {
   return (
     <motion.article
     className="flex flex-col items-end px-6 md:px-auto"
@@ -22,7 +21,7 @@ export default function IntroText({ locale, title, subtitle, descriptionFirst, d
       <h1 className={`font-title text-5xl md:text-7xl tracking-wide`}>
         {title.toUpperCase()}
       </h1>
-      <h2 className={`font-title ${locale === "en" ? "text-3xl" : "text-2xl"} md:text-3xl tracking-widest mb-10`}>{subtitle.toUpperCase()}</h2>
+      <h2 className={`font-title text-2xl md:text-3xl tracking-widest mb-10`}>{subtitle.toUpperCase()}</h2>
       <div className="flex flex-col gap-6 w-[93%] md:w-10/12 text-xl text-right">
         <p>
           {descriptionFirst}

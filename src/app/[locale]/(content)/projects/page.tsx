@@ -27,11 +27,11 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       </ScrollDownAnimation>
 
       <ScrollDownAnimation>
-        <p className="text-xl pt-8">{t("description")} </p>
-        <p className="text-lg italic pt-4">{t("upcoming")} </p>
+        <p className="text-lg pt-8">{t("description")} </p>
+        <p className="text-base italic pt-4">{t("upcoming")} </p>
       </ScrollDownAnimation>
 
-      <section className="mt-20 mb-16 flex flex-col md:flex-row gap-8 md:gap-x-12 lg:gap-x-28 justify-center items-center lg:items-auto w-full flex-wrap">
+      <section className="mt-6 mb-20 flex flex-col md:flex-row gap-8 lg:gap-0 md:gap-x-12 lg:gap-x-28 justify-center items-center lg:items-auto w-full flex-wrap">
         {projects.map((project, index) => (
           <div key={project.key} className="w-80 lg:w-[37%]">
             <ScrollDownAnimation>

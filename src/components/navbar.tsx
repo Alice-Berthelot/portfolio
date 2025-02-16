@@ -23,7 +23,7 @@ export default function NavBar() {
     <nav className="">
       <HamburgerMenu isOpen={isOpen} handleClick={handleClick} />
       <ul
-        className={`border-l border-t border-solid border-ghost-white/30 md:border-none rounded-md flex flex-col md:flex-row items-center gap-10 md:gap-4 font-semibold tracking-wide 
+        className={`border-l border-t border-solid border-ghost-white/30 md:border-none rounded-l-md flex flex-col md:flex-row items-center gap-10 md:gap-4 font-semibold tracking-wide 
         ${isOpen ? "absolute top-full right-0 w-3/5 h-screen bg-dark-charcoal text-xl p-6 pt-14" : "hidden md:flex"}`}
       >
         <li className={classLi}>

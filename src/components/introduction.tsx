@@ -12,12 +12,17 @@ export default function Introduction() {
       <ProfilePicture />
       <section className="flex flex-col items-center md:items-end w-full lg:mr-32 gap-20">
         <IntroText
-          locale={locale}
           title={t("introduction.title")}
           subtitle={t("introduction.subtitle")}
           descriptionFirst={t.rich("introduction.description-first-p", {
             name: (chunks) => (
-              <span className={`font-title ${locale === "en" ? "text-4xl" : "text-3xl"} md:text-3xl`}>{chunks}</span>
+              <span
+                className={`font-title ${
+                  locale === "en" ? "text-4xl" : "text-3xl"
+                } md:text-3xl`}
+              >
+                {chunks}
+              </span>
             ),
           })}
           descriptionSecond={t("introduction.description-second-p")}

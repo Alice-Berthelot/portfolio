@@ -85,7 +85,12 @@
           "value": "Français"
         }
       ],
-      "images": ["portfolio/portfolio-1"],
+      "images": [
+        "portfolio/portfolio-1",
+        "portfolio/portfolio-2",
+        "portfolio/portfolio-3",
+        "portfolio/portfolio-4"
+      ],
       "url": "https://github.com/Alice-Berthelot/portfolio"
     },
     {
@@ -288,7 +293,7 @@
       "description": [
         {
           "language": "en",
-          "value": "Showcase website for a fictitious law firm, also allowing to visitors to request appointments, and paralegals to deal with them."
+          "value": "Showcase website for a fictitious law firm, also allowing visitors to request appointments, and paralegals to deal with them."
         },
         {
           "language": "fr",
@@ -511,7 +516,12 @@
           "value": "Français"
         }
       ],
-      "images": ["temporary/temporary_picture"],
+      "images": [
+        "preflix/preflix-1",
+        "preflix/preflix-2",
+        "preflix/preflix-3",
+        "preflix/preflix-4"
+      ],
       "url": "https://preflix.vercel.app/"
     },
     {
@@ -667,7 +677,13 @@
           "value": "Français"
         }
       ],
-      "images": ["temporary/temporary_picture"],
+      "images": [
+        "wildcards/wildcards-1",
+        "wildcards/wildcards-2",
+        "wildcards/wildcards-3",
+        "wildcards/wildcards-4",
+        "wildcards/wildcards-5"
+      ],
       "url": "https://alice-berthelot.github.io/wildcards/"
     }
   ]

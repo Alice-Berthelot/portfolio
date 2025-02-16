@@ -1,6 +1,6 @@
 {
   "Temporary": {
-    "banner-content": "Hi there! Welcome to my portfolio. Its development is in progress, thank you for your patience!",
+    "banner-content": "Hi there! Welcome to my portfolio. Its development is in progress, thank you for your patience! 😊",
     "page-content": "The development of this page is in progress. Thank you for your patience!"
   },
   "NavBar": {
@@ -13,8 +13,8 @@
     "introduction": {
       "title": "WELCOME",
       "subtitle": "to my portfolio",
-      "description-first-p": "I'm <name>Alice Berthelot</name>, a passionate web developer from France. Former lawyer, I transitioned into a new career after falling in love with coding.",
-      "description-second-p": "Explore my skills, background, and projects by scrolling through this page or navigating using the links in the header.",
+      "description-first-p": "I'm <name>Alice Berthelot</name>, a passionate web developer from France. Former lawyer, I transitioned into web development after falling in love with coding. I'm a full-stack developer, with a special interest for back end.",
+      "description-second-p": "Explore my skills, background, and projects by scrolling through this page or navigating using the links in the header. You can also change the language, the translation is 100% done by me.",
       "description-third-p": "Feel free to reach me on the <contact>Contact page</contact>!",
       "job-research": {
         "main-sentence": "I am seeking opportunities in full-stack development, with a preference for backend:",
@@ -34,7 +34,7 @@
         "front": "Front end",
         "back": "Back end",
         "project-management": "Project management",
-        "other": "Notions of CI/CD, Cybersecurity, strong interest in generative AI and web accessibility",
+        "other": "Notions of CI/CD, Cybersecurity, Generative AI and Web Accessibility",
         "languages": "Languages",
         "languages-fr": "French (native)",
         "languages-en": "English (full professional proficiency)",
@@ -52,7 +52,7 @@
         "title": "Hobbies",
         "travels-title": "Travels",
         "travels-content": {
-          "skills": "I especially enjoy solo traveling, to go beyong my comfort zone and meet with even more people (locals and international travellers)",
+          "skills": "I especially enjoy solo traveling, to go beyond my comfort zone and meet with people from all over the world.",
           "solo": "Main solo travels: Taiwan (4 months in 2020), tour over Latin America/Oceania/Asia (10 months between 2022 and 2023), Tanzania (1 month in 2024)"
         },
         "foodandtea-title": "Food and Tea tasting",
@@ -68,7 +68,7 @@
     "title": "Projects",
     "temporary": "In the meantine, you can find my projects on GitHub:",
     "description": "Below are the projects I have contributed to. Feel free to click the \"See more\" button to find the details of each project.",
-    "upcoming": "Upcoming projects: I have many ideas, and the stacks will most likely include ReactJS, Django, and PostgreSQL",
+    "upcoming": "Many ideas for upcoming projects! Probably using ReactJS, Django, and PostgreSQL",
     "more-details": "See more",
     "alt": "animated screenshops of the app"
   },

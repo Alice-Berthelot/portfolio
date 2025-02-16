@@ -11,7 +11,7 @@
           },
           {
             "language": "fr",
-            "value": "Autoformation et projets personnel : Next.js et TailwindCSS (front-end), Python et Django (back-end), outils de déploiement",
+            "value": "Autoformation et projets personnels : Next.js et TailwindCSS (front-end), Python et Django (back-end), outils de déploiement",
             "details": []
           }
         ]
@@ -23,7 +23,7 @@
         [
           {
             "language": "en",
-            "value": "Intern Application Developer - Meito Tech Web Agency - Bordeaux, France",
+            "value": "Web Developer Intern - Meito Tech Web Agency - Bordeaux, France",
             "details": [
               "Technologies: Python, AWS (DynamoDB - NoSQL), Pytest, GitHub, Next.js, TailwindCSS",
               "Participation in the back-end development of the MatchNgo web application (see Projects page for more details) and exploration of Meito Tech's website"
@@ -44,7 +44,7 @@
             "value": "French Professionnal Certification RNCP \"Web and web mobile developer\" (equivalent to a 2-year higher education diploma) - obtained following an ntensive 5-month full-stack web development training – Wild Code School, Bordeaux, France",
             "details": [
               "Congratulations from the jury for my certification",
-              "Professional raining structured around group projects, following the Agile Scrum methode with weekly sprints leading to oral presentations in front of fictional clients"
+              "Professional training structured around group projects, following the Agile Scrum methode with weekly sprints leading to oral presentations in front of fictional clients"
             ]
           },
           {
@@ -55,18 +55,6 @@
               "Formation professionnalisante organisée sous forme de projets de groupe, selon la méthode agile Scrum avec des sprints hebdomadaires donnant lieu à des présentations orales face à des clients fictifs"
             ]
           }
-        ],
-        [
-          {
-            "language": "en",
-            "value": "First solo trip to Africa: Tanzania and Kenya in January-February 2024",
-            "details": []
-          },
-          {
-            "language": "fr",
-            "value": "Premier voyage solo en Afrique : Tanzanie/Kenya en janvier-février 2024",
-            "details": []
-          }
         ]
       ]
     },
@@ -76,12 +64,12 @@
         [
           {
             "language": "en",
-            "value": "Solo trip around the world: traveled alone and met many people (Uruguay, Argentina, New Zealand, Thailand, Vietnam, Cambodia, Singapore, Japan, Taiwan, Mongolia)",
+            "value": "Solo trip around the world: Uruguay, Argentina, New Zealand, Thailand, Vietnam, Cambodia, Singapore, Japan, Taiwan, and Mongolia",
             "details": []
           },
           {
             "language": "fr",
-            "value": "Tour du monde en solo : partie seule et rencontre de nombreuses personnes sur place (Uruguay, Argentine, Nouvelle-Zélande, Thaïlande, Vietnam, Cambodge, Singapour, Japon, Taïwan, Mongolie)",
+            "value": "Tour du monde en solo : Uruguay, Argentine, Nouvelle-Zélande, Thaïlande, Vietnam, Cambodge, Singapour, Japon, Taïwan, Mongolie",
             "details": []
           }
         ]
@@ -93,7 +81,7 @@
         [
           {
             "language": "en",
-            "value": "Discovery of web development: a revelation! Training in HTML, CSS, and JavaScript, with discussions and exchanges with many developers",
+            "value": "Discovery of web development: a revelation! Training in HTML, CSS, and JavaScript, and discussions with many developers",
             "details": []
           },
           {
@@ -260,14 +248,14 @@
           },
           {
             "language": "fr",
-            "value": "Master 2 Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
+            "value": "Master 2 de Droit social (Droit des relations de travail dans l'entreprise) - Université de Bordeaux (France) - Mention Bien",
             "details": []
           }
         ],
         [
           {
             "language": "en",
-            "value": "Internship in Employment Law – AFC Ledermann Law Firm – Bordeaux, France",
+            "value": "Employment Law Intern – AFC Ledermann Law Firm – Bordeaux, France",
             "details": []
           },
           {
@@ -279,7 +267,7 @@
         [
           {
             "language": "en",
-            "value": "Volunteer in Employment Law – Legal Clinic, University of Bordeaux",
+            "value": "Employment Law Volunteer – Legal Clinic, University of Bordeaux",
             "details": []
           },
           {
@@ -301,14 +289,14 @@
           },
           {
             "language": "fr",
-            "value": "Master 1 Droit social - Université de Bordeaux (France) - Mention Assez bien",
+            "value": "Master 1 de Droit social - Université de Bordeaux (France) - Mention Assez bien",
             "details": []
           }
         ],
         [
           {
             "language": "en",
-            "value": "Internship in Employment Law – ErecaPluriel Accounting Firm – Andernos-les-Bains, France",
+            "value": "Employment Law Intern – ErecaPluriel Accounting Firm – Andernos-les-Bains, France",
             "details": []
           },
           {
@@ -320,7 +308,7 @@
         [
           {
             "language": "en",
-            "value": "Internship in Employment Law – MEDEF Gironde Employers'Organization – Bordeaux, France",
+            "value": "Employment Law Intern – MEDEF Gironde Employers'Organization – Bordeaux, France",
             "details": []
           },
           {
@@ -340,18 +328,6 @@
             "value": "Service en restauration (job d'été) - Restaurant L'Airial - Andernos-Les-Bains (France)",
             "details": []
           }
-        ],
-        [
-          {
-            "language": "en",
-            "value": "First Solo Trip: 3 weeks in New York City, staying with a host gamily and taking English courses",
-            "details": []
-          },
-          {
-            "language": "fr",
-            "value": "Premier voyage en solo : 3 semaines à New-York city chez l'habitant avec cours d'anglais",
-            "details": []
-          }
         ]
       ]
     },
@@ -366,7 +342,7 @@
           },
           {
             "language": "fr",
-            "value": "Licence Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
+            "value": "Licence de Droit et Science Politique de l'Université de Bordeaux (France) - Mention Assez bien",
             "details": []
           }
         ],
