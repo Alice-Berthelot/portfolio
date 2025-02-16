@@ -3,7 +3,6 @@ import Introduction from "@/components/introduction";
 import LastProjects from "@/components/lastprojects";
 import { getLocalizedProjectHome } from "../../../actions/server-actions";
 import { LocaleValue } from "../../../models/models";
-import Alert from "@/components/alert";
 
 type HomePageProps = {
   params: Promise<{ locale: string }>;
@@ -15,7 +14,6 @@ export default async function HomePage({ params }: HomePageProps) {
 
   return (
     <>
-      <Alert />
       <Introduction />
       <About />
       <LastProjects projects={projectsFiltered} />

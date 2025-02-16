@@ -34,7 +34,7 @@ export default function BackgroundHistory({
   };
 
   return (
-    <section className="pt-4 pb-20 flex flex-col gap-10">
+    <section className="pt-4 flex flex-col gap-10">
       {backgroundData.map((background) => (
         <ScrollDownAnimation key={background.key}>
           <article>

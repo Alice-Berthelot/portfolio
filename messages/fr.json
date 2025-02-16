@@ -13,8 +13,8 @@
     "introduction": {
       "title": "Bienvenue",
       "subtitle": "sur mon portfolio",
-      "description-first-p": "Je m'appelle <name>Alice Berthelot</name>, je suis une développeuse web passionnée, originaire de France. Ancienne juriste, je me suis reconvertie après avoir eu un coup de coeur pour le code.",
-      "description-second-p": "Découvrez mes compétences, mon parcours, mes projets en faisant défiler cette page ou en vous baladant à l'aide des liens dans l'entête.",
+      "description-first-p": "Je m'appelle <name>Alice Berthelot</name>, je suis une développeuse web passionnée, originaire de France. Ancienne juriste, je me suis reconvertie après un coup de coeur pour le code. Je suis compétente en full-stack, avec une préférence particulière pour le back-end.",
+      "description-second-p": "Découvrez mes compétences, mon parcours, mes projets en faisant défiler cette page ou en vous baladant à l'aide des liens dans l'entête. Vous pouvez également changer la langue, la traduction étant faite 100% par mes soins.",
       "description-third-p": "N'hésitez pas à m'écrire en vous rendant sur la <contact>page Contact</contact> !",
       "job-research": {
         "main-sentence": "Je suis à l'écoute d'opportunités en développement d'applications full-stack, avec une apétence particulière pour le back-end :",
@@ -34,7 +34,7 @@
         "front": "Front-end",
         "back": "Back-end",
         "project-management": "Gestion de projet",
-        "other": "Notions de CI/CD, Cybersécurité, grand intérêt pour l'IA générative et l'accessibilité numérique",
+        "other": "Notions de CI/CD, Cybersécurité, IA générative et Accessibilité numérique",
         "languages": "Langues",
         "languages-fr": "Français natif",
         "languages-en": "Anglais courant",
@@ -52,11 +52,11 @@
         "title": "Centres d'interet",
         "travels-title": "Voyages",
         "travels-content": {
-          "skills": "Adepte de voyages, j'aime particulièrement partir seule pour sortir de ma zone de confort et rencontrer encore davantage de monde (résidents et voyageurs internationaux).",
+          "skills": "Adepte de voyages, j'aime particulièrement partir seule pour sortir de ma zone de confort et rencontrer des personnes du monde entier.",
           "solo": "Principaux voyages en solo : Taïwan (4 mois en 2020), tour Amérique latine/Océanie/Asie (10 mois entre 2022 et 2023), Tanzanie (1 mois en 2024)"
         },
         "foodandtea-title": "Gastronomie et dégustation de thé",
-        "foodandtea-content": "Découvrir de nouvelles saveurs issues de cuisines du monde et participer à des ateliers de dégustation de thé",
+        "foodandtea-content": "Découvrir diverses cuisines du monde et participer à des ateliers de dégustation de thé",
         "sports-title": "Sports d'endurance",
         "sports-content": "Natation, vélo, randonnée et course"
       },
@@ -68,7 +68,7 @@
     "title": "Mes Projets",
     "temporary": "En attendant, vous pouvez retrouver les différents projets que j'ai réalisés sur GitHub :",
     "description": "Vous trouverez ci-dessous les différents projets auxquels j'ai contribués. Cliquez sur \"En savoir plus\" pour retrouver les détails de chaque projet.",
-    "upcoming": "Projets à venir : de nombreuses idées, les stacks seront probablement ReactJS, Django et PostgreSQL",
+    "upcoming": "De nombreuses idées pour les projets à venir ! Probablement en ReactJS, Django et PostgreSQL",
     "more-details": "En savoir plus",
     "alt": "captures d'écran animées de l'application"
   },
