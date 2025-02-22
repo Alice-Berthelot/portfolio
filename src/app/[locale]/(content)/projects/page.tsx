@@ -23,7 +23,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <section className="px-6 md:px-12 lg:px-16 pt-6">
       <ScrollDownAnimation>
         <Title title={t("title")} />
-        <TemporaryPage />
       </ScrollDownAnimation>
 
       <ScrollDownAnimation>

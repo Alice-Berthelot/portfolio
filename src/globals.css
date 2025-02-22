@@ -72,3 +72,17 @@
   width: 0;
   transition: none;
 }
+
+.slide-in {
+  transform: translateX(100%);
+  animation: slideInFromRight 0.5s ease-out forwards;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
