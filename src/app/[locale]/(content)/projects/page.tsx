@@ -5,7 +5,6 @@ import { getTranslations } from "next-intl/server";
 import Subtitle from "@/components/subtitle";
 import ChangingImage from "@/components/changingimg";
 import AnimatedLink from "@/components/animatedlink";
-import TemporaryPage from "@/components/temporarypage";
 import { ScrollDownAnimation } from "@/components/scrolldownanimation";
 
 type ProjectPageProps = {
