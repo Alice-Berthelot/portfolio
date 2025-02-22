@@ -11,20 +11,32 @@ export default function NavBar() {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (
+    e: React.MouseEvent<HTMLButtonElement | HTMLDivElement>
+  ) => {
     e.preventDefault();
     setIsOpen(!isOpen);
-  }
+  };
 
   const classLi =
     "relative transform transition-all ease-in-out duration-300 lg:hover:rotate-[-10deg] ";
 
   return (
-    <nav className="">
+    <nav className="z-40">
+      {isOpen && (
+        <div
+          className="fixed top-10 left-0 w-screen h-screen bg-dark-charcoal bg-opacity-30"
+          onClick={handleClick}
+        ></div>
+      )}
       <HamburgerMenu isOpen={isOpen} handleClick={handleClick} />
       <ul
         className={`border-l border-t border-solid border-ghost-white/30 md:border-none rounded-l-md flex flex-col md:flex-row items-center gap-10 md:gap-4 font-semibold tracking-wide 
-        ${isOpen ? "absolute top-full right-0 w-3/5 h-screen bg-dark-charcoal text-xl p-6 pt-14" : "hidden md:flex"}`}
+        ${
+          isOpen
+            ? "absolute top-full right-0 w-3/5 h-screen bg-dark-charcoal text-xl p-6 pt-14 slide-in"
+            : "hidden md:flex"
+        }`}
       >
         <li className={classLi}>
           <Link href={`/${locale}/#about`}>{t("about")}</Link>

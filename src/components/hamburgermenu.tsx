@@ -11,7 +11,7 @@ export default function HamburgerMenu({isOpen, handleClick} : HamburgerMenuProps
   return (
     <button
       onClick={handleClick}
-      className="relative w-10 h-10 flex items-center justify-center text-ghostwhite text-3xl md:hidden"
+      className="relative w-10 h-10 flex items-center justify-center text-ghostwhite text-3xl z-100 md:hidden"
     >
       <RiMenu3Line
         className={`absolute transition-all duration-500 ease-in-out text-ghostwhite/80 ${

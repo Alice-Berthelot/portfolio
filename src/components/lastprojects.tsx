@@ -32,7 +32,7 @@ export default function LastProjects({ projects }: LastProjectsProps) {
                   index % 2 !== 0 ? "ml-auto md:ml-0" : "mr-auto md:mr-0"
                 }`}
               >
-                <div className="h-full px-10 py-4 bg-dark-charcoal/95 rounded-md flex justify-center items-center opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500 ease-in-out">
+                <div className="hidden lg:flex h-full px-10 py-4 bg-dark-charcoal/95 rounded-md justify-center items-center opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500 ease-in-out">
                   <div className="text-center">
                     <Subtitle title={project.title} />
                     <p>{project.description}</p>

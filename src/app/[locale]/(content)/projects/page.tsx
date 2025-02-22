@@ -5,7 +5,6 @@ import { getTranslations } from "next-intl/server";
 import Subtitle from "@/components/subtitle";
 import ChangingImage from "@/components/changingimg";
 import AnimatedLink from "@/components/animatedlink";
-import TemporaryPage from "@/components/temporarypage";
 import { ScrollDownAnimation } from "@/components/scrolldownanimation";
 
 type ProjectPageProps = {
@@ -23,7 +22,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <section className="px-6 md:px-12 lg:px-16 pt-6">
       <ScrollDownAnimation>
         <Title title={t("title")} />
-        <TemporaryPage />
       </ScrollDownAnimation>
 
       <ScrollDownAnimation>
