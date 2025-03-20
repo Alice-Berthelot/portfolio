@@ -12,7 +12,7 @@ export default function ContactPage() {
         <TemporaryPage />
       </ScrollDownAnimation>
       <ScrollDownAnimation>
-        <p className="mt-8 mb-2">{t("temporary")}</p>
+        <p className="mt-8 mb-2 text-ghost-white/75">{t("temporary")}</p>
         <a
           href="mailto:aliceberthelot.pro@gmail.com"
           className="underline underline-offset-4 text-xl"

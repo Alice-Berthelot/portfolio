@@ -20,8 +20,8 @@ export default function Hobbies() {
                 </h4>
                 <IoEarthSharp className="size-8 m-auto my-2" />
 
-                <p>{t("profile.hobbies.travels-content.skills")}</p>
-                <p className="italic text-sm mt-2">
+                <p className="text-ghost-white/75">{t("profile.hobbies.travels-content.skills")}</p>
+                <p className="italic text-sm mt-2 text-ghost-white/75">
                   {t("profile.hobbies.travels-content.solo")}
                 </p>
               </div>
@@ -34,7 +34,7 @@ export default function Hobbies() {
                     {t("profile.hobbies.foodandtea-title")}
                   </h4>
                   <BsCupHotFill className="size-6 mx-auto my-2" />
-                  <p>{t("profile.hobbies.foodandtea-content")}</p>
+                  <p className="text-ghost-white/75">{t("profile.hobbies.foodandtea-content")}</p>
                 </ScrollDownAnimation>
               </div>
 
@@ -44,7 +44,7 @@ export default function Hobbies() {
                     {t("profile.hobbies.sports-title")}
                   </h4>
                   <FaSwimmer className="size-8 m-auto my-1" />
-                  <p>{t("profile.hobbies.sports-content")}</p>
+                  <p className="text-ghost-white/75">{t("profile.hobbies.sports-content")}</p>
                 </ScrollDownAnimation>
               </div>
             </div>

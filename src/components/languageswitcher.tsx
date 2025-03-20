@@ -40,7 +40,7 @@ export default function LanguageSwitcher() {
 
       <span
         className={`absolute text-sm font-bold transition-all duration-300 ease-in-out ${
-          isChecked ? "left-2 text-gray-500" : "right-2 text-gray-500"
+          isChecked ? "left-2 text-gray-500 hover-ghost-white" : "right-2 text-gray-500 hover-ghost-white"
         }`}
         style={{
           top: "50%",

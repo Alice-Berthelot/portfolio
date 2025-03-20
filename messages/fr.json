@@ -67,7 +67,7 @@
   "ProjectPage": {
     "title": "Mes Projets",
     "temporary": "En attendant, vous pouvez retrouver les différents projets que j'ai réalisés sur GitHub :",
-    "description": "Vous trouverez ci-dessous les différents projets auxquels j'ai contribués. Cliquez sur \"En savoir plus\" pour retrouver les détails de chaque projet.",
+    "description": "Vous trouverez ci-dessous les différents projets auxquels j'ai contribué. Cliquez sur \"En savoir plus\" pour retrouver les détails de chaque projet. Pour le moment, les liens pointent soit vers le site déployé (mis en ligne), soit vers le repository GitHub où vous retrouverez le code et le détail des projets.",
     "upcoming": "De nombreuses idées pour les projets à venir ! Probablement en ReactJS, Django et PostgreSQL",
     "more-details": "En savoir plus",
     "alt": "captures d'écran animées de l'application"

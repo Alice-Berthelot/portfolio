@@ -17,7 +17,7 @@ export default function Introduction() {
           descriptionFirst={t.rich("introduction.description-first-p", {
             name: (chunks) => (
               <span
-                className={`font-title ${
+                className={`font-title text-ghost-white ${
                   locale === "en" ? "text-4xl" : "text-3xl"
                 } md:text-3xl`}
               >

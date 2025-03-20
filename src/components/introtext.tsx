@@ -22,7 +22,7 @@ export default function IntroText({ title, subtitle, descriptionFirst, descripti
         {title.toUpperCase()}
       </h1>
       <h2 className={`font-title text-2xl md:text-3xl tracking-widest mb-10`}>{subtitle.toUpperCase()}</h2>
-      <div className="flex flex-col gap-6 w-[93%] md:w-10/12 text-xl text-right">
+      <div className="flex flex-col gap-6 w-[93%] text-ghost-white/75 md:w-10/12 text-lg text-right">
         <p>
           {descriptionFirst}
         </p>

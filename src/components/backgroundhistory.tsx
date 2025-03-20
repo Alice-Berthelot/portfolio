@@ -41,7 +41,7 @@ export default function BackgroundHistory({
             <h4 className="font-title text-3xl font-bold tracking-wide mx-2 md:mx-4 lg:mx-10 mb-3 tracking-wider">
               {background.year}
             </h4>
-            <ul className="ml-6 lg-6 lg:ml-10 md:ml-0 px-4 md:px-20 flex flex-col justify-center md:justify-start gap-2 text-base md:text-lg pt-2">
+            <ul className="ml-6 lg-6 lg:ml-10 md:ml-0 px-4 md:px-20 flex flex-col justify-center md:justify-start gap-2 text-base md:text-lg pt-2 text-ghost-white/75">
               {background.descriptions.map((description, index) => (
                 <li key={index} className="list-disc ">
                   {description.value}
@@ -53,7 +53,7 @@ export default function BackgroundHistory({
                       <>
                         {!detailedItems[background.key]?.[index] ? (
                           <button
-                            className="md:ml-4 flex gap items-center underline underline-offset-2 text-sm text-ghost-white/60"
+                            className="md:ml-4 flex gap items-center underline underline-offset-2 text-sm text-ghost-white"
                             onClick={() => handleToggle(background.key, index)} // Sending both background.key and details index to ensure the button corresponds to the right li
                           >
                             <IoMdArrowDropdown className="text-lg" />
@@ -72,7 +72,7 @@ export default function BackgroundHistory({
                               ))}
                             </ul>
                             <button
-                              className="mt-2 flex gap items-center underline underline-offset-2 text-sm text-ghost-white/60"
+                              className="mt-2 flex gap items-center underline underline-offset-2 text-sm text-ghost-white"
                               onClick={() =>
                                 handleToggle(background.key, index)
                               } // Sending both background.key and details index to ensure the button corresponds to the right li

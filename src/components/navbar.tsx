@@ -4,6 +4,7 @@ import { useLocale } from "next-intl";
 import Link from "next/link";
 import HamburgerMenu from "./hamburgermenu";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function NavBar() {
   const t = useTranslations("NavBar");
@@ -18,8 +19,10 @@ export default function NavBar() {
     setIsOpen(!isOpen);
   };
 
+  const pathname = usePathname();
+
   const classLi =
-    "relative transform transition-all ease-in-out duration-300 lg:hover:rotate-[-10deg] ";
+    "relative transform transition-all ease-in-out duration-300 lg:hover:rotate-[-10deg] hover:text-ghost-white";
 
   return (
     <nav className="z-40">
@@ -38,16 +41,25 @@ export default function NavBar() {
             : "hidden md:flex"
         }`}
       >
-        <li className={classLi}>
-          <Link href={`/${locale}/#about`}>{t("about")}</Link>
+        <li className={`${classLi} ${((pathname === `/${locale}`) || (pathname === `/${locale}/#about`))  ? "text-ghost-white" : "text-ghost-white/75"}`}>
+          <Link
+            href={`/${locale}/#about`}
+          >
+            {t("about")}
+          </Link>
         </li>
-        <li className={classLi}>
-          <Link href={`/${locale}/projects`}>{t("projects")}</Link>
+        <li className={`${classLi} ${(pathname === `/${locale}/projects`)  ? "text-ghost-white" : "text-ghost-white/75"}`}>
+          <Link
+            href={`/${locale}/projects`}
+            className="aria-[current=page]:text-ghost-white"
+          >
+            {t("projects")}
+          </Link>
         </li>
-        <li className={classLi}>
+        <li className={`${classLi} ${(pathname === `/${locale}/background`)  ? "text-ghost-white" : "text-ghost-white/75"}`}>
           <Link href={`/${locale}/background`}>{t("background")}</Link>
         </li>
-        <li className={classLi}>
+        <li className={`${classLi} ${(pathname === `/${locale}/contact`)  ? "text-ghost-white" : "text-ghost-white/75"}`}>
           <Link href={`/${locale}/contact`}>{t("contact")}</Link>
         </li>
       </ul>

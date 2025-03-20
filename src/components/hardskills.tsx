@@ -32,7 +32,7 @@ export default function HardSkills() {
       <ScrollDownAnimation>
         <section className="bg-dark-charcoal flex flex-col gap-4 px-8 md:px-10 py-8 rounded-md border border-solid border-ghost-white/30">
           <Subtitle title={t("profile.hardskills-title")} />
-          <h4>{t("profile.hardskills-content.front")}</h4>
+          <h4 className="text-ghost-white/75">{t("profile.hardskills-content.front")}</h4>
           <div className="flex flex-wrap gap-4">
             <figure className="relative group">
               <Image src={js} width="48" alt="JavaScript" unoptimized />
@@ -101,7 +101,7 @@ export default function HardSkills() {
               </figcaption>
             </figure>
           </div>
-          <h4 className="mt-4">{t("profile.hardskills-content.back")}</h4>
+          <h4 className="mt-4 text-ghost-white/75">{t("profile.hardskills-content.back")}</h4>
           <div className="flex gap-4 mb-2">
             <figure className="relative group">
               <Image
@@ -142,7 +142,7 @@ export default function HardSkills() {
               </figcaption>
             </figure>
           </div>
-          <h4>Data</h4>
+          <h4 className="text-ghost-white/75">Data</h4>
           <div className="flex gap-3 mb-2">
             <figure className="relative group">
               <Image
@@ -193,7 +193,7 @@ export default function HardSkills() {
               </figcaption>
             </figure>
           </div>
-          <h4>Tests</h4>
+          <h4 className="text-ghost-white/75">Tests</h4>
           <div className="flex gap-4 mb-2">
             <figure className="relative group">
               <Image
@@ -222,7 +222,7 @@ export default function HardSkills() {
               </figcaption>
             </figure>
           </div>
-          <h4>{t("profile.hardskills-content.project-management")}</h4>
+          <h4 className="text-ghost-white/75">{t("profile.hardskills-content.project-management")}</h4>
           <div className="flex gap-4">
             <figure className="relative group">
               <Image src={git} width="48" alt="Git" title="Git" unoptimized />
@@ -267,10 +267,10 @@ export default function HardSkills() {
               </figcaption>
             </figure>
           </div>
-          <p className="mt-10 mb-4">{t("profile.hardskills-content.other")}</p>
-          <h4>{t("profile.hardskills-content.languages")}</h4>
+          <p className="mt-10 mb-4 text-ghost-white/75">{t("profile.hardskills-content.other")}</p>
+          <h4 className="text-ghost-white/75">{t("profile.hardskills-content.languages")}</h4>
 
-          <ul className="list-disc pl-4">
+          <ul className="list-disc pl-4 text-ghost-white/75">
             <li>{t("profile.hardskills-content.languages-fr")} 🇫🇷 </li>
             <li>{t("profile.hardskills-content.languages-en")} 🇬🇧 🇺🇸</li>
             <li>{t("profile.hardskills-content.languages-es-jp")} 🇪🇸 🇯🇵</li>
