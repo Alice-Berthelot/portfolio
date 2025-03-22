@@ -360,7 +360,14 @@
           "value": "Français"
         }
       ],
-      "images": ["temporary/temporary_picture"],
+      "images": [
+        "girondin/girondin-1",
+        "girondin/girondin-2",
+        "girondin/girondin-3",
+        "girondin/girondin-4",
+        "girondin/girondin-5",
+        "girondin/girondin-6"
+      ],
       "url": "https://github.com/Alice-Berthelot/checkpoint4"
     },
     {

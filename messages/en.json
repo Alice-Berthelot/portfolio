@@ -67,7 +67,8 @@
   "ProjectPage": {
     "title": "Projects",
     "temporary": "In the meantine, you can find my projects on GitHub:",
-    "description": "Below are the projects I have contributed to. Feel free to click the \"See more\" button to find the details of each project. For now, the links either point to the (online) deployed website or to the GitHub repository where you can find the code and project details.",
+    "description-first-p": "Below are the projects I have contributed to. Feel free to click the \"See more\" button to find the details of each project.",
+    "description-second-p": "For now, the links either point to the (online) deployed website or to the GitHub repository where you can find the code and project details.",
     "upcoming": "Many ideas for upcoming projects! Probably using ReactJS, Django, and PostgreSQL",
     "more-details": "See more",
     "alt": "animated screenshops of the app"
