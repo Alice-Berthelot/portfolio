@@ -17,6 +17,7 @@ export default {
         "dark-charcoal": "#0d0e12",
         "ghost-white": "#EBEDFF",
         "regal-blue": "#8591C2",
+        "joyful": "#8400FF",
       },
       boxShadow: {
         header: "0 0 10px 0 rgba(0, 0, 0, 0.4)",

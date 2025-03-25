@@ -12,13 +12,14 @@ export default function Hobbies() {
       <ScrollDownAnimation>
         <section className="bg-dark-charcoal lg:-mt-[16rem] flex flex-col gap-6 rounded-xl text-base px-16 py-8 rounded-md border border-solid border-ghost-white/30">
           <Subtitle title={t("profile.hobbies.title")} />
-          <section className="text-center flex flex-col gap-12 justify-center items-center">
+          <section className="mb-2 flex flex-col gap-12 justify-center items-center">
             <ScrollDownAnimation>
               <div>
-                <h4 className="font-bold text-lg">
+              <IoEarthSharp className="size-7 ml-2 text-joyful" />
+                <h4 className="font-bold text-lg my-2 ">
                   {t("profile.hobbies.travels-title")}
                 </h4>
-                <IoEarthSharp className="size-8 m-auto my-2" />
+               
 
                 <p className="text-ghost-white/75">{t("profile.hobbies.travels-content.skills")}</p>
                 <p className="italic text-sm mt-2 text-ghost-white/75">
@@ -27,23 +28,23 @@ export default function Hobbies() {
               </div>
             </ScrollDownAnimation>
 
-            <div className="flex gap-4 items-center">
+            <div className="flex gap-6">
               <div className="w-1/2">
                 <ScrollDownAnimation>
-                  <h4 className="font-bold text-lg">
+                  <BsCupHotFill className="size-6 ml-2 text-joyful" />
+                  <h4 className="font-bold text-lg my-2">
                     {t("profile.hobbies.foodandtea-title")}
                   </h4>
-                  <BsCupHotFill className="size-6 mx-auto my-2" />
                   <p className="text-ghost-white/75">{t("profile.hobbies.foodandtea-content")}</p>
                 </ScrollDownAnimation>
               </div>
 
               <div className="w-1/2">
                 <ScrollDownAnimation>
-                  <h4 className="font-bold text-lg">
+                  <FaSwimmer className="size-8 ml-2 text-joyful" />
+                  <h4 className="font-bold text-lg mb-2">
                     {t("profile.hobbies.sports-title")}
                   </h4>
-                  <FaSwimmer className="size-8 m-auto my-1" />
                   <p className="text-ghost-white/75">{t("profile.hobbies.sports-content")}</p>
                 </ScrollDownAnimation>
               </div>

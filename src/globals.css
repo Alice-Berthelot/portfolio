@@ -37,52 +37,65 @@
 @keyframes fillBackground {
   0% {
     background-color: transparent;
+    color: #0d0e12;
     width: 0;
   }
   100% {
-    background-color: rgb(235, 237, 255, 0.9);
+    background-color: #8400ff;
+    color: #0d0e12;
     width: 100%;
   }
 }
-
 .download-button {
   position: relative;
   overflow: hidden;
-  color: #ebedff; /* Couleur initiale du texte */
-  transition: color 0.3s ease; /* Ajouter une transition douce pour le texte */
+  color: #ebedffe6; /* Couleur du texte (au besoin) */
+  transition: color 0.3s ease;
+}
+
+.download-icon {
+  color: #8400ff; /* Couleur violette par défaut */
+  transition: color 0.3s ease;
+}
+
+/* Changer la couleur de l'icône au survol du bouton */
+.download-button:hover .download-icon {
+  color: #0d0e12; /* Couleur noire au survol */
 }
 
 .download-button:hover {
-  color: #0d0e12; /* Changer la couleur du texte au survol */
+  color: #0d0e12; /* Couleur du texte du bouton au survol */
 }
 
-.download-button:hover::before {
+.download-button:hover::before,
+.download-icon:hover::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(235, 237, 255, 0.9);
+  background-color: #8400ff; /* Couleur violette de fond */
+  color: #0d0e12; /* Couleur du texte sur le survol (en noir) */
   animation: fillBackground 0.3s forwards;
   z-index: -1;
 }
 
-.download-button::before {
+.download-button::before,
+.download-icon::before {
   width: 0;
   transition: none;
 }
 
-.slide-in {
-  transform: translateX(100%);
-  animation: slideInFromRight 0.5s ease-out forwards;
-}
-
-@keyframes slideInFromRight {
+@keyframes fillBackground {
   0% {
-    transform: translateX(100%);
+    background-color: transparent;
+    color: #0d0e12;
+    width: 0;
   }
   100% {
-    transform: translateX(0);
+    background-color: #8400ff;
+    color: #0d0e12;
+    width: 100%;
   }
 }

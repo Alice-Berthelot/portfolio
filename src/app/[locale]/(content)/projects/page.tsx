@@ -46,7 +46,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                     <Subtitle title={project.title} />
                   </ScrollDownAnimation>
                   <ScrollDownAnimation>
-                    <p className="pb-6">{project.description}</p>
+                    <p className="pb-6 text-ghost-white/75">{project.description}</p>
                   </ScrollDownAnimation>
                   <ScrollDownAnimation>
                     <div className="flex justify-end">

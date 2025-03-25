@@ -56,7 +56,7 @@ export default function BackgroundHistory({
                             className="md:ml-4 flex gap items-center underline underline-offset-2 text-sm text-ghost-white"
                             onClick={() => handleToggle(background.key, index)} // Sending both background.key and details index to ensure the button corresponds to the right li
                           >
-                            <IoMdArrowDropdown className="text-lg" />
+                            <IoMdArrowDropdown className="text-lg text-joyful" />
                             {more}
                           </button>
                         ) : (
@@ -77,7 +77,7 @@ export default function BackgroundHistory({
                                 handleToggle(background.key, index)
                               } // Sending both background.key and details index to ensure the button corresponds to the right li
                             >
-                              <IoMdArrowDropup className="text-lg" />
+                              <IoMdArrowDropup className="text-lg text-joyful" />
                               {less}
                             </button>
                           </>

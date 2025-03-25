@@ -18,7 +18,7 @@ export default function SoftSkills() {
               <ScrollDownAnimation key={key}>
                 <li className="text-lg">{value}</li>
                 {index < array.length - 1 && (
-                  <li key={`${key} - separator`}> ~ </li>
+                  <li key={`${key} - separator`} className="text-joyful"> ~ </li>
                 )}
               </ScrollDownAnimation>
             ))}

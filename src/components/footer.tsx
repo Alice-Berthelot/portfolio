@@ -31,10 +31,10 @@ export default function Footer() {
           width="50"
           className="md:ml-2"
         />
-        <p className="text-xs text-ghost-white/80">© 2025 Alice Berthelot</p>
+        <p className="text-xs text-ghost-white/80"><span className="text-joyful">©</span> 2025 Alice Berthelot</p>
       </div>
       <div className="flex flex-col justify-center items-center md:items-start flex-wrap gap-4 px-6 md:px-auto">
-        <p className="text-lg text-ghost-white/75 text-center md:text-left">{t("text")}</p>
+        <p className="text-lg text-ghost-white text-center md:text-left">{t("text")}</p>
         <AnimatedLink text={t("link")} link={`/${locale}/contact`} target={""} />
       </div>
       <Links />
