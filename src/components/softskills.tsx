@@ -13,7 +13,7 @@ export default function SoftSkills() {
       <ScrollDownAnimation>
         <section className="bg-dark-charcoal mt-auto lg:mt-56 px-10 py-8 rounded-md border border-solid border-ghost-white/30 self-start">
           <Subtitle title={t("profile.softskills-title")} />
-          <ul className="pt-4 space-y-2 text-center text-ghost-white/75">
+          <ul className="pt-4 space-y-2 text-center text-ghost-white">
             {Object.entries(softSkills).map(([key, value], index, array) => (
               <ScrollDownAnimation key={key}>
                 <li className="text-lg">{value}</li>
