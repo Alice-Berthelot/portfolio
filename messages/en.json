@@ -142,10 +142,16 @@
     "temporary": "In the meantime, you can contact me at the following email address:",
     "description": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Message..."
+      "legend": "Have a project in mind? An opportunity to share? Any questions?",
+      "name-label": "Name",
+      "name-placeholder": "Enter your name...",
+      "email-label": "Email",
+      "email-placeholder": "Enter your email address...",
+      "message-label": "Message...",
+      "message-placeholder": "Type your message...",
+      "submit-button": "Send",
+      "success": "Your message has been delivered. Thank you!",
+      "failure": "Sorry, your message could not be delivered due to a technical issue. If the error is not resolved, please send me your message directly to aliceberthelot.pro@gmail.com"
     }
   },
   "Footer": {

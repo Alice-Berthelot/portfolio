@@ -1,7 +1,14 @@
+import ContactForm from "@/components/contactform";
 import { ScrollDownAnimation } from "@/components/scrolldownanimation";
 import TemporaryPage from "@/components/temporarypage";
 import Title from "@/components/title";
 import { useTranslations } from "next-intl";
+
+// add recaptcha
+// secure email type
+// secure message content too
+// add variables with Vercel: just create the variables on Vercel/Environement Variables in the project settings
+// add auto-reply on EmailJs
 
 export default function ContactPage() {
   const t = useTranslations("ContactPage");
@@ -19,6 +26,18 @@ export default function ContactPage() {
         >
           aliceberthelot.pro@gmail.com
         </a>
+        <ContactForm
+          legend={t("form.legend")}
+          nameLabel={t("form.name-label")}
+          namePlaceholder={t("form.name-placeholder")}
+          emailLabel={t("form.email-label")}
+          emailPlaceholder={t("form.email-placeholder")}
+          messageLabel={t("form.message-label")}
+          messagePlaceholder={t("form.message-placeholder")}
+          submitButton={t("form.submit-button")}
+          successMessage={t("form.success")}
+          failureMessage={t("form.failure")}
+        />
       </ScrollDownAnimation>
     </section>
   );
