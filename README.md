@@ -4,13 +4,15 @@
 
 _The latest version is on the **dev** branch_
 
-**Concept:** front end app introducing my portfolio (a recap of my projects, background, profile, etc.), the main objective is to learn how to use Next.js, TypeScript and TailwindCSS
+**Concept:** front-end app introducing my portfolio (a recap of my projects, background, profile, etc.), the main objective is to learn how to use Next.js, TypeScript and TailwindCSS
 
 **My completed tasks:** 
 - learned Next.js, TypeScript and TailwindCSS
 - coded all the pages and created all the assets
 - implemented a translation system English/French for the whole app
 - implemented continuous deployment with Vercel
+
+*More details can be seen in <a href="https://github.com/Alice-Berthelot/portfolio/issues">the Issues tab</a>.*
 
 **Languages:** 🇫🇷 🇬🇧
 
