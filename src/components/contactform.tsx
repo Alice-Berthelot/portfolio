@@ -1,41 +1,40 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { BiMailSend } from "react-icons/bi";
 
 type ContactFormProps = {
   ariaLabel: string;
-  legend: string;
-
   nameLabel: string;
   namePlaceholder: string;
-
   emailLabel: string;
   emailPlaceholder: string;
-
-  messageLabel: string;
   messagePlaceholder: string;
-
+  required:string;
   submitButton: string;
-
   successMessage: string;
   failureMessage: string;
 };
 
 export default function ContactForm({
   ariaLabel,
-  legend,
   nameLabel,
   namePlaceholder,
   emailLabel,
   emailPlaceholder,
-  messageLabel,
   messagePlaceholder,
+  required,
   submitButton,
   successMessage,
   failureMessage,
 }: ContactFormProps) {
+  const [isSuccess, setIsSuccess] = useState(false);
   const form = useRef<HTMLFormElement>(null);
+  const formStyle = "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-2/3 m-auto flex flex-col gap-2";
+  const inputStyle =
+    "rounded-md py-2 px-4 bg-ghost-white/20 focus:bg-ghost-white/40 text-ghost-white/80 focus:text-dark-charcoal focus:font-semibold";
+  const labelStyle = "text-lg";
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -65,7 +64,7 @@ export default function ContactForm({
       )
       .then(
         () => {
-          alert(successMessage);
+          setIsSuccess(true);
           form.current?.reset();
         },
         (error) => {
@@ -76,46 +75,66 @@ export default function ContactForm({
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} aria-label={ariaLabel}>
-      <fieldset className="rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-4/5 m-auto flex flex-col">
-        <legend>{legend}</legend>
-        <label htmlFor="name">
-          {nameLabel} <span className="text-joyful">*</span>
-        </label>
-        <input
-          type="text"
-          maxLength={256}
-          name="name"
-          id="name"
-          placeholder={namePlaceholder}
-          required
-        ></input>
-        <label>
-          {emailLabel} <span className="text-joyful">*</span>
-        </label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder={emailPlaceholder}
-          required
-        ></input>
-        <label htmlFor="message">
-          {messageLabel} <span className="text-joyful">*</span>
-        </label>
-        <textarea
-          maxLength={5000}
-          name="message"
-          id="message"
-          placeholder={messagePlaceholder}
-          required
-        ></textarea>
+    <>
+      {!isSuccess ? (
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          aria-label={ariaLabel}
+          className={formStyle}
+        >
+          <label htmlFor="name" className={labelStyle}>
+            {nameLabel} <span className="text-joyful">*</span>
+          </label>
+          <input
+            type="text"
+            maxLength={256}
+            name="name"
+            id="name"
+            placeholder={namePlaceholder}
+            className={inputStyle}
+            required
+          ></input>
+          <div className="flex flex-col gap-2 mb-4 mt-4">
+            <label>
+              {emailLabel} <span className="text-joyful">*</span>
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder={emailPlaceholder}
+              className={inputStyle}
+              required
+            ></input>
+          </div>
+          <label htmlFor="message">
+            Message <span className="text-joyful">*</span>
+          </label>
+          <textarea
+            maxLength={5000}
+            name="message"
+            id="message"
+            placeholder={messagePlaceholder}
+            className={`${inputStyle} h-40`}
+            required
+          ></textarea>
+          <p className="text-sm text-ghost-white/60 italic mt-2 pl-2">
+            <span className="text-joyful">*</span> {required}
+          </p>
           <button
             type="submit"
-            className="w-32 inline-block flex items-center justify-center gap-2 py-4 lg:py-3 px-6 rounded-md border border-solid border-ghost-white/30 text-base md:text-sm lg:text-base font-bold download-button hover:dark-charcoal"          >
+            className="w-32 flex items-center justify-center gap-2 py-2 lg:py-2 rounded-md border border-solid border-ghost-white/30 text-base md:text-sm lg:text-base font-bold download-button hover:dark-charcoal mt-4 md:self-end md:mr-16"
+          >
             {submitButton}
           </button>
-      </fieldset>
-    </form>
+        </form>
+      ) : (
+        <div className={`${formStyle} flex flex-col items-center`}>
+          <p className="text-ghost-white/75 text-center text-lg">{successMessage}</p>
+          <BiMailSend className="text-joyful text-2xl" />
+        </div>
+      )}
+    </>
   );
 }
