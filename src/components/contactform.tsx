@@ -11,10 +11,13 @@ type ContactFormProps = {
   emailLabel: string;
   emailPlaceholder: string;
   messagePlaceholder: string;
-  required:string;
+  required: string;
   submitButton: string;
   successMessage: string;
   failureMessage: string;
+  publicKey: string;
+  serviceId: string;
+  templateId: string;
 };
 
 export default function ContactForm({
@@ -28,13 +31,17 @@ export default function ContactForm({
   submitButton,
   successMessage,
   failureMessage,
+  publicKey,
+  serviceId,
+  templateId,
 }: ContactFormProps) {
   const [isSuccess, setIsSuccess] = useState(false);
   const form = useRef<HTMLFormElement>(null);
-  const formStyle = "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-2/3 m-auto flex flex-col gap-2";
+
+  const formStyle =
+    "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-2/3 m-auto flex flex-col gap-2";
   const inputStyle =
     "rounded-md py-2 px-4 bg-ghost-white/20 focus:bg-ghost-white/40 text-ghost-white/80 focus:text-dark-charcoal focus:font-semibold";
-  const labelStyle = "text-lg";
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -43,35 +50,28 @@ export default function ContactForm({
       throw new Error("Email form data are missing!");
     }
 
-    if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID) {
+    if (!serviceId) {
       throw new Error("EmailJS service ID is missing!");
     }
 
-    if (!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID) {
+    if (!templateId) {
       throw new Error("EmailJS template ID is missing!");
     }
 
-    if (!process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY) {
+    if (!publicKey) {
       throw new Error("EmailJS public key is missing!");
     }
 
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        form.current,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setIsSuccess(true);
-          form.current?.reset();
-        },
-        (error) => {
-          alert(failureMessage);
-          console.error("FAILED...", error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      () => {
+        setIsSuccess(true);
+        form.current?.reset();
+      },
+      (error) => {
+        alert(failureMessage);
+        console.error("FAILED...", error.text);
+      }
+    );
   };
 
   return (
@@ -83,7 +83,7 @@ export default function ContactForm({
           aria-label={ariaLabel}
           className={formStyle}
         >
-          <label htmlFor="name" className={labelStyle}>
+          <label htmlFor="name" className="text-lg">
             {nameLabel} <span className="text-joyful">*</span>
           </label>
           <input
@@ -96,7 +96,7 @@ export default function ContactForm({
             required
           ></input>
           <div className="flex flex-col gap-2 mb-4 mt-4">
-            <label>
+            <label className="text-lg">
               {emailLabel} <span className="text-joyful">*</span>
             </label>
             <input
@@ -108,7 +108,7 @@ export default function ContactForm({
               required
             ></input>
           </div>
-          <label htmlFor="message">
+          <label htmlFor="message" className="text-lg">
             Message <span className="text-joyful">*</span>
           </label>
           <textarea
@@ -131,7 +131,9 @@ export default function ContactForm({
         </form>
       ) : (
         <div className={`${formStyle} flex flex-col items-center`}>
-          <p className="text-ghost-white/75 text-center text-lg">{successMessage}</p>
+          <p className="text-ghost-white/75 text-center text-lg">
+            {successMessage}
+          </p>
           <BiMailSend className="text-joyful text-2xl" />
         </div>
       )}
