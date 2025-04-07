@@ -46,7 +46,7 @@
         "adaptability": "Adaptabilité",
         "perseverance": "Persévérance",
         "team-spirit": "Esprit d'équipe",
-        "clients": "Sens du service client"
+        "clients": "Compréhension des besoins clients"
       },
       "hobbies": {
         "title": "Centres d'interet",
@@ -139,9 +139,12 @@
   },
   "ContactPage": {
     "title": "Contact",
-    "temporary": "En attendant, vous pouvez me contacter à l'adresse suivante :",
+    "alternative": "Vous pouvez également me contacter directement à l'adresse suivante :",
     "description": "N'hésitez pas à me contacter pour toute question. Si vous préférez me contacter par téléphone, vous trouvere mon numéro directement sur mon CV.",
     "form": {
+      "aria-label": "Formulaire de contact",
+      "legend": "Un projet en tête ? Une opportunité ? Des questions ?",
+
       "name-label": "Nom",
       "name-placeholder": "Entrez votre nom...",
 

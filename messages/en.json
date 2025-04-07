@@ -139,9 +139,10 @@
   },
   "ContactPage": {
     "title": "Contact",
-    "temporary": "In the meantime, you can contact me at the following email address:",
+    "alternative": "You can also directly contact me at the following email address:",
     "description": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
     "form": {
+      "aria-label": "Email form",
       "legend": "Have a project in mind? An opportunity to share? Any questions?",
       "name-label": "Name",
       "name-placeholder": "Enter your name...",

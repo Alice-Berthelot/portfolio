@@ -4,6 +4,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 type ContactFormProps = {
+  ariaLabel: string;
   legend: string;
 
   nameLabel: string;
@@ -22,6 +23,7 @@ type ContactFormProps = {
 };
 
 export default function ContactForm({
+  ariaLabel,
   legend,
   nameLabel,
   namePlaceholder,
@@ -74,14 +76,15 @@ export default function ContactForm({
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <fieldset>
+    <form ref={form} onSubmit={sendEmail} aria-label={ariaLabel}>
+      <fieldset className="rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-4/5 m-auto flex flex-col">
         <legend>{legend}</legend>
         <label htmlFor="name">
           {nameLabel} <span className="text-joyful">*</span>
         </label>
         <input
           type="text"
+          maxLength={256}
           name="name"
           id="name"
           placeholder={namePlaceholder}
@@ -101,12 +104,17 @@ export default function ContactForm({
           {messageLabel} <span className="text-joyful">*</span>
         </label>
         <textarea
+          maxLength={5000}
           name="message"
           id="message"
           placeholder={messagePlaceholder}
           required
         ></textarea>
-        <button type="submit">{submitButton}</button>
+          <button
+            type="submit"
+            className="w-32 inline-block flex items-center justify-center gap-2 py-4 lg:py-3 px-6 rounded-md border border-solid border-ghost-white/30 text-base md:text-sm lg:text-base font-bold download-button hover:dark-charcoal"          >
+            {submitButton}
+          </button>
       </fieldset>
     </form>
   );
