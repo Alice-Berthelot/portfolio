@@ -153,7 +153,11 @@
       "submit-button": "Envoyer",
       "success": "Votre message a bien été envoyé. Merci beaucoup !",
       "failure": "Malheureusement, votre message n'a pas pu être envoyée en raison d'un problème technique. Si l'erreur persiste, écrivez-moi directement à : aliceberthelot.pro@gmail.com",
-      "required": "Champ requis"
+      "required": "Champ requis",
+      "invalid-email": "Veuillez entrer une adresse email valide.",
+      "invalid-name": "Le nom doit faire entre 2 et 100 caractères.",
+      "invalid-message": "Le message est trop court ou trop long.",
+      "invalid-default": "Champ invalide."
     }
   },
   "Footer": {

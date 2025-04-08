@@ -7,10 +7,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* 
-:focus {
-  outline: 2px solid #001eff;
-  outline-offset: 8px;
+
+/* :focus {
+  outline: 2px solid #8400ff;
 } */
 
 .figcaption-css::before {
@@ -49,22 +48,21 @@
 .download-button {
   position: relative;
   overflow: hidden;
-  color: #ebedffe6; /* Couleur du texte (au besoin) */
+  color: #ebedffe6;
   transition: color 0.3s ease;
 }
 
 .download-icon {
-  color: #8400ff; /* Couleur violette par défaut */
+  color: #8400ff;
   transition: color 0.3s ease;
 }
 
-/* Changer la couleur de l'icône au survol du bouton */
 .download-button:hover .download-icon {
-  color: #0d0e12; /* Couleur noire au survol */
+  color: #0d0e12;
 }
 
 .download-button:hover {
-  color: #0d0e12; /* Couleur du texte du bouton au survol */
+  color: #0d0e12;
 }
 
 .download-button:hover::before,
@@ -75,8 +73,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #8400ff; /* Couleur violette de fond */
-  color: #0d0e12; /* Couleur du texte sur le survol (en noir) */
+  background-color: #8400ff;
+  color: #0d0e12;
   animation: fillBackground 0.3s forwards;
   z-index: -1;
 }

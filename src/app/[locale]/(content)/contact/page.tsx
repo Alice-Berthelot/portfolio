@@ -8,7 +8,7 @@ import { getTranslations } from "next-intl/server";
 // secure email type
 // secure message content too
 // add option to reset the content of the inputs
-// finish style input
+// responsive style
 // change downloadbutton --> button
 // add variables with Vercel: just create the variables on Vercel/Environement Variables in the project settings
 // add auto-reply on EmailJs
@@ -47,6 +47,10 @@ export default async function ContactPage() {
           publicKey={emailConfig.publicKey}
           serviceId={emailConfig.serviceId}
           templateId={emailConfig.templateId}
+          invalidEmail={t("form.invalid-email")}
+          invalidName={t("form.invalid-name")}
+          invalidMessage={t("form.invalid-message")}
+          invalidDefault={t("form.invalid-default")}
 
         />
       </ScrollDownAnimation>

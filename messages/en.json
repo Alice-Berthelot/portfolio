@@ -153,7 +153,11 @@
       "submit-button": "Send",
       "success": "Your message has been delivered. Thank you!",
       "failure": "Sorry, your message could not be delivered due to a technical issue. If the error is not resolved, please send me your message directly to aliceberthelot.pro@gmail.com",
-      "required": "Required"
+      "required": "Required",
+      "invalid-email": "Please enter a valid email address.",
+      "invalid-name": "Name must be between 2 and 100 characters.",
+      "invalid-message": "Message must be between 2 and 500 characters.",
+      "invalid-default": "Invalid input"
     }
   },
   "Footer": {

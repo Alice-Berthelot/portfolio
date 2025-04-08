@@ -18,6 +18,10 @@ type ContactFormProps = {
   publicKey: string;
   serviceId: string;
   templateId: string;
+  invalidEmail: string;
+  invalidName: string;
+  invalidMessage: string;
+  invalidDefault: string;
 };
 
 export default function ContactForm({
@@ -34,21 +38,36 @@ export default function ContactForm({
   publicKey,
   serviceId,
   templateId,
+  invalidEmail,
+  invalidName,
+  invalidMessage,
+  invalidDefault,
 }: ContactFormProps) {
   const [isSuccess, setIsSuccess] = useState(false);
   const form = useRef<HTMLFormElement>(null);
 
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  const [emailError, setEmailError] = useState("");
+
   const formStyle =
-    "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-2/3 m-auto flex flex-col gap-2";
+    "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-[94%] md:w-2/3 m-auto flex flex-col gap-2";
   const inputStyle =
-    "rounded-md py-2 px-4 bg-ghost-white/20 focus:bg-ghost-white/40 text-ghost-white/80 focus:text-dark-charcoal focus:font-semibold";
+    "rounded-md py-2 px-4 bg-ghost-white/20 autofill:bg-ghost-white/20 focus:bg-dark-charcoal text-ghost-white/80 focus:placeholder:text-dark-charcoal border-[0.15px] border-ghost-white/40 focus:border-none focus:font-semibold";
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
+    const emailInput = form.current?.email.value;
+
     if (!form.current) {
-      throw new Error("Email form data are missing!");
+      throw new Error("Contact form data are missing!");
     }
+
+    if (!emailRegex.test(emailInput)) {
+      setEmailError("Invalid email address");
+      return;
+    }
+    setEmailError("");
 
     if (!serviceId) {
       throw new Error("EmailJS service ID is missing!");
@@ -74,6 +93,32 @@ export default function ContactForm({
     );
   };
 
+  const handleInvalid = (
+    e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const target = e.currentTarget;
+
+    switch (target.name) {
+      case "name":
+        target.setCustomValidity(invalidName);
+        break;
+      case "email":
+        target.setCustomValidity(invalidEmail);
+        break;
+      case "message":
+        target.setCustomValidity(invalidMessage);
+        break;
+      default:
+        target.setCustomValidity(invalidDefault);
+    }
+  };
+
+  const handleInput = (
+    e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    e.currentTarget.setCustomValidity("");
+  };
+
   return (
     <>
       {!isSuccess ? (
@@ -88,11 +133,14 @@ export default function ContactForm({
           </label>
           <input
             type="text"
-            maxLength={256}
+            minLength={2}
+            maxLength={100}
             name="name"
             id="name"
             placeholder={namePlaceholder}
             className={inputStyle}
+            onInvalid={handleInvalid}
+            onInput={handleInput}
             required
           ></input>
           <div className="flex flex-col gap-2 mb-4 mt-4">
@@ -105,18 +153,26 @@ export default function ContactForm({
               id="email"
               placeholder={emailPlaceholder}
               className={inputStyle}
+              onInvalid={handleInvalid}
+              onInput={handleInput}
               required
             ></input>
+            {emailError && (
+              <p className="text-sm text-red-500 italic pl-2">{emailError}</p>
+            )}
           </div>
           <label htmlFor="message" className="text-lg">
             Message <span className="text-joyful">*</span>
           </label>
           <textarea
+            minLength={2}
             maxLength={5000}
             name="message"
             id="message"
             placeholder={messagePlaceholder}
-            className={`${inputStyle} h-40`}
+            className={`${inputStyle} h-40 resize-none`}
+            onInvalid={handleInvalid}
+            onInput={handleInput}
             required
           ></textarea>
           <p className="text-sm text-ghost-white/60 italic mt-2 pl-2">
@@ -124,7 +180,7 @@ export default function ContactForm({
           </p>
           <button
             type="submit"
-            className="w-32 flex items-center justify-center gap-2 py-2 lg:py-2 rounded-md border border-solid border-ghost-white/30 text-base md:text-sm lg:text-base font-bold download-button hover:dark-charcoal mt-4 md:self-end md:mr-16"
+            className="w-32 flex items-center justify-center gap-2 py-2 lg:py-2 rounded-md border border-solid border-ghost-white/30 text-base md:text-sm lg:text-base font-bold download-button hover:dark-charcoal mt-4 self-end md:mr-16"
           >
             {submitButton}
           </button>
