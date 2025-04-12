@@ -23,3 +23,9 @@ export interface Background {
   year: string;
   descriptions: Description[];
 }
+
+export interface EnvironmentVariables {
+  serviceId: string,
+  templateId: string,
+  publicKey: string,
+}

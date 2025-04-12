@@ -139,13 +139,25 @@
   },
   "ContactPage": {
     "title": "Contact",
-    "temporary": "In the meantime, you can contact me at the following email address:",
-    "description": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
+    "description-first": "Have a project in mind? An opportunity to share? Any questions?",
+    "description-second": "You can contact me using the form below.",
+    "alternative": "You can also directly contact me at the following email address:",
+    "description-phone": "Do not hesitate to reach out for more info! If you prefer to contact me by phone, you'll find my number inside my resume.",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Message..."
+      "aria-label": "Email form",
+      "name-label": "Name",
+      "name-placeholder": "Enter your name",
+      "email-label": "Email",
+      "email-placeholder": "Enter your email address",
+      "message-placeholder": "Type your message...",
+      "submit-button": "Send",
+      "success": "Your message has been delivered. Thank you!",
+      "failure": "Sorry, your message could not be delivered due to a technical issue. If the error is not resolved, please send me your message directly to aliceberthelot.pro@gmail.com",
+      "required": "Required",
+      "invalid-email": "Please enter a valid email address.",
+      "invalid-name": "Name must be between 2 and 100 characters.",
+      "invalid-message": "Message must be between 2 and 500 characters.",
+      "invalid-default": "Invalid input"
     }
   },
   "Footer": {

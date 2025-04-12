@@ -46,7 +46,7 @@
         "adaptability": "Adaptabilité",
         "perseverance": "Persévérance",
         "team-spirit": "Esprit d'équipe",
-        "clients": "Sens du service client"
+        "clients": "Compréhension des besoins clients"
       },
       "hobbies": {
         "title": "Centres d'interet",
@@ -139,13 +139,25 @@
   },
   "ContactPage": {
     "title": "Contact",
-    "temporary": "En attendant, vous pouvez me contacter à l'adresse suivante :",
-    "description": "N'hésitez pas à me contacter pour toute question. Si vous préférez me contacter par téléphone, vous trouvere mon numéro directement sur mon CV.",
+    "description-first": "Un projet en tête ? Une opportunité ? Des questions ?",
+    "description-second": "Vous pouvez me contacter via le formulaire ci-dessous.",
+    "alternative": "Vous pouvez également m'écrire directement à l'adresse suivante :",
+    "description-phone": "N'hésitez pas à me contacter pour toute question. Si vous préférez me contacter par téléphone, vous trouvere mon numéro directement sur mon CV.",
     "form": {
-      "name": "Nom",
-      "email": "Adresse e-mail",
-      "subject": "Objet",
-      "message": "Message..."
+      "aria-label": "Formulaire de contact",
+      "name-label": "Nom",
+      "name-placeholder": "Entrez votre nom",
+      "email-label": "E-mail",
+      "email-placeholder": "Entrez votre adresse e-mail",
+      "message-placeholder": "Ecrivez votre message...",
+      "submit-button": "Envoyer",
+      "success": "Votre message a bien été envoyé. Merci beaucoup !",
+      "failure": "Malheureusement, votre message n'a pas pu être envoyé en raison d'un problème technique. Si l'erreur persiste, écrivez-moi directement à : aliceberthelot.pro@gmail.com",
+      "required": "Champ requis",
+      "invalid-email": "Veuillez entrer une adresse email valide.",
+      "invalid-name": "Le nom doit faire entre 2 et 100 caractères.",
+      "invalid-message": "Le message est trop court ou trop long.",
+      "invalid-default": "Champ invalide."
     }
   },
   "Footer": {

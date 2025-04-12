@@ -11,9 +11,12 @@ export default function Footer() {
   const t = useTranslations("Footer");
   const locale = useLocale();
   const pathname = usePathname();
-  const fixedPages = ["/contact"];
+    // Model:
+  // const fixedPages = ["/contact"];
+  const fixedPages : string[] = [];
 
-  // Check if the current page is in the list
+
+  // Check if the current page is in the list, if yes the style avoids the footer not to be at the foot of the page
   const isFixedFooter = fixedPages.some((page) => pathname?.includes(page));
 
   return (
@@ -33,10 +36,7 @@ export default function Footer() {
         />
         <p className="text-xs text-ghost-white/80"><span className="text-joyful">©</span> 2025 Alice Berthelot</p>
       </div>
-      <div className="flex flex-col justify-center items-center md:items-start flex-wrap gap-4 px-6 md:px-auto">
-        <p className="text-lg text-ghost-white text-center md:text-left">{t("text")}</p>
         <AnimatedLink text={t("link")} link={`/${locale}/contact`} target={""} />
-      </div>
       <Links />
     </footer>
   );

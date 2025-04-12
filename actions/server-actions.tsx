@@ -6,7 +6,8 @@ import {
   LocaleValue,
   ProjectSummary,
   Background,
-  Description
+  Description,
+  EnvironmentVariables
 } from "../models/models";
 
 
@@ -125,4 +126,15 @@ export async function getLocalizedBackground(
       };
     }),
   }));
+}
+
+
+// EMAIL
+
+export async function getEmailConfig(): Promise<EnvironmentVariables>  {
+  return {
+    serviceId: process.env.EMAILJS_SERVICE_ID || "",
+    templateId: process.env.EMAILJS_TEMPLATE_ID || "",
+    publicKey: process.env.EMAILJS_PUBLIC_KEY || ""
+  };
 }
