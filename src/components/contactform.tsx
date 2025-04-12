@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { BiMailSend } from "react-icons/bi";
+import ReCAPTCHA from "react-google-recaptcha";
 
 type ContactFormProps = {
   ariaLabel: string;
@@ -45,6 +46,7 @@ export default function ContactForm({
 }: ContactFormProps) {
   const [isSuccess, setIsSuccess] = useState(false);
   const form = useRef<HTMLFormElement>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   const [emailError, setEmailError] = useState("");
@@ -52,12 +54,23 @@ export default function ContactForm({
   const formStyle =
     "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-[94%] md:w-2/3 m-auto flex flex-col gap-2";
   const inputStyle =
-    "rounded-md py-2 px-4 bg-ghost-white/20 autofill:bg-ghost-white/20 focus:bg-dark-charcoal text-ghost-white/80 focus:placeholder:text-dark-charcoal border-[0.15px] border-ghost-white/40 focus:border-none focus:font-semibold";
+    "rounded-md py-2 px-4 bg-ghost-white/20 focus:bg-dark-charcoal text-ghost-white/80 focus:placeholder:text-dark-charcoal border-[0.15px] border-ghost-white/40 focus:border-none focus:font-semibold";
 
-  const sendEmail = (e: React.FormEvent) => {
+  const sendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
 
     const emailInput = form.current?.email.value;
+
+    const token = recaptchaRef.current?.getValue();
+
+    if (!token) {
+      alert("Veuillez valider le reCAPTCHA.");
+      return;
+    }
+
+    if (!token) {
+      throw new Error("No token was caught for recaptcha");
+    }
 
     if (!form.current) {
       throw new Error("Contact form data are missing!");
@@ -178,6 +191,10 @@ export default function ContactForm({
           <p className="text-sm text-ghost-white/60 italic mt-2 pl-2">
             <span className="text-joyful">*</span> {required}
           </p>
+          <ReCAPTCHA
+            sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+            ref={recaptchaRef}
+          />
           <button
             type="submit"
             className="w-32 flex items-center justify-center gap-2 py-2 lg:py-2 rounded-md border border-solid border-ghost-white/30 text-base md:text-sm lg:text-base font-bold download-button hover:dark-charcoal mt-4 self-end md:mr-16"

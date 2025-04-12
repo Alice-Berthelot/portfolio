@@ -5,10 +5,6 @@ import { getEmailConfig } from "../../../../../actions/server-actions";
 import { getTranslations } from "next-intl/server";
 
 // add recaptcha
-// secure email type
-// secure message content too
-// add option to reset the content of the inputs
-// responsive style
 // change downloadbutton --> button
 // add variables with Vercel: just create the variables on Vercel/Environement Variables in the project settings
 // add auto-reply on EmailJs
