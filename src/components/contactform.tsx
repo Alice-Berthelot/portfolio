@@ -52,7 +52,7 @@ export default function ContactForm({
   const [emailError, setEmailError] = useState("");
 
   const formStyle =
-    "rounded-md border border-solid border-ghost-white/30 px-8 md:px-10 py-8 w-[94%] md:w-2/3 m-auto flex flex-col gap-2";
+    "rounded-md border border-solid border-ghost-white/30 px-6 md:px-10 py-8 md:w-2/3 m-auto flex flex-col gap-2";
   const inputStyle =
     "rounded-md py-2 px-4 bg-ghost-white/20 focus:bg-dark-charcoal text-ghost-white/80 focus:placeholder:text-dark-charcoal border-[0.15px] border-ghost-white/40 focus:border-none focus:font-semibold";
 
@@ -62,11 +62,6 @@ export default function ContactForm({
     const emailInput = form.current?.email.value;
 
     const token = recaptchaRef.current?.getValue();
-
-    if (!token) {
-      alert("Veuillez valider le reCAPTCHA.");
-      return;
-    }
 
     if (!token) {
       throw new Error("No token was caught for recaptcha");
@@ -194,6 +189,7 @@ export default function ContactForm({
           <ReCAPTCHA
             sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
             ref={recaptchaRef}
+            className="self-center my-2 md:my-4"
           />
           <button
             type="submit"
