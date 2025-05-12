@@ -189,7 +189,7 @@ export default function ContactForm({
           <ReCAPTCHA
             sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
             ref={recaptchaRef}
-            className="self-center my-2 md:my-4"
+            className="self-center my-4 box-border"
           />
           <button
             type="submit"

@@ -6,6 +6,7 @@ import Header from "@/components/header";
 import { Nunito_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import Footer from "@/components/footer";
+import ScrollToTop from "@/components/scrolltotop";
 
 const nunito = Nunito_Sans({
   subsets: ["latin"],
@@ -49,6 +50,7 @@ export default async function RootLayout({
     <html lang={locale} className={`${megatrans.variable} ${nunito.variable}`}>
       <body className="font-content text-ghost-white bg-dark-charcoal w-full">
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <ScrollToTop />
           <Header />
           <main className="transition-opacity duration-500 ease-out">
             {children}

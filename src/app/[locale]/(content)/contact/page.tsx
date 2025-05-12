@@ -4,11 +4,6 @@ import Title from "@/components/title";
 import { getEmailConfig } from "../../../../../actions/server-actions";
 import { getTranslations } from "next-intl/server";
 
-// add recaptcha
-// change downloadbutton --> button
-// add variables with Vercel: just create the variables on Vercel/Environement Variables in the project settings
-// add auto-reply on EmailJs
-
 export default async function ContactPage() {
   const emailConfig = await getEmailConfig();
   const t = await getTranslations("ContactPage");
